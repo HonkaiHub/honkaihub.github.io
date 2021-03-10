@@ -1,0 +1,60 @@
+html {
+	background-color: #000;
+}
+
+.logo {
+	text-align: center;
+    user-select: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hub-button, .overlay {
+    border-radius: 10px;
+}
+
+.hub-button {
+    background-color: #aaa;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 400px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border: 3px solid #ff00ff;
+}
+
+.hub-button:hover .overlay {
+    opacity: 0.5;
+}
+
+.hub-background-1 {
+    background-image: url("../img/honkwall1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hub-background-2 {
+    background-image: url("../img/honkwall2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checkcont {
+    background-color: #111;
+    text-align: center;
+    user-select: none;
+}
+.checkcont2 {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
