@@ -9,12 +9,18 @@ html {
     margin-bottom: 50px;
 }
 
+.logobackground {
+	background: url("../img/logobackground.png") no-repeat top center;
+	background-size: cover;
+}
+
 .hub-button, .overlay {
     border-radius: 10px;
 }
 
 .hub-button {
     background-color: #aaa;
+	background-position: top;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -22,7 +28,7 @@ html {
     display: inline-block;
     vertical-align: top;
     height: 200px;
-    width: 400px;
+    width: 450px;
 }
 
 .overlay {
@@ -30,11 +36,13 @@ html {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    border: 3px solid #ff00ff;
+	background-color: #58d;
+    border: 3px solid #e71;
 }
 
 .hub-button:hover .overlay {
     opacity: 0.5;
+	cursor: pointer;
 }
 
 .hub-background-1 {
