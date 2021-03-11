@@ -5,64 +5,54 @@ html {
 .logo {
 	text-align: center;
     user-select: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .logobackground {
-	background: url("../img/logobackground.png") no-repeat top center;
+	background-image:
+		linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0) 60%,
+			rgba(0, 0, 0, 1)
+		),
+		url("../img/logobackground.png");
+	background-repeat: no-repeat;
+	background-position: top center;
 	background-size: cover;
 }
 
-.hub-button, .overlay {
-    border-radius: 10px;
+.content {
+    background-color: rgba(200, 200, 200, 0.3);
+	border-radius: 8px;
+	color: #000;
+	display: block;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 80%;
 }
 
-.hub-button {
-    background-color: #aaa;
-	background-position: top;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-block;
-    vertical-align: top;
-    height: 200px;
-    width: 450px;
+.buttonstyle {
+	white-space: normal;
+	width: 100%;
+	height: 60px;
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-	background-color: #58d;
-    border: 3px solid #e71;
+.footer {
+    background-color: #111;
+	color: #FFF;
+	margin-top: 20px;
+	padding: 8px;
 }
 
-.hub-button:hover .overlay {
-    opacity: 0.5;
-	cursor: pointer;
-}
-
-.hub-background-1 {
-    background-image: url("../img/honkwall1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.hub-background-2 {
-    background-image: url("../img/honkwall2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.checkborder {
+	border: 1px solid #f00;
 }
 
 .checkcont {
-    background-color: #111;
-    text-align: center;
-    user-select: none;
-}
-.checkcont2 {
-    background-color: #000;
-    text-align: center;
-    color: #fff;
+    background-color: #090;
 }
