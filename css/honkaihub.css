@@ -60,6 +60,9 @@ html {
 .checkborder {
 	border: 1px solid #f00;
 }
+.checkborder2 {
+	border: 1px solid #0f0;
+}
 
 .checkcont {
     background-color: #090;
