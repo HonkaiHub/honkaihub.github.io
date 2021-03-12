@@ -1,0 +1,42 @@
+{
+    "name": "Rimestar",
+    "type": "Psychic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "PX",
+                    "rank": "SS"
+                },
+                {
+                    "valk": "FS",
+                    "rank": "SSS"
+                },
+                {
+                    "valk": "SF",
+                    "rank": "SSS"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://youtu.be/j5eJOZoVBdE?t=7"
+        },
+        {
+            "party": [
+                {
+                    "valk": "DK",
+                    "rank": "SSS"
+                },
+                {
+                    "valk": "SA",
+                    "rank": "SSS"
+                },
+                {
+                    "valk": "NS",
+                    "rank": "SSS"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://youtu.be/j5eJOZoVBdE?t=74"
+        }
+    ]
+}

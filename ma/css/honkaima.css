@@ -1,0 +1,13 @@
+.checkborder {
+    border: 1px solid red;
+}
+.checkborder2 {
+    border: 1px solid blue;
+}
+
+.checkbg {
+    background-color: #090;
+}
+.checkbg2 {
+    background-color: #cde;
+}
