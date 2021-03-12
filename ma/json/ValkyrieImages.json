@@ -1,26 +1,29 @@
-[
-    {
-        "acronym": ["DK", "YA"],
-        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915441372109.png"
-    },
-    {
-        "acronym": ["FS"],
-        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
-    },
-    {
-        "acronym": ["NS"],
-        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215521531223.png"
-    },
-    {
-        "acronym": ["PX"],
-        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215390360638.png"
-    },
-    {
-        "acronym": ["SA"],
-        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117563223298.png"
-    },
-    {
-        "acronym": ["SF"],
-        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061816132847384.png"
-    }
-]
+{
+    "valkimgs":
+    [
+        {
+            "acronym": ["DK", "YA"],
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915441372109.png"
+        },
+        {
+            "acronym": ["FS"],
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
+        },
+        {
+            "acronym": ["NS"],
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215521531223.png"
+        },
+        {
+            "acronym": ["PX"],
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215390360638.png"
+        },
+        {
+            "acronym": ["SA"],
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117563223298.png"
+        },
+        {
+            "acronym": ["SF"],
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061816132847384.png"
+        }
+    ]
+}
