@@ -39,8 +39,11 @@
 }
 
 .checkbg {
-    background-color: #090;
+    background-color: #fee;
 }
 .checkbg2 {
     background-color: #cde;
+}
+.checkbg3 {
+    background-color: #ffe;
 }
