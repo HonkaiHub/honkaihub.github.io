@@ -1,3 +1,18 @@
+.team-style {
+    border: 1px solid #0d0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.label-style {
+    border: 1px solid #aaa;
+    color: #555;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .checkborder {
     border: 1px solid red;
 }

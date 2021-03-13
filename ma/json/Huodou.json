@@ -1,1 +1,24 @@
-{}
+{
+    "name": "Huodou",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "SS",
+                    "rank": "SSS"
+                },
+                {
+                    "valk": "DK",
+                    "rank": "SSS"
+                },
+                {
+                    "valk": "TP",
+                    "rank": "SSS"
+                }
+            ],
+            "player": "Marisa Honkai",
+            "video": "https://youtu.be/b5z0C2YHu90?t=27"
+        }
+    ]
+}
