@@ -162,7 +162,7 @@ function MABossInfo(bossName) {
     findBossIndex(bossName);
 
     cardInfo += "<div class='columns'><div class='column'><h5 class='subtitle is-5'>" + MABosses[bossIndex].type + "</h6>";
-    cardInfo += "<p>Number of Teams: " + MABosses[bossIndex].team.length + "</p></div></div>";
+    cardInfo += "Number of Teams: " + MABosses[bossIndex].team.length + "</div></div>";
     cardInfo += teamSetup();
 
     document.getElementById(bossName).innerHTML = cardInfo;

@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/honkaima.css">
 </head>
 <body>
+	<!-- Modal to trigger -->
 	<div class="modal" id="myModal">
 		<div class="modal-background"></div>
 		<div class="modal-content">
@@ -54,8 +55,11 @@
 
 			<div class="columns">
 				<div class="column">
-					<a class="title is-4 namestyle" onclick="toggleDisplay('Huodou')">Huodou</a>
-					<div id="Huodou"></div>
+					<div class="namestyle" onclick="toggleDisplay('Huodou')">
+						<img class="img-icon" src="img/BIO.png">
+						<span class="title is-4">Huodou</span>
+					</div>
+					<div class="checkbordera" id="Huodou"></div>
 				</div>
 			</div>
 
