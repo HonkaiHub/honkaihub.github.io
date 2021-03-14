@@ -281,14 +281,14 @@ var modal = document.getElementById("myModal");
 
 // When the user clicks on <span> (x), close the modal
 document.getElementsByClassName("modal-close")[0].onclick = function() {
+    document.getElementById("modalVideoPlayer").src = document.getElementById("modalVideoPlayer").src;
     modal.style.display = "none";
-    document.getElementById("modalVideoPlayer").src;
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == document.getElementsByClassName("modal-background")[0]) {
+        document.getElementById("modalVideoPlayer").src = document.getElementById("modalVideoPlayer").src;
         modal.style.display = "none";
-        document.getElementById("modalVideoPlayer").src;
     }
 }
