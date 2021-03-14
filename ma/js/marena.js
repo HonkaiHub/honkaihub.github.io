@@ -45,15 +45,27 @@ var MABosses = [
                 "party": [
                     {
                         "valk": "PX",
-                        "rank": "SS"
+                        "rank": "SS",
+                        "weapon": "Grips of Tai Xuan",
+                        "stigT": "Gluttony",
+                        "stigM": "Musician",
+                        "stigB": "Musician"
                     },
                     {
                         "valk": "FS",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Ruinous Sakura",
+                        "stigT": "Thales",
+                        "stigM": "Thales",
+                        "stigB": "Fuxi"
                     },
                     {
                         "valk": "SF",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Blood Dance",
+                        "stigT": "Summer Holic",
+                        "stigM": "Summer Day",
+                        "stigB": "Newton"
                     }
                 ],
                 "player": "The Keebster",
@@ -63,15 +75,27 @@ var MABosses = [
                 "party": [
                     {
                         "valk": "DK",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Briareus EX",
+                        "stigT": "Picasso",
+                        "stigM": "Picasso",
+                        "stigB": "Ogier"
                     },
                     {
                         "valk": "SA",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Ranger's Cross",
+                        "stigT": "Jingwei",
+                        "stigM": "Siefried",
+                        "stigB": "Lier"
                     },
                     {
                         "valk": "NS",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Ranger's Gaunlets",
+                        "stigT": "Jingwei",
+                        "stigM": "Marco Polo",
+                        "stigB": "Pride"
                     }
                 ],
                 "player": "The Keebster",
@@ -87,15 +111,27 @@ var MABosses = [
                 "party": [
                     {
                         "valk": "SS",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Key of Reason",
+                        "stigT": "",
+                        "stigM": "",
+                        "stigB": "Sloth"
                     },
                     {
                         "valk": "DK",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Briareus EX",
+                        "stigT": "Gluttony",
+                        "stigM": "Origins",
+                        "stigB": ""
                     },
                     {
                         "valk": "TP",
-                        "rank": "SSS"
+                        "rank": "SSS",
+                        "weapon": "Hekate's Gloom",
+                        "stigT": "Kafka",
+                        "stigM": "Kafka",
+                        "stigB": "Kafka"
                     }
                 ],
                 "player": "Marisa Honkai",
@@ -125,8 +161,8 @@ function MABossInfo(bossName) {
 
     findBossIndex(bossName);
 
-    cardInfo += "<h6 class='subtitle is-6'>" + MABosses[bossIndex].type + "</h6>";
-    cardInfo += "<p>Number of Teams: " + MABosses[bossIndex].team.length + "</p>";
+    cardInfo += "<div class='columns'><div class='column'><h5 class='subtitle is-5'>" + MABosses[bossIndex].type + "</h6>";
+    cardInfo += "<p>Number of Teams: " + MABosses[bossIndex].team.length + "</p></div></div>";
     cardInfo += teamSetup();
 
     document.getElementById(bossName).innerHTML = cardInfo;
@@ -140,40 +176,68 @@ function teamSetup() {
     var img2 = "";
     var img3 = "";
     var numberOfTeams = 0;
+    var videoURL = "";
 
     numberOfTeams = MABosses[bossIndex].team.length;
     for (i=0; numberOfTeams>i; i++) {
-        party += "<div class='team-style'>";
-            party += "<table>";
-                party += "<tr>";
-                    party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[0].valk + "</td>";
-                    party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[1].valk + "</td>";
-                    party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[2].valk + "</td>";
-                party += "</tr>";
+        videoURL = MABosses[bossIndex].team[i].video;
 
-                // Search in the pool of images
-                for (j=0; valkimgs.length>j; j++) {
-                    if (valkimgs[j].acronym.includes(MABosses[bossIndex].team[i].party[0].valk)) {
-                        img1 = valkimgs[j].img;
+        party += "<div class='columns team-style'>";
+            party += "<div class='column team-side-style vidclick-style' onclick='openVideo(" + "\"" + videoURL + "\"" + ")'>";
+                party += "<table>";
+                    party += "<tr>";
+                        party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[0].valk + "</td>";
+                        party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[1].valk + "</td>";
+                        party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[2].valk + "</td>";
+                    party += "</tr>";
+
+                    // Search in the pool of images
+                    for (j=0; valkimgs.length>j; j++) {
+                        if (valkimgs[j].acronym.includes(MABosses[bossIndex].team[i].party[0].valk)) {
+                            img1 = valkimgs[j].img;
+                        }
+                        if (valkimgs[j].acronym.includes(MABosses[bossIndex].team[i].party[1].valk)) {
+                            img2 = valkimgs[j].img;
+                        }
+                        if (valkimgs[j].acronym.includes(MABosses[bossIndex].team[i].party[2].valk)) {
+                            img3 = valkimgs[j].img;
+                        }
                     }
-                    if (valkimgs[j].acronym.includes(MABosses[bossIndex].team[i].party[1].valk)) {
-                        img2 = valkimgs[j].img;
-                    }
-                    if (valkimgs[j].acronym.includes(MABosses[bossIndex].team[i].party[2].valk)) {
-                        img3 = valkimgs[j].img;
-                    }
-                }
-                party += "<tr>";
-                    party += "<td><img class='valkimg-style' src='" + img1 + "'></td>";
-                    party += "<td><img class='valkimg-style' src='" + img2 + "'></td>";
-                    party += "<td><img class='valkimg-style' src='" + img3 + "'></td>";
-                party += "</tr>";
-                party += "<tr>";
-                    party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[0].rank + "</td>";
-                    party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[1].rank + "</td>";
-                    party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[2].rank + "</td>";
-                party += "</tr>";
-            party += "</table>";
+                    party += "<tr>";
+                        party += "<td><img class='valkimg-style' src='" + img1 + "'></td>";
+                        party += "<td><img class='valkimg-style' src='" + img2 + "'></td>";
+                        party += "<td><img class='valkimg-style' src='" + img3 + "'></td>";
+                    party += "</tr>";
+                    party += "<tr>";
+                        party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[0].rank + "</td>";
+                        party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[1].rank + "</td>";
+                        party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[2].rank + "</td>";
+                    party += "</tr>";
+                party += "</table>";
+                party += "<p>Player: " + MABosses[bossIndex].team[i].player + "</p>";
+                //party += "<p><a href='" + MABosses[bossIndex].team[i].video + "'>Video Link</a></p><br>";
+            party += '</div>';
+            party += "<div class='column team-side-style'>";
+                party += "<b>[" + MABosses[bossIndex].team[i].party[0].valk + "]</b> ";
+                party += MABosses[bossIndex].team[i].party[0].weapon + "<br> ";
+                party += "T: " + MABosses[bossIndex].team[i].party[0].stigT + "<br>";
+                party += "M: " + MABosses[bossIndex].team[i].party[0].stigM + "<br>";
+                party += "B: " + MABosses[bossIndex].team[i].party[0].stigB + "<br><br>";
+            party += "</div>";
+            party += "<div class='column team-side-style'>";
+                party += "<b>[" + MABosses[bossIndex].team[i].party[1].valk + "]</b> ";
+                party += MABosses[bossIndex].team[i].party[1].weapon + "<br> ";
+                party += "T: " + MABosses[bossIndex].team[i].party[1].stigT + "<br>";
+                party += "M: " + MABosses[bossIndex].team[i].party[1].stigM + "<br>";
+                party += "B: " + MABosses[bossIndex].team[i].party[1].stigB + "<br><br>";
+            party += "</div>";
+            party += "<div class='column team-side-style'>";
+                party += "<b>[" + MABosses[bossIndex].team[i].party[2].valk + "]</b> ";
+                party += MABosses[bossIndex].team[i].party[2].weapon + "<br> ";
+                party += "T: " +MABosses[bossIndex].team[i].party[2].stigT + "<br>";
+                party += "M: " +MABosses[bossIndex].team[i].party[2].stigM + "<br>";
+                party += "B: " +MABosses[bossIndex].team[i].party[2].stigB + "<br><br>";
+            party += '</div>';
         party += '</div>';
     }
 
@@ -189,4 +253,8 @@ function findBossIndex(bossName) {
     //console.log("bossIndex: " + bossIndex);
 
     return bossIndex;
+}
+
+function openVideo(url) {
+    return window.open(url);
 }

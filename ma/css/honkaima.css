@@ -1,31 +1,62 @@
+.boss-layout {
+    border: 1px solid blue;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img-icon {
+    margin-right: 20px;
+    height: 40px;
+    width: auto;
+}
+
 .namestyle {
-    border-bottom: 1px solid #000;
+    background-color: #EEE;
+    border-left: 5px solid #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
     user-select: none;
 }
 
 .team-style {
-    border: 1px solid #0d0;
+    border: 0px solid #F50;
+    background-color: #222;
+    border-radius: 10px;
+    color: #ccc;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.team-side-style {
     padding: 10px;
 }
 
+.vidclick-style {
+    border: 0px solid #a0a;
+    user-select: none;
+}
+.vidclick-style:hover {
+    background-color: #234;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .label-style {
-    border: 1px solid #aaa;
-    color: #555;
+    border: 0px solid #aaa;
+    color: #DDD;
     font-weight: bold;
     padding-left: 5px;
     padding-right: 5px;
 }
-
 .valkimg-style {
-    border: 1px solid #aaa;
-    width: 64px;
-    height: auto;
+    border: 0px solid #aaa;
 }
-
 .rank-style {
-    border: 1px solid #aaa;
+    border: 0px solid #0f0;
     color: #9ab;
     padding-left: 5px;
     padding-right: 5px;
