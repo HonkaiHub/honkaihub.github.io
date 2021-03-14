@@ -256,5 +256,35 @@ function findBossIndex(bossName) {
 }
 
 function openVideo(url) {
-    return window.open(url);
+    var modalContent = "";
+
+    modalContent += "<iframe width='800' height='450' src='";
+    modalContent += "https://www.google.com";
+    modalContent += "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+
+    document.getElementById("myModal").style.display = "block";
+    document.getElementsByClassName("modal-content")[0].innerHTML = modalContent;
+
+    //return console.log(url);
+}
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// When the user clicks the button, open the modal
+/*document.getElementById("vidclick").onclick = function() {
+    modal.style.display = "block";
+}*/
+
+// When the user clicks on <span> (x), close the modal
+document.getElementsByClassName("modal-close")[0].onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == document.getElementsByClassName("modal-background")[0]) {
+        modal.style.display = "none";
+    }
 }
