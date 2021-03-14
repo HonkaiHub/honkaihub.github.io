@@ -258,7 +258,7 @@ function findBossIndex(bossName) {
 function openVideo(url) {
     var modalContent = "";
 
-    modalContent += "<iframe width='800' height='450' id='modalVideoPlayer' src='";
+    modalContent += "<iframe width='800' height='450' id='iframeVideoPlayer' src='";
     modalContent += url;
     //modalContent += "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
     modalContent += "' frameborder='0' allowfullscreen></iframe>";
@@ -281,14 +281,16 @@ var modal = document.getElementById("myModal");
 
 // When the user clicks on <span> (x), close the modal
 document.getElementsByClassName("modal-close")[0].onclick = function() {
-    document.getElementById("modalVideoPlayer").src = document.getElementById("modalVideoPlayer").src;
+    var iframeVid = document.getElementById("iframeVideoPlayer");
+    iframeVid.src = iframeVid.src;
     modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
+    var iframeVid = document.getElementById("iframeVideoPlayer");
     if (event.target == document.getElementsByClassName("modal-background")[0]) {
-        document.getElementById("modalVideoPlayer").src = document.getElementById("modalVideoPlayer").src;
+        iframeVid.src = iframeVid.src;
         modal.style.display = "none";
     }
 }
