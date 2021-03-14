@@ -215,7 +215,6 @@ function teamSetup() {
                     party += "</tr>";
                 party += "</table>";
                 party += "<p>Player: " + MABosses[bossIndex].team[i].player + "</p>";
-                //party += "<p><a href='" + MABosses[bossIndex].team[i].video + "'>Video Link</a></p><br>";
             party += '</div>';
             party += "<div class='column team-side-style'>";
                 party += "<b>[" + MABosses[bossIndex].team[i].party[0].valk + "]</b> ";
@@ -255,29 +254,23 @@ function findBossIndex(bossName) {
     return bossIndex;
 }
 
+// When the user clicks the vidclick-style, open the modal
 function openVideo(url) {
     var modalContent = "";
+    //console.log(url)
 
-    modalContent += "<iframe width='800' height='450' id='iframeVideoPlayer' src='";
+    modalContent += "<iframe class='iframeVideo' id='iframeVideoPlayer' src='";
     modalContent += url;
-    //modalContent += "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
     modalContent += "' frameborder='0' allowfullscreen></iframe>";
 
-    document.getElementsByClassName("modal-content")[0].innerHTML = modalContent;
+    document.getElementsByClassName("modal-video")[0].innerHTML = modalContent;
 
     document.getElementById("myModal").style.display = "block";
-
-    //return console.log(url);
 }
 
 
 // Get the modal
 var modal = document.getElementById("myModal");
-
-// When the user clicks the button, open the modal
-/*document.getElementById("vidclick").onclick = function() {
-    modal.style.display = "block";
-}*/
 
 // When the user clicks on <span> (x), close the modal
 document.getElementsByClassName("modal-close")[0].onclick = function() {
