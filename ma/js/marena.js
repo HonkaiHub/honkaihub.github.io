@@ -259,7 +259,7 @@ function openVideo(url) {
     var modalContent = "";
     //console.log(url)
 
-    modalContent += "<iframe class='iframeVideo' id='iframeVideoPlayer' src='";
+    modalContent += "<iframe id='iframeVideoPlayer' src='";
     modalContent += url;
     modalContent += "' frameborder='0' allowfullscreen></iframe>";
 
@@ -279,11 +279,11 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+// When the user clicks anywhere outside of the modal, close it. Put code in commentary to disable it.
+/*window.onclick = function(event) {
     var iframeVid = document.getElementById("iframeVideoPlayer");
     if (event.target == document.getElementsByClassName("modal-background")[0]) {
         iframeVid.src = iframeVid.src;
         modal.style.display = "none";
     }
-}
+}*/
