@@ -69,7 +69,7 @@ var MABosses = [
                     }
                 ],
                 "player": "The Keebster",
-                "video": "https://youtu.be/j5eJOZoVBdE?t=7"
+                "video": "https://www.youtube.com/embed/j5eJOZoVBdE?start=7"
             },
             {
                 "party": [
@@ -99,7 +99,7 @@ var MABosses = [
                     }
                 ],
                 "player": "The Keebster",
-                "video": "https://youtu.be/j5eJOZoVBdE?t=74"
+                "video": "https://www.youtube.com/embed/j5eJOZoVBdE?start=74"
             }
         ]
     },
@@ -135,7 +135,7 @@ var MABosses = [
                     }
                 ],
                 "player": "Marisa Honkai",
-                "video": "https://youtu.be/b5z0C2YHu90?t=27"
+                "video": "https://www.youtube.com/embed/b5z0C2YHu90?start=27"
             }
         ]
     }
@@ -258,12 +258,14 @@ function findBossIndex(bossName) {
 function openVideo(url) {
     var modalContent = "";
 
-    modalContent += "<iframe width='800' height='450' src='";
-    modalContent += "https://www.google.com";
-    modalContent += "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+    modalContent += "<iframe width='800' height='450' id='modalVideoPlayer' src='";
+    modalContent += url;
+    //modalContent += "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+    modalContent += "' frameborder='0' allowfullscreen></iframe>";
+
+    document.getElementsByClassName("modal-content")[0].innerHTML = modalContent;
 
     document.getElementById("myModal").style.display = "block";
-    document.getElementsByClassName("modal-content")[0].innerHTML = modalContent;
 
     //return console.log(url);
 }
@@ -280,11 +282,13 @@ var modal = document.getElementById("myModal");
 // When the user clicks on <span> (x), close the modal
 document.getElementsByClassName("modal-close")[0].onclick = function() {
     modal.style.display = "none";
+    document.getElementById("modalVideoPlayer").src;
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == document.getElementsByClassName("modal-background")[0]) {
         modal.style.display = "none";
+        document.getElementById("modalVideoPlayer").src;
     }
 }
