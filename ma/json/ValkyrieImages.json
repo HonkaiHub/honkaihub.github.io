@@ -12,6 +12,10 @@
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821060743679.png"
     },
     {
+        "acronym": ["Meme", "GM"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070117331454724.png"
+    },
+    {
         "acronym": ["NS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215521531223.png"
     },
@@ -34,5 +38,9 @@
     {
         "acronym": ["TP", "VE"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117425786448.png"
+    },
+    {
+        "acronym": ["WD"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061916452046427.png"
     }
 ]

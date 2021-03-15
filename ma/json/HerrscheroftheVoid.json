@@ -1,0 +1,36 @@
+{
+    "name": "HerrscheroftheVoid",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "Meme",
+                    "rank": "S",
+                    "weapon": "Frozen Naraka",
+                    "stigT": "Jingwei",
+                    "stigM": "Scott",
+                    "stigB": "Rasputin"
+                },
+                {
+                    "valk": "PX",
+                    "rank": "SS",
+                    "weapon": "Grips of Tai Xuan",
+                    "stigT": "Ogier",
+                    "stigM": "Musician",
+                    "stigB": "Musician"
+                },
+                {
+                    "valk": "WD",
+                    "rank": "SS",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Summer Holic",
+                    "stigM": "Summer Day",
+                    "stigB": "Newton"
+                }
+            ],
+            "player": "CoKieSa",
+            "video": "https://www.youtube.com/embed/b7v1GmKTS8w?start=9"
+        }
+    ]
+}

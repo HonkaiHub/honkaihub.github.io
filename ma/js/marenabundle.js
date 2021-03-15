@@ -1,10 +1,12 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 var NotAvailable = require("../json/0_na.json");
-var Rimestar = require("../json/Rimestar.json");
+var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
+var Rimestar = require("../json/Rimestar.json");
 
 var MABosses = [
     NotAvailable,
+    HerrscheroftheVoid,
     Huodou,
     Rimestar
 ]
@@ -80,9 +82,9 @@ function teamSetup() {
                         }
                     }
                     party += "<tr>";
-                        party += "<td><img class='valkimg-style' src='" + img1 + "'></td>";
-                        party += "<td><img class='valkimg-style' src='" + img2 + "'></td>";
-                        party += "<td><img class='valkimg-style' src='" + img3 + "'></td>";
+                        party += "<td class='img-style'><img class='valkimg-style' src='" + img1 + "'></td>";
+                        party += "<td class='img-style'><img class='valkimg-style' src='" + img2 + "'></td>";
+                        party += "<td class='img-style'><img class='valkimg-style' src='" + img3 + "'></td>";
                     party += "</tr>";
                     party += "<tr>";
                         party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[0].rank + "</td>";
@@ -172,7 +174,7 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
 
 // browserify js/marena.js -o js/marenabundle.js
 
-},{"../json/0_na.json":2,"../json/Huodou.json":3,"../json/Rimestar.json":4,"../json/ValkyrieImages.json":5}],2:[function(require,module,exports){
+},{"../json/0_na.json":2,"../json/HerrscheroftheVoid.json":3,"../json/Huodou.json":4,"../json/Rimestar.json":5,"../json/ValkyrieImages.json":6}],2:[function(require,module,exports){
 module.exports={
     "name": "Not Available",
     "type": "N/A",
@@ -212,6 +214,44 @@ module.exports={
 
 },{}],3:[function(require,module,exports){
 module.exports={
+    "name": "HerrscheroftheVoid",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "Meme",
+                    "rank": "S",
+                    "weapon": "Frozen Naraka",
+                    "stigT": "Jingwei",
+                    "stigM": "Scott",
+                    "stigB": "Rasputin"
+                },
+                {
+                    "valk": "PX",
+                    "rank": "SS",
+                    "weapon": "Grips of Tai Xuan",
+                    "stigT": "Ogier",
+                    "stigM": "Musician",
+                    "stigB": "Musician"
+                },
+                {
+                    "valk": "WD",
+                    "rank": "SS",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Summer Holic",
+                    "stigM": "Summer Day",
+                    "stigB": "Newton"
+                }
+            ],
+            "player": "CoKieSa",
+            "video": "https://www.youtube.com/embed/b7v1GmKTS8w?start=9"
+        }
+    ]
+}
+
+},{}],4:[function(require,module,exports){
+module.exports={
     "name": "Huodou",
     "type": "Biologic",
     "team": [
@@ -248,7 +288,7 @@ module.exports={
     ]
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 module.exports={
     "name": "Rimestar",
     "type": "Psychic",
@@ -316,7 +356,7 @@ module.exports={
     ]
 }
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 module.exports=[
     {
         "acronym": ["DK", "YA"],
@@ -329,6 +369,10 @@ module.exports=[
     {
         "acronym": ["HV"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821060743679.png"
+    },
+    {
+        "acronym": ["Meme", "GM"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070117331454724.png"
     },
     {
         "acronym": ["NS"],
@@ -353,6 +397,10 @@ module.exports=[
     {
         "acronym": ["TP", "VE"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117425786448.png"
+    },
+    {
+        "acronym": ["WD"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061916452046427.png"
     }
 ]
 

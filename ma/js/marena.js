@@ -1,9 +1,11 @@
 var NotAvailable = require("../json/0_na.json");
-var Rimestar = require("../json/Rimestar.json");
+var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
+var Rimestar = require("../json/Rimestar.json");
 
 var MABosses = [
     NotAvailable,
+    HerrscheroftheVoid,
     Huodou,
     Rimestar
 ]
@@ -79,9 +81,9 @@ function teamSetup() {
                         }
                     }
                     party += "<tr>";
-                        party += "<td><img class='valkimg-style' src='" + img1 + "'></td>";
-                        party += "<td><img class='valkimg-style' src='" + img2 + "'></td>";
-                        party += "<td><img class='valkimg-style' src='" + img3 + "'></td>";
+                        party += "<td class='img-style'><img class='valkimg-style' src='" + img1 + "'></td>";
+                        party += "<td class='img-style'><img class='valkimg-style' src='" + img2 + "'></td>";
+                        party += "<td class='img-style'><img class='valkimg-style' src='" + img3 + "'></td>";
                     party += "</tr>";
                     party += "<tr>";
                         party += "<td class='rank-style'>" + MABosses[bossIndex].team[i].party[0].rank + "</td>";
