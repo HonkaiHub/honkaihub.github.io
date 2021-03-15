@@ -58,7 +58,7 @@ function teamSetup() {
     for (i=0; numberOfTeams>i; i++) {
         videoURL = MABosses[bossIndex].team[i].video;
 
-        party += "<div class='columns team-style'>";
+        party += "<div class='columns team-style fade-in'>";
             party += "<div class='column vidclick-style' onclick='openVideo(" + "\"" + videoURL + "\"" + ")'>";
                 party += "<table>";
                     party += "<tr>";

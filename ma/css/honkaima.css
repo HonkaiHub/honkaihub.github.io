@@ -54,6 +54,7 @@ body {
     color: #35D6FF;
     cursor: pointer;
     display: flex;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.4em;
     font-weight: bold;
     align-items: center;
@@ -67,6 +68,7 @@ body {
 
 .category-title {
     color: #FB9929;
+    font-family: 'Cinzel', sans-serif;
 }
 
 .subtitle {
@@ -98,7 +100,7 @@ body {
 }
 
 .teamlead-side-style, .team-side-style {
-    font-family: Consolas, "Courier New";
+    font-family: "Share Tech Mono", Consolas, "Courier New";
 }
 
 .vidclick-style {
@@ -137,8 +139,8 @@ body {
     background-image:
 		linear-gradient(
 			to right,
-			rgba(0, 0, 0, 85%),
-			rgba(0, 0, 0, 100%)
+			rgba(17, 17, 17, 80%),
+			rgba(17, 17, 17, 100%)
 		),
 		url("../img/categorybackimg.png");
     background-repeat: no-repeat;
@@ -147,11 +149,21 @@ body {
 }
 
 .bg2 {
-    background-color: #191919;
+    background-color: #141414;
 }
 
 .bg3 {
     background-color: #1f1f1f;
+    background-image:
+		linear-gradient(
+			to left,
+			rgba(25, 25, 25, 80%),
+			rgba(25, 25, 25, 100%)
+		),
+		url("../img/categorybackimg3.png");
+    background-repeat: no-repeat;
+	background-position: top right;
+    background-attachment: fixed;
 }
 
 .return-hub {
@@ -182,8 +194,24 @@ body {
 .footer h1 {
 	border-bottom: 1px solid #FB9929;
 	color: #FB9929;
-	font-family: "Didact Gothic", Consolas, Arial;
+	font-family: Consolas, Arial;
 	font-size: 1.4em;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.25s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .checkborder {
