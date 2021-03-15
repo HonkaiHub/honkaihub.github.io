@@ -1,0 +1,36 @@
+{
+    "name": "Jizo",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "DK",
+                    "rank": "SSS",
+                    "weapon": "Star Shatterer",
+                    "stigT": "Picasso",
+                    "stigM": "Beethoven",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "CH",
+                    "rank": "S",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Picasso",
+                    "stigM": "Picasso",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "VD",
+                    "rank": "SSS",
+                    "weapon": "Tranquil Arias",
+                    "stigT": "Schrodinger",
+                    "stigM": "Planck",
+                    "stigB": "Lier"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://www.youtube.com/embed/oQB9297Elew"
+        }
+    ]
+}

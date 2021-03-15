@@ -1,12 +1,14 @@
 var NotAvailable = require("../json/0_na.json");
 var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
+var Jizo = require("../json/Jizo.json");
 var Rimestar = require("../json/Rimestar.json");
 
 var MABosses = [
     NotAvailable,
     HerrscheroftheVoid,
     Huodou,
+    Jizo,
     Rimestar
 ]
 

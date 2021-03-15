@@ -6,6 +6,36 @@
             "party": [
                 {
                     "valk": "Meme",
+                    "rank": "SS",
+                    "weapon": "Frozen Naraka",
+                    "stigT": "Schrodinger",
+                    "stigM": "Beach Party",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "PX",
+                    "rank": "SS",
+                    "weapon": "Grips of Tai Xuan",
+                    "stigT": "Jin Shengtan",
+                    "stigM": "Jin Shengtan",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "WD",
+                    "rank": "SS",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Gluttony",
+                    "stigM": "Beach Party",
+                    "stigB": "Newton"
+                }
+            ],
+            "player": "Kachan",
+            "video": "https://www.youtube.com/embed/yfcldWO84Ks"
+        },
+        {
+            "party": [
+                {
+                    "valk": "Meme",
                     "rank": "S",
                     "weapon": "Frozen Naraka",
                     "stigT": "Jingwei",

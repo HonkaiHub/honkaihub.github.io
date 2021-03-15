@@ -2,12 +2,14 @@
 var NotAvailable = require("../json/0_na.json");
 var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
+var Jizo = require("../json/Jizo.json");
 var Rimestar = require("../json/Rimestar.json");
 
 var MABosses = [
     NotAvailable,
     HerrscheroftheVoid,
     Huodou,
+    Jizo,
     Rimestar
 ]
 
@@ -174,7 +176,7 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
 
 // browserify js/marena.js -o js/marenabundle.js
 
-},{"../json/0_na.json":2,"../json/HerrscheroftheVoid.json":3,"../json/Huodou.json":4,"../json/Rimestar.json":5,"../json/ValkyrieImages.json":6}],2:[function(require,module,exports){
+},{"../json/0_na.json":2,"../json/HerrscheroftheVoid.json":3,"../json/Huodou.json":4,"../json/Jizo.json":5,"../json/Rimestar.json":6,"../json/ValkyrieImages.json":7}],2:[function(require,module,exports){
 module.exports={
     "name": "Not Available",
     "type": "N/A",
@@ -217,6 +219,36 @@ module.exports={
     "name": "HerrscheroftheVoid",
     "type": "Biologic",
     "team": [
+        {
+            "party": [
+                {
+                    "valk": "Meme",
+                    "rank": "SS",
+                    "weapon": "Frozen Naraka",
+                    "stigT": "Schrodinger",
+                    "stigM": "Beach Party",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "PX",
+                    "rank": "SS",
+                    "weapon": "Grips of Tai Xuan",
+                    "stigT": "Jin Shengtan",
+                    "stigM": "Jin Shengtan",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "WD",
+                    "rank": "SS",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Gluttony",
+                    "stigM": "Beach Party",
+                    "stigB": "Newton"
+                }
+            ],
+            "player": "Kachan",
+            "video": "https://www.youtube.com/embed/yfcldWO84Ks"
+        },
         {
             "party": [
                 {
@@ -290,6 +322,44 @@ module.exports={
 
 },{}],5:[function(require,module,exports){
 module.exports={
+    "name": "Jizo",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "DK",
+                    "rank": "SSS",
+                    "weapon": "Star Shatterer",
+                    "stigT": "Picasso",
+                    "stigM": "Beethoven",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "CH",
+                    "rank": "S",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Picasso",
+                    "stigM": "Picasso",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "VD",
+                    "rank": "SSS",
+                    "weapon": "Tranquil Arias",
+                    "stigT": "Schrodinger",
+                    "stigM": "Planck",
+                    "stigB": "Lier"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://www.youtube.com/embed/oQB9297Elew"
+        }
+    ]
+}
+
+},{}],6:[function(require,module,exports){
+module.exports={
     "name": "Rimestar",
     "type": "Psychic",
     "team": [
@@ -356,8 +426,12 @@ module.exports={
     ]
 }
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 module.exports=[
+    {
+        "acronym": ["CH"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117055042407.png"
+    },
     {
         "acronym": ["DK", "YA"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915441372109.png"
@@ -397,6 +471,10 @@ module.exports=[
     {
         "acronym": ["TP", "VE"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117425786448.png"
+    },
+    {
+        "acronym": ["VD"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821154273054.png"
     },
     {
         "acronym": ["WD"],
