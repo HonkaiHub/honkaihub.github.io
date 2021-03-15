@@ -9,6 +9,10 @@ var valkimgs = [
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
     },
     {
+        "acronym": ["HV"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821060743679.png"
+    },
+    {
         "acronym": ["NS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215521531223.png"
     },
@@ -37,6 +41,42 @@ var valkimgs = [
 
 
 var MABosses = [
+    {
+        "name": "Not Available",
+        "type": "N/A",
+        "team": [
+            {
+                "party": [
+                    {
+                        "valk": "HV",
+                        "rank": "B",
+                        "weapon": "",
+                        "stigT": "",
+                        "stigM": "",
+                        "stigB": ""
+                    },
+                    {
+                        "valk": "HV",
+                        "rank": "B",
+                        "weapon": "",
+                        "stigT": "",
+                        "stigM": "",
+                        "stigB": ""
+                    },
+                    {
+                        "valk": "HV",
+                        "rank": "B",
+                        "weapon": "",
+                        "stigT": "",
+                        "stigM": "",
+                        "stigB": ""
+                    }
+                ],
+                "player": "Voided",
+                "video": "https://www.youtube.com/embed/Q-b6rdyIJsY"
+            }
+        ]
+    },
     {
         "name": "Rimestar",
         "type": "Psychic",
@@ -161,7 +201,7 @@ function MABossInfo(bossName) {
 
     findBossIndex(bossName);
 
-    cardInfo += "<div class='columns'><div class='column'><h5 class='subtitle is-5'>" + MABosses[bossIndex].type + "</h6>";
+    cardInfo += "<div class='columns boss-layout'><div class='column'><h5 class='subtitle is-5'>" + MABosses[bossIndex].type + "</h6>";
     cardInfo += "Number of Teams: " + MABosses[bossIndex].team.length + "</div></div>";
     cardInfo += teamSetup();
 
@@ -183,7 +223,7 @@ function teamSetup() {
         videoURL = MABosses[bossIndex].team[i].video;
 
         party += "<div class='columns team-style'>";
-            party += "<div class='column team-side-style vidclick-style' onclick='openVideo(" + "\"" + videoURL + "\"" + ")'>";
+            party += "<div class='column vidclick-style' onclick='openVideo(" + "\"" + videoURL + "\"" + ")'>";
                 party += "<table>";
                     party += "<tr>";
                         party += "<td class='label-style' align='right'>" + MABosses[bossIndex].team[i].party[0].valk + "</td>";
@@ -216,7 +256,7 @@ function teamSetup() {
                 party += "</table>";
                 party += "<p>Player: " + MABosses[bossIndex].team[i].player + "</p>";
             party += '</div>';
-            party += "<div class='column team-side-style'>";
+            party += "<div class='column teamlead-side-style'>";
                 party += "<b>[" + MABosses[bossIndex].team[i].party[0].valk + "]</b> ";
                 party += MABosses[bossIndex].team[i].party[0].weapon + "<br> ";
                 party += "T: " + MABosses[bossIndex].team[i].party[0].stigT + "<br>";
@@ -245,12 +285,18 @@ function teamSetup() {
 
 function findBossIndex(bossName) {
     for (var i=0; MABossesLength>i; i++){
+        //console.log("MABosses["+i+"].name: " + MABosses[i].name + " = " + bossName);
+
         if (MABosses[i].name.includes(bossName)){
             bossIndex = i;
+            console.log("bossIndex (FOUND): " + bossIndex);
+            return bossIndex;
+        } else if (MABosses[i].name != bossName) {
+            bossIndex = 0;
         }
     }
-    //console.log("bossIndex: " + bossIndex);
 
+    console.log("bossIndex (NOT FOUND): " + bossIndex);
     return bossIndex;
 }
 

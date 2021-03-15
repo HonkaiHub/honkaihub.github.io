@@ -1,7 +1,15 @@
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+.intro-text {
+    text-align: center;
+}
+
 .boss-layout {
-    border: 1px solid blue;
-    padding-left: 40px;
-    padding-right: 40px;
+    border: 1px dashed #555;
+    margin: 0;
 }
 
 .img-icon {
@@ -11,28 +19,56 @@
 }
 
 .namestyle {
-    background-color: #EEE;
-    border-left: 5px solid #000;
+    background-color: #222;
+    border-left: 5px solid #35D6FF;
+    color: #35D6FF;
     cursor: pointer;
     display: flex;
+    font-size: 1.2em;
+    font-weight: bold;
     align-items: center;
+    margin-bottom: 5px;
     padding: 10px;
     user-select: none;
+}
+.namestyle:hover, .namestyle:active {
+    background-color: #101626;
+}
+
+.category-title {
+    color: #FB9929;
+}
+
+.subtitle {
+    color: #DDD;
+    font-weight: bold;
 }
 
 .team-style {
     border: 0px solid #F50;
-    background-color: #222;
+    background-color: #2F2F2F;
     border-radius: 10px;
     color: #ccc;
+    font-size: 1.0em;
     margin-top: 10px;
     margin-bottom: 10px !important;
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.team-side-style {
+.teamlead-side-style {
+    border: 0px solid #F50;
+    background-color: #021A1A;
+    color: #DFFFEF;
     padding: 10px;
+}
+.team-side-style {
+    border: 1px solid #021A1A;
+    padding: 10px;
+}
+
+.teamlead-side-style, .team-side-style {
+    font-family: Consolas, "Courier New";
 }
 
 .vidclick-style {
@@ -60,6 +96,27 @@
     color: #9ab;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.bg0 {
+    background-color: #0a0a0a;
+}
+
+.bg1 {
+    background-color: #111;
+}
+
+.bg2 {
+    background-color: #191919;
+}
+
+.bg3 {
+    background-color: #1f1f1f;
+}
+
+.return-hub {
+    background-color: #EEE;
+    text-align: center;
 }
 
 .checkborder {
