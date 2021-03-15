@@ -3,6 +3,36 @@ body {
     color: #FFF;
 }
 
+.header-background {
+    background-color: #000;
+    background-image:
+		radial-gradient(
+			circle,
+			rgba(0, 0, 0, 0%),
+			rgba(0, 0, 0, 95%)
+		),
+		url("../img/mabackground.png");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.header-background .title {
+    color: #E4F1A4;
+}
+
+.title-style {
+    display: inline-block;
+    background-color: rgba(18, 20, 22, 0.70);
+    padding: 10px;
+    text-align: center;
+}
+.subtitle-style {
+    display: inline-block;
+    background-color: rgba(100, 100, 100, 0.50);
+    padding: 10px;
+}
+
 .intro-text {
     text-align: center;
 }
@@ -152,7 +182,6 @@ body {
 .checkborder2 {
     border: 1px solid blue;
 }
-
 .checkbg {
     background-color: #fee;
 }
