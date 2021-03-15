@@ -119,6 +119,33 @@ body {
     text-align: center;
 }
 
+.footer {
+	background-color: rgba(18, 20, 22, 0.90);
+	border-top: 1px solid #FB9929;
+	/*border: 2px solid #0cda3c;*/
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 10px;
+	max-width: 900px;
+}
+
+.footer a {
+	color: #FFF;
+}
+
+.footer a:hover {
+	color: #35D6FF;
+}
+
+.footer h1 {
+	border-bottom: 1px solid #FB9929;
+	color: #FB9929;
+	font-family: "Didact Gothic", Consolas, Arial;
+	font-size: 1.4em;
+}
+
 .checkborder {
     border: 1px solid red;
 }
