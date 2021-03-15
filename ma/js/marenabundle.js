@@ -238,9 +238,9 @@ module.exports={
                     "stigB": "Newton"
                 },
                 {
-                    "valk": "WD",
-                    "rank": "SS",
-                    "weapon": "Hekate's Gloom",
+                    "valk": "SF",
+                    "rank": "S",
+                    "weapon": "Blood Dance",
                     "stigT": "Gluttony",
                     "stigM": "Beach Party",
                     "stigB": "Newton"
