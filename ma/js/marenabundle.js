@@ -1,3 +1,4 @@
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 var NotAvailable = require("../json/0_na.json");
 var Rimestar = require("../json/Rimestar.json");
 var Huodou = require("../json/Huodou.json");
@@ -170,3 +171,189 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
 }*/
 
 // browserify js/marena.js -o js/marenabundle.js
+
+},{"../json/0_na.json":2,"../json/Huodou.json":3,"../json/Rimestar.json":4,"../json/ValkyrieImages.json":5}],2:[function(require,module,exports){
+module.exports={
+    "name": "Not Available",
+    "type": "N/A",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "HV",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                },
+                {
+                    "valk": "HV",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                },
+                {
+                    "valk": "HV",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                }
+            ],
+            "player": "Voided",
+            "video": "https://www.youtube.com/embed/Q-b6rdyIJsY"
+        }
+    ]
+}
+
+},{}],3:[function(require,module,exports){
+module.exports={
+    "name": "Huodou",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "SS",
+                    "rank": "SSS",
+                    "weapon": "Key of Reason",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": "Sloth"
+                },
+                {
+                    "valk": "DK",
+                    "rank": "SSS",
+                    "weapon": "Briareus EX",
+                    "stigT": "Gluttony",
+                    "stigM": "Origins",
+                    "stigB": ""
+                },
+                {
+                    "valk": "TP",
+                    "rank": "SSS",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Kafka",
+                    "stigM": "Kafka",
+                    "stigB": "Kafka"
+                }
+            ],
+            "player": "Marisa Honkai",
+            "video": "https://www.youtube.com/embed/b5z0C2YHu90?start=27"
+        }
+    ]
+}
+
+},{}],4:[function(require,module,exports){
+module.exports={
+    "name": "Rimestar",
+    "type": "Psychic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "PX",
+                    "rank": "SS",
+                    "weapon": "Grips of Tai Xuan",
+                    "stigT": "Gluttony",
+                    "stigM": "Musician",
+                    "stigB": "Musician"
+                },
+                {
+                    "valk": "FS",
+                    "rank": "SSS",
+                    "weapon": "Ruinous Sakura",
+                    "stigT": "Thales",
+                    "stigM": "Thales",
+                    "stigB": "Fuxi"
+                },
+                {
+                    "valk": "SF",
+                    "rank": "SSS",
+                    "weapon": "Blood Dance",
+                    "stigT": "Summer Holic",
+                    "stigM": "Summer Day",
+                    "stigB": "Newton"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://www.youtube.com/embed/j5eJOZoVBdE?start=7"
+        },
+        {
+            "party": [
+                {
+                    "valk": "DK",
+                    "rank": "SSS",
+                    "weapon": "Briareus EX",
+                    "stigT": "Picasso",
+                    "stigM": "Picasso",
+                    "stigB": "Ogier"
+                },
+                {
+                    "valk": "SA",
+                    "rank": "SSS",
+                    "weapon": "Ranger's Cross",
+                    "stigT": "Jingwei",
+                    "stigM": "Siefried",
+                    "stigB": "Lier"
+                },
+                {
+                    "valk": "NS",
+                    "rank": "SSS",
+                    "weapon": "Ranger's Gaunlets",
+                    "stigT": "Jingwei",
+                    "stigM": "Marco Polo",
+                    "stigB": "Pride"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://www.youtube.com/embed/j5eJOZoVBdE?start=74"
+        }
+    ]
+}
+
+},{}],5:[function(require,module,exports){
+module.exports=[
+    {
+        "acronym": ["DK", "YA"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915441372109.png"
+    },
+    {
+        "acronym": ["FS"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
+    },
+    {
+        "acronym": ["HV"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821060743679.png"
+    },
+    {
+        "acronym": ["NS"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215521531223.png"
+    },
+    {
+        "acronym": ["PX"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215390360638.png"
+    },
+    {
+        "acronym": ["SA"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117563223298.png"
+    },
+    {
+        "acronym": ["SF"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061816132847384.png"
+    },
+    {
+        "acronym": ["SS"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915594971535.png"
+    },
+    {
+        "acronym": ["TP", "VE"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117425786448.png"
+    }
+]
+
+},{}]},{},[1]);

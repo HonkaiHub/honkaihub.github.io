@@ -6,19 +6,31 @@
             "party": [
                 {
                     "valk": "SS",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Key of Reason",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": "Sloth"
                 },
                 {
                     "valk": "DK",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Briareus EX",
+                    "stigT": "Gluttony",
+                    "stigM": "Origins",
+                    "stigB": ""
                 },
                 {
                     "valk": "TP",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Hekate's Gloom",
+                    "stigT": "Kafka",
+                    "stigM": "Kafka",
+                    "stigB": "Kafka"
                 }
             ],
             "player": "Marisa Honkai",
-            "video": "https://youtu.be/b5z0C2YHu90?t=27"
+            "video": "https://www.youtube.com/embed/b5z0C2YHu90?start=27"
         }
     ]
 }

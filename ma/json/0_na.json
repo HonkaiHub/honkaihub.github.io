@@ -1,0 +1,36 @@
+{
+    "name": "Not Available",
+    "type": "N/A",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "HV",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                },
+                {
+                    "valk": "HV",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                },
+                {
+                    "valk": "HV",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                }
+            ],
+            "player": "Voided",
+            "video": "https://www.youtube.com/embed/Q-b6rdyIJsY"
+        }
+    ]
+}

@@ -6,15 +6,27 @@
             "party": [
                 {
                     "valk": "PX",
-                    "rank": "SS"
+                    "rank": "SS",
+                    "weapon": "Grips of Tai Xuan",
+                    "stigT": "Gluttony",
+                    "stigM": "Musician",
+                    "stigB": "Musician"
                 },
                 {
                     "valk": "FS",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Ruinous Sakura",
+                    "stigT": "Thales",
+                    "stigM": "Thales",
+                    "stigB": "Fuxi"
                 },
                 {
                     "valk": "SF",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Blood Dance",
+                    "stigT": "Summer Holic",
+                    "stigM": "Summer Day",
+                    "stigB": "Newton"
                 }
             ],
             "player": "The Keebster",
@@ -24,19 +36,31 @@
             "party": [
                 {
                     "valk": "DK",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Briareus EX",
+                    "stigT": "Picasso",
+                    "stigM": "Picasso",
+                    "stigB": "Ogier"
                 },
                 {
                     "valk": "SA",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Ranger's Cross",
+                    "stigT": "Jingwei",
+                    "stigM": "Siefried",
+                    "stigB": "Lier"
                 },
                 {
                     "valk": "NS",
-                    "rank": "SSS"
+                    "rank": "SSS",
+                    "weapon": "Ranger's Gaunlets",
+                    "stigT": "Jingwei",
+                    "stigM": "Marco Polo",
+                    "stigB": "Pride"
                 }
             ],
             "player": "The Keebster",
-            "video": "https://www.youtube.com/embed/j5eJOZoVBdE?t=74"
+            "video": "https://www.youtube.com/embed/j5eJOZoVBdE?start=74"
         }
     ]
 }
