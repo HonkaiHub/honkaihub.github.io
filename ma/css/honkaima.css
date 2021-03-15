@@ -76,7 +76,8 @@ body {
 
 .team-style {
     border: 0px solid #F50;
-    background-color: #2F2F2F;
+    /*background-color: #2F2F2F;*/
+    background: rgba(100, 100, 100, 0.4);
     border-radius: 10px;
     color: #ccc;
     font-size: 1.0em;
@@ -88,12 +89,11 @@ body {
 
 .teamlead-side-style {
     border: 0px solid #F50;
-    background-color: #021A1A;
+    background: rgba(50, 100, 80, 0.4);
     color: #DFFFEF;
     padding: 10px;
 }
 .team-side-style {
-    border: 1px solid #021A1A;
     padding: 10px;
 }
 
@@ -134,6 +134,16 @@ body {
 
 .bg1 {
     background-color: #111;
+    background-image:
+		linear-gradient(
+			to right,
+			rgba(0, 0, 0, 85%),
+			rgba(0, 0, 0, 100%)
+		),
+		url("../img/categorybackimg.png");
+    background-repeat: no-repeat;
+	background-position: top left;
+    background-attachment: fixed;
 }
 
 .bg2 {
