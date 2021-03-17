@@ -485,7 +485,7 @@ module.exports={
                 },
                 {
                     "valk": "BS",
-                    "rank": "SS",
+                    "rank": "A",
                     "weapon": "Dark Xuanyuan Sword",
                     "stigT": "",
                     "stigM": "",
