@@ -5,7 +5,7 @@
         {
             "party": [
                 {
-                    "valk": "HV",
+                    "valk": "None",
                     "rank": "B",
                     "weapon": "",
                     "stigT": "",
@@ -13,7 +13,7 @@
                     "stigB": ""
                 },
                 {
-                    "valk": "HV",
+                    "valk": "None",
                     "rank": "B",
                     "weapon": "",
                     "stigT": "",
@@ -21,7 +21,7 @@
                     "stigB": ""
                 },
                 {
-                    "valk": "HV",
+                    "valk": "None",
                     "rank": "B",
                     "weapon": "",
                     "stigT": "",

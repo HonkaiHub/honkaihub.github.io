@@ -1,16 +1,20 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 var NotAvailable = require("../json/0_na.json");
+var DeathlyDoom = require("../json/DeathlyDoom.json");
 var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
 var Jizo = require("../json/Jizo.json");
 var Rimestar = require("../json/Rimestar.json");
+var Tonatiuh = require("../json/Tonatiuh.json");
 
 var MABosses = [
     NotAvailable,
+    DeathlyDoom,
     HerrscheroftheVoid,
     Huodou,
     Jizo,
-    Rimestar
+    Rimestar,
+    Tonatiuh
 ]
 
 var valkimgs = require("../json/ValkyrieImages.json");
@@ -176,7 +180,7 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
 
 // browserify js/marena.js -o js/marenabundle.js
 
-},{"../json/0_na.json":2,"../json/HerrscheroftheVoid.json":3,"../json/Huodou.json":4,"../json/Jizo.json":5,"../json/Rimestar.json":6,"../json/ValkyrieImages.json":7}],2:[function(require,module,exports){
+},{"../json/0_na.json":2,"../json/DeathlyDoom.json":3,"../json/HerrscheroftheVoid.json":4,"../json/Huodou.json":5,"../json/Jizo.json":6,"../json/Rimestar.json":7,"../json/Tonatiuh.json":8,"../json/ValkyrieImages.json":9}],2:[function(require,module,exports){
 module.exports={
     "name": "Not Available",
     "type": "N/A",
@@ -184,7 +188,7 @@ module.exports={
         {
             "party": [
                 {
-                    "valk": "HV",
+                    "valk": "None",
                     "rank": "B",
                     "weapon": "",
                     "stigT": "",
@@ -192,7 +196,7 @@ module.exports={
                     "stigB": ""
                 },
                 {
-                    "valk": "HV",
+                    "valk": "None",
                     "rank": "B",
                     "weapon": "",
                     "stigT": "",
@@ -200,7 +204,7 @@ module.exports={
                     "stigB": ""
                 },
                 {
-                    "valk": "HV",
+                    "valk": "None",
                     "rank": "B",
                     "weapon": "",
                     "stigT": "",
@@ -215,6 +219,44 @@ module.exports={
 }
 
 },{}],3:[function(require,module,exports){
+module.exports={
+    "name": "DeathlyDoom",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "KMB",
+                    "rank": "SSS",
+                    "weapon": "Positron Blaster",
+                    "stigT": "Zhuge Kongming",
+                    "stigM": "Shakespeare",
+                    "stigB": "Shakespeare"
+                },
+                {
+                    "valk": "CH",
+                    "rank": "SS",
+                    "weapon": "Lightning Angel",
+                    "stigT": "Gluttony",
+                    "stigM": "Origins",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "HoS",
+                    "rank": "S",
+                    "weapon": "Domain of Sentience",
+                    "stigT": "Mei Spectramancer",
+                    "stigM": "Marco Polo",
+                    "stigB": "Fu Hua: Onyx Simurgh"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://www.youtube.com/embed/1n2MRBdV43I?start=5"
+        }
+    ]
+}
+
+},{}],4:[function(require,module,exports){
 module.exports={
     "name": "HerrscheroftheVoid",
     "type": "Biologic",
@@ -282,7 +324,7 @@ module.exports={
     ]
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 module.exports={
     "name": "Huodou",
     "type": "Biologic",
@@ -320,7 +362,7 @@ module.exports={
     ]
 }
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 module.exports={
     "name": "Jizo",
     "type": "Biologic",
@@ -358,7 +400,7 @@ module.exports={
     ]
 }
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 module.exports={
     "name": "Rimestar",
     "type": "Psychic",
@@ -426,8 +468,50 @@ module.exports={
     ]
 }
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
+module.exports={
+    "name": "Tonatiuh",
+    "type": "Quantum",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "HoT",
+                    "rank": "S",
+                    "weapon": "Domain of Sanction",
+                    "stigT": "Benares: Awakening",
+                    "stigM": "Benares: Awakening",
+                    "stigB": "Benares: Awakening"
+                },
+                {
+                    "valk": "BS",
+                    "rank": "SS",
+                    "weapon": "Dark Xuanyuan Sword",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                },
+                {
+                    "valk": "None",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                }
+            ],
+            "player": "Rixuel",
+            "video": "https://www.youtube.com/embed/JK1zQEqZxOs"
+        }
+    ]
+}
+
+},{}],9:[function(require,module,exports){
 module.exports=[
+    {
+        "acronym": ["BS"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200616/2020061619395782695.png"
+    },
     {
         "acronym": ["CH"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200721/2020072117055042407.png"
@@ -441,8 +525,20 @@ module.exports=[
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
     },
     {
+        "acronym": ["HoS"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314311783164.png"
+    },
+    {
+        "acronym": ["HoT"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200806/2020080615421783866.png"
+    },
+    {
         "acronym": ["HV"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821060743679.png"
+    },
+    {
+        "acronym": ["KMB"],
+        "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061820564036778.png"
     },
     {
         "acronym": ["Meme", "GM"],
@@ -479,6 +575,10 @@ module.exports=[
     {
         "acronym": ["WD"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061916452046427.png"
+    },
+    {
+        "acronym": ["None", "none"],
+        "img": "../ma/img/nopic.png"
     }
 ]
 

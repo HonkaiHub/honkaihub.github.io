@@ -1,0 +1,36 @@
+{
+    "name": "Tonatiuh",
+    "type": "Quantum",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "HoT",
+                    "rank": "S",
+                    "weapon": "Domain of Sanction",
+                    "stigT": "Benares: Awakening",
+                    "stigM": "Benares: Awakening",
+                    "stigB": "Benares: Awakening"
+                },
+                {
+                    "valk": "BS",
+                    "rank": "SS",
+                    "weapon": "Dark Xuanyuan Sword",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                },
+                {
+                    "valk": "None",
+                    "rank": "B",
+                    "weapon": "",
+                    "stigT": "",
+                    "stigM": "",
+                    "stigB": ""
+                }
+            ],
+            "player": "Rixuel",
+            "video": "https://www.youtube.com/embed/JK1zQEqZxOs"
+        }
+    ]
+}

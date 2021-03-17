@@ -1,0 +1,36 @@
+{
+    "name": "DeathlyDoom",
+    "type": "Biologic",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "KMB",
+                    "rank": "SSS",
+                    "weapon": "Positron Blaster",
+                    "stigT": "Zhuge Kongming",
+                    "stigM": "Shakespeare",
+                    "stigB": "Shakespeare"
+                },
+                {
+                    "valk": "CH",
+                    "rank": "SS",
+                    "weapon": "Lightning Angel",
+                    "stigT": "Gluttony",
+                    "stigM": "Origins",
+                    "stigB": "Newton"
+                },
+                {
+                    "valk": "HoS",
+                    "rank": "S",
+                    "weapon": "Domain of Sentience",
+                    "stigT": "Mei Spectramancer",
+                    "stigM": "Marco Polo",
+                    "stigB": "Fu Hua: Onyx Simurgh"
+                }
+            ],
+            "player": "The Keebster",
+            "video": "https://www.youtube.com/embed/1n2MRBdV43I?start=5"
+        }
+    ]
+}
