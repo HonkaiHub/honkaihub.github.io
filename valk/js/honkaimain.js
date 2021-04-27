@@ -6,6 +6,7 @@ var ValkyrieGloria = require("../json/BA/ValkyrieGloria.json");
 
 var BlackNucleus = require("../json/BZ/BlackNucleus.json");
 var DimensionBreaker = require("../json/BZ/DimensionBreaker.json");
+var HaxxorBunny = require("../json/BZ/HaxxorBunny.json");
 var HerrscherOfReason = require("../json/BZ/HerrscherOfReason.json");
 var SnowySniper = require("../json/BZ/SnowySniper.json");
 var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
@@ -86,6 +87,7 @@ var Valkyries = [
     FlameSakitama,
     GoushinnsoMemento,
     GyakushinnMiko,
+    HaxxorBunny,
     HerrscherOfReason,
     HerrscherOfSentience,
     HerrscherOfTheVoid,
