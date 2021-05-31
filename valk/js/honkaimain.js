@@ -52,6 +52,7 @@ var FallenRosemary = require("../json/RR/FallenRosemary.json");
 var PhantomIron = require("../json/RR/PhantomIron.json");
 var UmbralRose = require("../json/RR/UmbralRose.json");
 
+var StarchasmNyx = require("../json/SV/StarchasmNyx.json");
 var StygianNymph = require("../json/SV/StygianNymph.json");
 var SwallowtailPhantasm = require("../json/SV/SwallowtailPhantasm.json");
 
@@ -106,6 +107,7 @@ var Valkyries = [
     ShadowKnight,
     SixthSerenade,
     SnowySniper,
+    StarchasmNyx,
     StarlitAstrologos,
     StygianNymph,
     Sundenjager,
@@ -346,3 +348,4 @@ var buttonHowTo = document.getElementById("clickHowTo");
 buttonHowTo.addEventListener("click", howTo);
 
 // browserify js/honkaimain.js -o js/honkaibundle.js
+// npm run cypress:open
