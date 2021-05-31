@@ -349,4 +349,4 @@ buttonHowTo.addEventListener("click", howTo);
 
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
-// test
+// test2
