@@ -1776,6 +1776,7 @@ module.exports={
     "battlesuit": "Prinzessin der Verurteilung!",
     "tag": [
         "Fischl",
+        "Amy",
         "Collab"
     ],
     "type": "Biologic",
