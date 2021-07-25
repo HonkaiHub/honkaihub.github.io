@@ -1,4 +1,5 @@
 var BlazingHope = require("../json/aLimited/BlazingHope.json");
+var Fischl = require("../json/aLimited/Fischl.json");
 
 var BrightKnightExcelsis = require("../json/BA/BrightKnightExcelsis.json");
 var DeaAnchora = require("../json/BA/DeaAnchora.json");
@@ -85,6 +86,7 @@ var Valkyries = [
     DimensionBreaker,
     DivinePrayer,
     FallenRosemary,
+    Fischl,
     FlameSakitama,
     GoushinnsoMemento,
     GyakushinnMiko,

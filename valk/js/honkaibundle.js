@@ -1,5 +1,6 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 var BlazingHope = require("../json/aLimited/BlazingHope.json");
+var Fischl = require("../json/aLimited/Fischl.json");
 
 var BrightKnightExcelsis = require("../json/BA/BrightKnightExcelsis.json");
 var DeaAnchora = require("../json/BA/DeaAnchora.json");
@@ -86,6 +87,7 @@ var Valkyries = [
     DimensionBreaker,
     DivinePrayer,
     FallenRosemary,
+    Fischl,
     FlameSakitama,
     GoushinnsoMemento,
     GyakushinnMiko,
@@ -351,7 +353,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/BA/BrightKnightExcelsis.json":2,"../json/BA/DeaAnchora.json":3,"../json/BA/ValkyrieGloria.json":4,"../json/BZ/BlackNucleus.json":5,"../json/BZ/DimensionBreaker.json":6,"../json/BZ/HaxxorBunny.json":7,"../json/BZ/HerrscherOfReason.json":8,"../json/BZ/SnowySniper.json":9,"../json/BZ/ValkyrieChariot.json":10,"../json/BZ/WolfsDawn.json":11,"../json/BZ/YamabukiArmor.json":12,"../json/FH/AzureEmpyrea.json":13,"../json/FH/HerrscherOfSentience.json":14,"../json/FH/NightSquire.json":15,"../json/FH/Phoenix.json":16,"../json/FH/ShadowKnight.json":17,"../json/FH/ValkyrieAccipiter.json":18,"../json/KA/ImayohRitual.json":19,"../json/KA/SixthSerenade.json":20,"../json/KA/Sundenjager.json":21,"../json/KK/DivinePrayer.json":22,"../json/KK/HerrscherOfTheVoid.json":23,"../json/KK/KnightMoonbeam.json":24,"../json/KK/ValkyrieRanger.json":25,"../json/KK/WhiteComet.json":26,"../json/LO/BlueberryBlitz.json":27,"../json/MH/ArcticKriegsmesser.json":28,"../json/MH/BattleStorm.json":29,"../json/MH/BloodRose.json":30,"../json/MH/ScarletFusion.json":31,"../json/MH/ValkyrieTriumph.json":32,"../json/MH/VermilionKnight.json":33,"../json/RM/CrimsonImpulse.json":34,"../json/RM/HerrscherOfThunder.json":35,"../json/RM/LightningEmpress.json":36,"../json/RM/ShadowDash.json":37,"../json/RM/ValkyrieBladestrike.json":38,"../json/RO/MolotovCherry.json":39,"../json/RR/ArgentKnight.json":40,"../json/RR/FallenRosemary.json":41,"../json/RR/PhantomIron.json":42,"../json/RR/UmbralRose.json":43,"../json/SV/StarchasmNyx.json":44,"../json/SV/StygianNymph.json":45,"../json/SV/SwallowtailPhantasm.json":46,"../json/TA/CelestialHymn.json":47,"../json/TA/LunaKindred.json":48,"../json/TA/SakunoRondo.json":49,"../json/TA/StarlitAstrologos.json":50,"../json/TA/ValkyriePledge.json":51,"../json/TA/VioletExecuter.json":52,"../json/YS/DarkBoltJonin.json":53,"../json/YS/FlameSakitama.json":54,"../json/YS/GoushinnsoMemento.json":55,"../json/YS/GyakushinnMiko.json":56,"../json/aLimited/BlazingHope.json":57}],2:[function(require,module,exports){
+},{"../json/BA/BrightKnightExcelsis.json":2,"../json/BA/DeaAnchora.json":3,"../json/BA/ValkyrieGloria.json":4,"../json/BZ/BlackNucleus.json":5,"../json/BZ/DimensionBreaker.json":6,"../json/BZ/HaxxorBunny.json":7,"../json/BZ/HerrscherOfReason.json":8,"../json/BZ/SnowySniper.json":9,"../json/BZ/ValkyrieChariot.json":10,"../json/BZ/WolfsDawn.json":11,"../json/BZ/YamabukiArmor.json":12,"../json/FH/AzureEmpyrea.json":13,"../json/FH/HerrscherOfSentience.json":14,"../json/FH/NightSquire.json":15,"../json/FH/Phoenix.json":16,"../json/FH/ShadowKnight.json":17,"../json/FH/ValkyrieAccipiter.json":18,"../json/KA/ImayohRitual.json":19,"../json/KA/SixthSerenade.json":20,"../json/KA/Sundenjager.json":21,"../json/KK/DivinePrayer.json":22,"../json/KK/HerrscherOfTheVoid.json":23,"../json/KK/KnightMoonbeam.json":24,"../json/KK/ValkyrieRanger.json":25,"../json/KK/WhiteComet.json":26,"../json/LO/BlueberryBlitz.json":27,"../json/MH/ArcticKriegsmesser.json":28,"../json/MH/BattleStorm.json":29,"../json/MH/BloodRose.json":30,"../json/MH/ScarletFusion.json":31,"../json/MH/ValkyrieTriumph.json":32,"../json/MH/VermilionKnight.json":33,"../json/RM/CrimsonImpulse.json":34,"../json/RM/HerrscherOfThunder.json":35,"../json/RM/LightningEmpress.json":36,"../json/RM/ShadowDash.json":37,"../json/RM/ValkyrieBladestrike.json":38,"../json/RO/MolotovCherry.json":39,"../json/RR/ArgentKnight.json":40,"../json/RR/FallenRosemary.json":41,"../json/RR/PhantomIron.json":42,"../json/RR/UmbralRose.json":43,"../json/SV/StarchasmNyx.json":44,"../json/SV/StygianNymph.json":45,"../json/SV/SwallowtailPhantasm.json":46,"../json/TA/CelestialHymn.json":47,"../json/TA/LunaKindred.json":48,"../json/TA/SakunoRondo.json":49,"../json/TA/StarlitAstrologos.json":50,"../json/TA/ValkyriePledge.json":51,"../json/TA/VioletExecuter.json":52,"../json/YS/DarkBoltJonin.json":53,"../json/YS/FlameSakitama.json":54,"../json/YS/GoushinnsoMemento.json":55,"../json/YS/GyakushinnMiko.json":56,"../json/aLimited/BlazingHope.json":57,"../json/aLimited/Fischl.json":58}],2:[function(require,module,exports){
 module.exports={
     "battlesuit": "Bright Knight Excelsis",
     "tag": [
@@ -1749,6 +1751,7 @@ module.exports={
     "tag": [
         "Asuka",
         "BH",
+        "Collab",
         "Limited"
     ],
     "type": "Biologic",
@@ -1765,6 +1768,29 @@ module.exports={
     "fragdropinfo": [
         "Collab Supply",
         "Event Shop (New Century)"
+    ]
+}
+
+},{}],58:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Prinzessin der Verurteilung!",
+    "tag": [
+        "Fischl",
+        "Collab"
+    ],
+    "type": "Biologic",
+    "soul": "Original",
+    "firstname": "Fischl",
+    "lastname": "von Luftschloss Narfidort",
+    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210707/2021070719411078536.png",
+    "birthday": "May 27th",
+    "weapon": "Bows",
+    "costume": [
+        "Prinzessin der Verurteilung!"
+    ],
+    "fragdropinfo": [
+        "Collab Supply",
+        "Event Shop (Collab)"
     ]
 }
 
