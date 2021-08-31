@@ -26,6 +26,7 @@ var SixthSerenade = require("../json/KA/SixthSerenade.json");
 var Sundenjager = require("../json/KA/Sundenjager.json");
 
 var DivinePrayer = require("../json/KK/DivinePrayer.json");
+var HerrscherOfTheVoid = require("../json/KK/HerrscherOfFlamescion.json");
 var HerrscherOfTheVoid = require("../json/KK/HerrscherOfTheVoid.json");
 var KnightMoonbeam = require("../json/KK/KnightMoonbeam.json");
 var ValkyrieRanger = require("../json/KK/ValkyrieRanger.json");
@@ -91,6 +92,7 @@ var Valkyries = [
     GoushinnsoMemento,
     GyakushinnMiko,
     HaxxorBunny,
+    HerrscherOfFlamescion,
     HerrscherOfReason,
     HerrscherOfSentience,
     HerrscherOfTheVoid,
