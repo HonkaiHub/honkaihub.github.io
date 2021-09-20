@@ -638,7 +638,7 @@ module.exports={
     "type": "Psychic",
     "soul": "Original",
     "firstname": "Elysia",
-    "lastname": "???",
+    "lastname": "",
     "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210916/2021091612102521960.png",
     "birthday": "November 11th",
     "weapon": "Bows",
