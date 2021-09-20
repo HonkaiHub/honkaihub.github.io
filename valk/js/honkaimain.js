@@ -14,6 +14,8 @@ var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
 var WolfsDawn = require("../json/BZ/WolfsDawn.json");
 var YamabukiArmor = require("../json/BZ/YamabukiArmor.json");
 
+var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
+
 var AzureEmpyrea = require("../json/FH/AzureEmpyrea.json");
 var HerrscherOfSentience = require("../json/FH/HerrscherOfSentience.json");
 var NightSquire = require("../json/FH/NightSquire.json");
@@ -101,6 +103,7 @@ var Valkyries = [
     KnightMoonbeam,
     LightningEmpress,
     LunaKindred,
+    MissPinkElf,
     MolotovCherry,
     NightSquire,
     PhantomIron,
