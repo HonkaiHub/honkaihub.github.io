@@ -15,6 +15,8 @@ var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
 var WolfsDawn = require("../json/BZ/WolfsDawn.json");
 var YamabukiArmor = require("../json/BZ/YamabukiArmor.json");
 
+var MidnightAbsinthe = require("../json/Cioara/MidnightAbsinthe.json");
+
 var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
 
 var AzureEmpyrea = require("../json/FH/AzureEmpyrea.json");
@@ -43,6 +45,8 @@ var BloodRose = require("../json/MH/BloodRose.json");
 var ScarletFusion = require("../json/MH/ScarletFusion.json");
 var ValkyrieTriumph = require("../json/MH/ValkyrieTriumph.json");
 var VermilionKnight = require("../json/MH/VermilionKnight.json");
+
+var InfiniteOuroboros = require("../json/Mobius/InfiniteOuroboros.json");
 
 var CrimsonImpulse = require("../json/RM/CrimsonImpulse.json");
 var HerrscherOfThunder = require("../json/RM/HerrscherOfThunder.json");
@@ -101,9 +105,11 @@ var Valkyries = [
     HerrscherOfTheVoid,
     HerrscherOfThunder,
     ImayohRitual,
+    InfiniteOuroboros,
     KnightMoonbeam,
     LightningEmpress,
     LunaKindred,
+    MidnightAbsinthe,
     MissPinkElf,
     MolotovCherry,
     NightSquire,
@@ -267,6 +273,10 @@ function templateInfo(data, i) {
                     dataResult += "<img class='typeimg' src='img/PSY.png' title='" + Valkyries[i].type + "'>";
                 } else if (Valkyries[i].type == "Quantum") {
                     dataResult += "<img class='typeimg' src='img/QUA.png' title='" + Valkyries[i].type + "'>";
+                } else if (Valkyries[i].type == "Imaginary") {
+                    dataResult += "<img class='typeimg' src='img/IMG.png' title='" + Valkyries[i].type + "'>";
+                } else {
+                    dataResult += "<img class='typeimg' src='img/NONE.png' title='" + Valkyries[i].type + "'>";
                 }
             dataResult += "</div>";
         dataResult += "</div>";
@@ -358,7 +368,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/BA/BrightKnightExcelsis.json":2,"../json/BA/DeaAnchora.json":3,"../json/BA/ValkyrieGloria.json":4,"../json/BZ/BlackNucleus.json":5,"../json/BZ/DimensionBreaker.json":6,"../json/BZ/HaxxorBunny.json":7,"../json/BZ/HerrscherOfReason.json":8,"../json/BZ/SnowySniper.json":9,"../json/BZ/ValkyrieChariot.json":10,"../json/BZ/WolfsDawn.json":11,"../json/BZ/YamabukiArmor.json":12,"../json/Elysia/MissPinkElf.json":13,"../json/FH/AzureEmpyrea.json":14,"../json/FH/HerrscherOfSentience.json":15,"../json/FH/NightSquire.json":16,"../json/FH/Phoenix.json":17,"../json/FH/ShadowKnight.json":18,"../json/FH/ValkyrieAccipiter.json":19,"../json/KA/ImayohRitual.json":20,"../json/KA/SixthSerenade.json":21,"../json/KA/Sundenjager.json":22,"../json/KK/DivinePrayer.json":23,"../json/KK/HerrscherOfFlamescion.json":24,"../json/KK/HerrscherOfTheVoid.json":25,"../json/KK/KnightMoonbeam.json":26,"../json/KK/ValkyrieRanger.json":27,"../json/KK/WhiteComet.json":28,"../json/LO/BlueberryBlitz.json":29,"../json/MH/ArcticKriegsmesser.json":30,"../json/MH/BattleStorm.json":31,"../json/MH/BloodRose.json":32,"../json/MH/ScarletFusion.json":33,"../json/MH/ValkyrieTriumph.json":34,"../json/MH/VermilionKnight.json":35,"../json/RM/CrimsonImpulse.json":36,"../json/RM/HerrscherOfThunder.json":37,"../json/RM/LightningEmpress.json":38,"../json/RM/ShadowDash.json":39,"../json/RM/ValkyrieBladestrike.json":40,"../json/RO/MolotovCherry.json":41,"../json/RR/ArgentKnight.json":42,"../json/RR/FallenRosemary.json":43,"../json/RR/PhantomIron.json":44,"../json/RR/UmbralRose.json":45,"../json/SV/StarchasmNyx.json":46,"../json/SV/StygianNymph.json":47,"../json/SV/SwallowtailPhantasm.json":48,"../json/TA/CelestialHymn.json":49,"../json/TA/LunaKindred.json":50,"../json/TA/SakunoRondo.json":51,"../json/TA/StarlitAstrologos.json":52,"../json/TA/ValkyriePledge.json":53,"../json/TA/VioletExecuter.json":54,"../json/YS/DarkBoltJonin.json":55,"../json/YS/FlameSakitama.json":56,"../json/YS/GoushinnsoMemento.json":57,"../json/YS/GyakushinnMiko.json":58,"../json/aLimited/BlazingHope.json":59,"../json/aLimited/Fischl.json":60}],2:[function(require,module,exports){
+},{"../json/BA/BrightKnightExcelsis.json":2,"../json/BA/DeaAnchora.json":3,"../json/BA/ValkyrieGloria.json":4,"../json/BZ/BlackNucleus.json":5,"../json/BZ/DimensionBreaker.json":6,"../json/BZ/HaxxorBunny.json":7,"../json/BZ/HerrscherOfReason.json":8,"../json/BZ/SnowySniper.json":9,"../json/BZ/ValkyrieChariot.json":10,"../json/BZ/WolfsDawn.json":11,"../json/BZ/YamabukiArmor.json":12,"../json/Cioara/MidnightAbsinthe.json":13,"../json/Elysia/MissPinkElf.json":14,"../json/FH/AzureEmpyrea.json":15,"../json/FH/HerrscherOfSentience.json":16,"../json/FH/NightSquire.json":17,"../json/FH/Phoenix.json":18,"../json/FH/ShadowKnight.json":19,"../json/FH/ValkyrieAccipiter.json":20,"../json/KA/ImayohRitual.json":21,"../json/KA/SixthSerenade.json":22,"../json/KA/Sundenjager.json":23,"../json/KK/DivinePrayer.json":24,"../json/KK/HerrscherOfFlamescion.json":25,"../json/KK/HerrscherOfTheVoid.json":26,"../json/KK/KnightMoonbeam.json":27,"../json/KK/ValkyrieRanger.json":28,"../json/KK/WhiteComet.json":29,"../json/LO/BlueberryBlitz.json":30,"../json/MH/ArcticKriegsmesser.json":31,"../json/MH/BattleStorm.json":32,"../json/MH/BloodRose.json":33,"../json/MH/ScarletFusion.json":34,"../json/MH/ValkyrieTriumph.json":35,"../json/MH/VermilionKnight.json":36,"../json/Mobius/InfiniteOuroboros.json":37,"../json/RM/CrimsonImpulse.json":38,"../json/RM/HerrscherOfThunder.json":39,"../json/RM/LightningEmpress.json":40,"../json/RM/ShadowDash.json":41,"../json/RM/ValkyrieBladestrike.json":42,"../json/RO/MolotovCherry.json":43,"../json/RR/ArgentKnight.json":44,"../json/RR/FallenRosemary.json":45,"../json/RR/PhantomIron.json":46,"../json/RR/UmbralRose.json":47,"../json/SV/StarchasmNyx.json":48,"../json/SV/StygianNymph.json":49,"../json/SV/SwallowtailPhantasm.json":50,"../json/TA/CelestialHymn.json":51,"../json/TA/LunaKindred.json":52,"../json/TA/SakunoRondo.json":53,"../json/TA/StarlitAstrologos.json":54,"../json/TA/ValkyriePledge.json":55,"../json/TA/VioletExecuter.json":56,"../json/YS/DarkBoltJonin.json":57,"../json/YS/FlameSakitama.json":58,"../json/YS/GoushinnsoMemento.json":59,"../json/YS/GyakushinnMiko.json":60,"../json/aLimited/BlazingHope.json":61,"../json/aLimited/Fischl.json":62}],2:[function(require,module,exports){
 module.exports={
     "battlesuit": "Bright Knight Excelsis",
     "tag": [
@@ -630,6 +640,32 @@ module.exports={
 
 },{}],13:[function(require,module,exports){
 module.exports={
+    "battlesuit": "Midnight Absinthe",
+    "tag": [
+        "MA",
+        "Raven"
+    ],
+    "type": "Imaginary",
+    "soul": "Original",
+    "firstname": "Natasha",
+    "lastname": "Cioara",
+    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102216343598492.png",
+    "birthday": "",
+    "weapon": "Bows",
+    "costume": [
+        "Midnight Absinthe",
+        "Absinthe Dream"
+    ],
+    "fragdropinfo": [
+        "Supply Shop",
+        "Elysian Shop",
+        "Expansion Battlesuit Supply",
+        "Open World - Adventure Tasks"
+    ]
+}
+
+},{}],14:[function(require,module,exports){
+module.exports={
     "battlesuit": "Miss Pink Elf",
     "tag": [
         "Elysia",
@@ -651,7 +687,7 @@ module.exports={
     ]
 }
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 module.exports={
     "battlesuit": "Azure Empyrea",
     "tag": [
@@ -673,7 +709,7 @@ module.exports={
     ]
 }
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher of Sentience",
     "tag": [
@@ -695,7 +731,7 @@ module.exports={
     ]
 }
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 module.exports={
     "battlesuit": "Night Squire",
     "tag": [
@@ -723,7 +759,7 @@ module.exports={
     ]
 }
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 module.exports={
     "battlesuit": "Phoenix",
     "tag": [
@@ -746,7 +782,7 @@ module.exports={
     ]
 }
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
     "battlesuit": "Shadow Knight",
     "tag": [
@@ -767,7 +803,7 @@ module.exports={
     ]
 }
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Accipiter",
     "tag": [
@@ -797,7 +833,7 @@ module.exports={
     ]
 }
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
     "battlesuit": "Imayoh Ritual",
     "tag": [
@@ -822,7 +858,7 @@ module.exports={
     ]
 }
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 module.exports={
     "battlesuit": "Sixth Serenade",
     "tag": [
@@ -843,7 +879,7 @@ module.exports={
     ]
 }
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 module.exports={
     "battlesuit": "Sundenjager",
     "tag": [
@@ -866,7 +902,7 @@ module.exports={
     ]
 }
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports={
     "battlesuit": "Divine Prayer",
     "tag": [
@@ -895,7 +931,7 @@ module.exports={
     ]
 }
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher Of Flamescion",
     "tag": [
@@ -918,7 +954,7 @@ module.exports={
     ]
 }
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher of the Void",
     "tag": [
@@ -944,7 +980,7 @@ module.exports={
     ]
 }
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports={
     "battlesuit": "Knight Moonbeam",
     "tag": [
@@ -969,7 +1005,7 @@ module.exports={
     ]
 }
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Ranger",
     "tag": [
@@ -1000,7 +1036,7 @@ module.exports={
     ]
 }
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 module.exports={
     "battlesuit": "White Comet",
     "tag": [
@@ -1029,7 +1065,7 @@ module.exports={
     ]
 }
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
     "battlesuit": "Blueberry Blitz",
     "tag": [
@@ -1057,7 +1093,7 @@ module.exports={
     ]
 }
 
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 module.exports={
     "battlesuit": "Artic Kriegsmesser",
     "tag": [
@@ -1079,7 +1115,7 @@ module.exports={
     ]
 }
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 module.exports={
     "battlesuit": "Battle Storm",
     "tag": [
@@ -1105,7 +1141,7 @@ module.exports={
     ]
 }
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 module.exports={
     "battlesuit": "Blood Rose",
     "tag": [
@@ -1129,7 +1165,7 @@ module.exports={
     ]
 }
 
-},{}],33:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 module.exports={
     "battlesuit": "Scarlet Fusion",
     "tag": [
@@ -1157,7 +1193,7 @@ module.exports={
     ]
 }
 
-},{}],34:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Triumph",
     "tag": [
@@ -1183,7 +1219,7 @@ module.exports={
     ]
 }
 
-},{}],35:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 module.exports={
     "battlesuit": "Vermilion Knight",
     "tag": [
@@ -1205,7 +1241,27 @@ module.exports={
     ]
 }
 
-},{}],36:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Infinite Ouroboros",
+    "tag": [
+        "IO"
+    ],
+    "type": "Mecha",
+    "soul": "Original",
+    "firstname": "Mobius",
+    "lastname": "",
+    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102215161426682.png",
+    "birthday": "",
+    "weapon": "Crosses",
+    "costume": [
+        "Infinite Ouroboros"
+    ],
+    "fragdropinfo": [
+    ]
+}
+
+},{}],38:[function(require,module,exports){
 module.exports={
     "battlesuit": "Crimson Impulse",
     "tag": [
@@ -1232,7 +1288,7 @@ module.exports={
     ]
 }
 
-},{}],37:[function(require,module,exports){
+},{}],39:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher of Thunder",
     "tag": [
@@ -1257,7 +1313,7 @@ module.exports={
     ]
 }
 
-},{}],38:[function(require,module,exports){
+},{}],40:[function(require,module,exports){
 module.exports={
     "battlesuit": "Lightning Empress",
     "tag": [
@@ -1283,7 +1339,7 @@ module.exports={
     ]
 }
 
-},{}],39:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 module.exports={
     "battlesuit": "Shadow Dash",
     "tag": [
@@ -1314,7 +1370,7 @@ module.exports={
     ]
 }
 
-},{}],40:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Bladestrike",
     "tag": [
@@ -1345,7 +1401,7 @@ module.exports={
     ]
 }
 
-},{}],41:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 module.exports={
     "battlesuit": "Molotov Cherry",
     "tag": [
@@ -1371,7 +1427,7 @@ module.exports={
     ]
 }
 
-},{}],42:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 module.exports={
     "battlesuit": "Argent Knight",
     "tag": [
@@ -1395,7 +1451,7 @@ module.exports={
     ]
 }
 
-},{}],43:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 module.exports={
     "battlesuit": "Fallen Rosemary",
     "tag": [
@@ -1417,7 +1473,7 @@ module.exports={
     ]
 }
 
-},{}],44:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 module.exports={
     "battlesuit": "Phantom Iron",
     "tag": [
@@ -1442,7 +1498,7 @@ module.exports={
     ]
 }
 
-},{}],45:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 module.exports={
     "battlesuit": "Umbral Rose",
     "tag": [
@@ -1470,7 +1526,7 @@ module.exports={
     ]
 }
 
-},{}],46:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 module.exports={
     "battlesuit": "Starchasm Nyx",
     "tag": [
@@ -1490,7 +1546,7 @@ module.exports={
     ]
 }
 
-},{}],47:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 module.exports={
     "battlesuit": "Stygian Nymph",
     "tag": [
@@ -1510,7 +1566,7 @@ module.exports={
     ]
 }
 
-},{}],48:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 module.exports={
     "battlesuit": "Swallowtail Phantasm",
     "tag": [
@@ -1537,7 +1593,7 @@ module.exports={
     ]
 }
 
-},{}],49:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 module.exports={
     "battlesuit": "Celestial Hymn",
     "tag": [
@@ -1561,7 +1617,7 @@ module.exports={
     ]
 }
 
-},{}],50:[function(require,module,exports){
+},{}],52:[function(require,module,exports){
 module.exports={
     "battlesuit": "Luna Kindred",
     "tag": [
@@ -1585,7 +1641,7 @@ module.exports={
     ]
 }
 
-},{}],51:[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 module.exports={
     "battlesuit": "Sakuno Rondo",
     "tag": [
@@ -1612,7 +1668,7 @@ module.exports={
     ]
 }
 
-},{}],52:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 module.exports={
     "battlesuit": "Starlit Astrologos",
     "tag": [
@@ -1633,7 +1689,7 @@ module.exports={
     ]
 }
 
-},{}],53:[function(require,module,exports){
+},{}],55:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Pledge",
     "tag": [
@@ -1665,7 +1721,7 @@ module.exports={
     ]
 }
 
-},{}],54:[function(require,module,exports){
+},{}],56:[function(require,module,exports){
 module.exports={
     "battlesuit": "Violet Executer",
     "tag": [
@@ -1693,7 +1749,7 @@ module.exports={
     ]
 }
 
-},{}],55:[function(require,module,exports){
+},{}],57:[function(require,module,exports){
 module.exports={
     "battlesuit": "DarkBolt Jonin",
     "tag": [
@@ -1720,7 +1776,7 @@ module.exports={
     ]
 }
 
-},{}],56:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 module.exports={
     "battlesuit": "Flame Sakitama",
     "tag": [
@@ -1744,7 +1800,7 @@ module.exports={
     ]
 }
 
-},{}],57:[function(require,module,exports){
+},{}],59:[function(require,module,exports){
 module.exports={
     "battlesuit": "Goushinnso Memento",
     "tag": [
@@ -1768,7 +1824,7 @@ module.exports={
     ]
 }
 
-},{}],58:[function(require,module,exports){
+},{}],60:[function(require,module,exports){
 module.exports={
     "battlesuit": "Gyakushinn Miko",
     "tag": [
@@ -1796,7 +1852,7 @@ module.exports={
     ]
 }
 
-},{}],59:[function(require,module,exports){
+},{}],61:[function(require,module,exports){
 module.exports={
     "battlesuit": "Blazing Hope",
     "tag": [
@@ -1822,7 +1878,7 @@ module.exports={
     ]
 }
 
-},{}],60:[function(require,module,exports){
+},{}],62:[function(require,module,exports){
 module.exports={
     "battlesuit": "Prinzessin der Verurteilung!",
     "tag": [

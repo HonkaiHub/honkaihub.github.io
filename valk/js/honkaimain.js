@@ -14,6 +14,8 @@ var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
 var WolfsDawn = require("../json/BZ/WolfsDawn.json");
 var YamabukiArmor = require("../json/BZ/YamabukiArmor.json");
 
+var MidnightAbsinthe = require("../json/Cioara/MidnightAbsinthe.json");
+
 var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
 
 var AzureEmpyrea = require("../json/FH/AzureEmpyrea.json");
@@ -42,6 +44,8 @@ var BloodRose = require("../json/MH/BloodRose.json");
 var ScarletFusion = require("../json/MH/ScarletFusion.json");
 var ValkyrieTriumph = require("../json/MH/ValkyrieTriumph.json");
 var VermilionKnight = require("../json/MH/VermilionKnight.json");
+
+var InfiniteOuroboros = require("../json/Mobius/InfiniteOuroboros.json");
 
 var CrimsonImpulse = require("../json/RM/CrimsonImpulse.json");
 var HerrscherOfThunder = require("../json/RM/HerrscherOfThunder.json");
@@ -100,9 +104,11 @@ var Valkyries = [
     HerrscherOfTheVoid,
     HerrscherOfThunder,
     ImayohRitual,
+    InfiniteOuroboros,
     KnightMoonbeam,
     LightningEmpress,
     LunaKindred,
+    MidnightAbsinthe,
     MissPinkElf,
     MolotovCherry,
     NightSquire,
@@ -266,6 +272,10 @@ function templateInfo(data, i) {
                     dataResult += "<img class='typeimg' src='img/PSY.png' title='" + Valkyries[i].type + "'>";
                 } else if (Valkyries[i].type == "Quantum") {
                     dataResult += "<img class='typeimg' src='img/QUA.png' title='" + Valkyries[i].type + "'>";
+                } else if (Valkyries[i].type == "Imaginary") {
+                    dataResult += "<img class='typeimg' src='img/IMG.png' title='" + Valkyries[i].type + "'>";
+                } else {
+                    dataResult += "<img class='typeimg' src='img/NONE.png' title='" + Valkyries[i].type + "'>";
                 }
             dataResult += "</div>";
         dataResult += "</div>";
