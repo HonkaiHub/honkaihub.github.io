@@ -14,6 +14,8 @@ var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
 var WolfsDawn = require("../json/BZ/WolfsDawn.json");
 var YamabukiArmor = require("../json/BZ/YamabukiArmor.json");
 
+var SweetNSpicy = require("../json/CarolePeppers/SweetNSpicy.json");
+
 var MidnightAbsinthe = require("../json/Cioara/MidnightAbsinthe.json");
 
 var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
@@ -125,6 +127,7 @@ var Valkyries = [
     StygianNymph,
     Sundenjager,
     SwallowtailPhantasm,
+    SweetNSpicy,
     UmbralRose,
     ValkyrieAccipiter,
     ValkyrieBladestrike,
