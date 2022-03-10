@@ -29,9 +29,6 @@ html, body {
 		letter-spacing: 2px !important;
 		word-wrap: break-word;
 	}
-	.typeimg {
-		max-height: 30px !important;
-	}
 }
 img {
 	border: 0;
@@ -71,6 +68,9 @@ img {
 	padding: 10px;
 	width: 100%;
 }
+#searchInput:active {
+	background-color: #000000;
+}
 #clickButton, #clickHowTo {
 	background-color: #252229;
 	border: 2px solid #FB9929;
@@ -81,8 +81,10 @@ img {
 	width: 100%;
 }
 #clickButton:active, #clickHowTo:active {
-	background-color: #990000;
 	color: #ff2266;
+}
+#clickButton:hover, #clickHowTo:hover {
+	background-color: #000000;
 }
 .content {
 	background-color: rgba(18, 20, 22, 0.90);
@@ -111,17 +113,51 @@ img {
 	font-size: 1.4em;
     letter-spacing: 8px;
 }
+.content h3 {
+	color: #FFF;
+}
 .content h4 {
     color: #ECDECC;
 	margin-top: 8px;
 	margin-bottom: 4px;
 }
+.content .statInfo {
+	color: #ccffb3;
+	font-family: Consolas, 'Lucida Console';
+}
 .content .otherID {
 	color: #da0c3c;
 	font-family: 'Roboto Mono', Consolas, Arial;
 }
-.typeimg {
+.content .otherID {
+	color: #da0c3c;
+	font-family: 'Roboto Mono', Consolas, Arial;
+}
+.content .typemech, .typebio, .typepsy, .typequa, .typeimg {
+	color: #000000;
+	white-space: nowrap;
+	font-family: 'Roboto Mono', Consolas, Arial;
+	font-weight: bold;
+}
+.content .typemech {
+	background-color: #33ccff;
+}
+.content .typebio {
+	background-color: #ff8c1a;
+}
+.content .typepsy {
+	background-color: #dd11dd;
+}
+.content .typequa {
+	background-color: #8822ff;
+}
+.content .typeimg {
+	background-color: #c6ff1a;
+}
+.typeicon {
+	min-height: 50px;
 	max-height: 50px;
+	float: right;
 }
 .valkpic {
 	background-color: rgba(255, 255, 255, 0.15);

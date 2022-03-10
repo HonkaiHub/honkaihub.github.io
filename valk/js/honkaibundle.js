@@ -168,8 +168,56 @@ searchBarInput.addEventListener("keyup", function(event) {
 });
 
 var ValkyrieLength = Valkyries.length;
+var TypeTotalMech = 0;
+var TypeTotalBio = 0;
+var TypeTotalPsy = 0;
+var TypeTotalQua = 0;
+var TypeTotalImg = 0;
+var AwakeningTotal = 0;
+var NonAwakeningTotal = 0;
+
+window.onload = function() {
+    totalTypeStats();
+}
+
 //console.log("ValkyrieLength: " + ValkyrieLength);
 document.getElementById("ValkyrieLength").innerHTML = ValkyrieLength;
+
+function totalTypeStats(){
+    for (var i=0; i<ValkyrieLength; i++) {
+        // Total of each type
+        if (Valkyries[i].type=="Mecha"){
+            TypeTotalMech++;
+        }
+        if (Valkyries[i].type=="Biologic"){
+            TypeTotalBio++;
+        }
+        if (Valkyries[i].type=="Psychic"){
+            TypeTotalPsy++;
+        }
+        if (Valkyries[i].type=="Quantum"){
+            TypeTotalQua++;
+        }
+        if (Valkyries[i].type=="Imaginary"){
+            TypeTotalImg++;
+        }
+        // Total of Non-Awakening or Awakening
+        if (Valkyries[i].soul=="Awakening"){
+            AwakeningTotal++;
+        }
+        if (Valkyries[i].soul=="Original"){
+            NonAwakeningTotal++;
+        }
+
+    }
+    document.getElementById("TypeTotalMech").innerHTML = TypeTotalMech;
+    document.getElementById("TypeTotalBio").innerHTML = TypeTotalBio;
+    document.getElementById("TypeTotalPsy").innerHTML = TypeTotalPsy;
+    document.getElementById("TypeTotalQua").innerHTML = TypeTotalQua;
+    document.getElementById("TypeTotalImg").innerHTML = TypeTotalImg;
+    document.getElementById("AwakeningTotal").innerHTML = AwakeningTotal;
+    document.getElementById("NonAwakeningTotal").innerHTML = NonAwakeningTotal;
+}
 
 var searchResultCounter = 0;
 
@@ -264,24 +312,24 @@ function templateInfo(data, i) {
     fragdropinfos = getFragDropInfos(fragdropinfoLength, fragdropinfos, Valkyries, i);
 
     dataResult += "<div class='content'>";
-        dataResult += "<div class='columns'>";
-            dataResult += "<div class='column is-11'>";
+        dataResult += "<div class='columns is-mobile'>";
+            dataResult += "<div class='column is-10'>";
                 dataResult += "<h1>" + Valkyries[i].battlesuit + "</h1>";
                 dataResult += "<h2>" + Valkyries[i].firstname + " " + Valkyries[i].lastname + "</h2>";
                 dataResult += "<p class='tagList'>" + tags + "</p>";
             dataResult += "</div>";
 
-            dataResult += "<div class='column'>";
+            dataResult += "<div class='column is-2'>";
                 if (Valkyries[i].type == "Mecha") {
-                    dataResult += "<img class='typeimg' src='img/MECH.png' title='" + Valkyries[i].type + "'>";
+                    dataResult += "<img class='typeicon' src='img/MECH.png' title='" + Valkyries[i].type + "'>";
                 } else if (Valkyries[i].type == "Biologic") {
-                    dataResult += "<img class='typeimg' src='img/BIO.png' title='" + Valkyries[i].type + "'>";
+                    dataResult += "<img class='typeicon' src='img/BIO.png' title='" + Valkyries[i].type + "'>";
                 } else if (Valkyries[i].type == "Psychic") {
-                    dataResult += "<img class='typeimg' src='img/PSY.png' title='" + Valkyries[i].type + "'>";
+                    dataResult += "<img class='typeicon' src='img/PSY.png' title='" + Valkyries[i].type + "'>";
                 } else if (Valkyries[i].type == "Quantum") {
-                    dataResult += "<img class='typeimg' src='img/QUA.png' title='" + Valkyries[i].type + "'>";
+                    dataResult += "<img class='typeicon' src='img/QUA.png' title='" + Valkyries[i].type + "'>";
                 } else if (Valkyries[i].type == "Imaginary") {
-                    dataResult += "<img class='typeimg' src='img/IMG.png' title='" + Valkyries[i].type + "'>";
+                    dataResult += "<img class='typeicon' src='img/IMG.png' title='" + Valkyries[i].type + "'>";
                 } else {
                     dataResult += "<img class='typeimg' src='img/NONE.png' title='" + Valkyries[i].type + "'>";
                 }
