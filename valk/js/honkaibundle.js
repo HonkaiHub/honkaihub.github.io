@@ -428,7 +428,7 @@ module.exports={
         "DuDu",
         "DooDoo"
     ],
-    "type": "Mecha",
+    "type": "Imaginary",
     "soul": "Awakening",
     "firstname": "Bianka",
     "lastname": "Ataegina",
