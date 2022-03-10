@@ -3,6 +3,7 @@ var Fischl = require("../json/aLimited/Fischl.json");
 
 var BrightKnightExcelsis = require("../json/BA/BrightKnightExcelsis.json");
 var DeaAnchora = require("../json/BA/DeaAnchora.json");
+var PalatinusEquinox = require("../json/BA/PalatinusEquinox.json");
 var ValkyrieGloria = require("../json/BA/ValkyrieGloria.json");
 
 var BlackNucleus = require("../json/BZ/BlackNucleus.json");
@@ -60,6 +61,7 @@ var MolotovCherry = require("../json/RO/MolotovCherry.json");
 var ArgentKnight = require("../json/RR/ArgentKnight.json");
 var FallenRosemary = require("../json/RR/FallenRosemary.json");
 var PhantomIron = require("../json/RR/PhantomIron.json");
+var SpinaAstera = require("../json/RR/SpinaAstera.json");
 var UmbralRose = require("../json/RR/UmbralRose.json");
 
 var StarchasmNyx = require("../json/SV/StarchasmNyx.json");
@@ -114,6 +116,7 @@ var Valkyries = [
     MissPinkElf,
     MolotovCherry,
     NightSquire,
+    PalatinusEquinox,
     PhantomIron,
     Phoenix,
     SakunoRondo,
@@ -122,6 +125,7 @@ var Valkyries = [
     ShadowKnight,
     SixthSerenade,
     SnowySniper,
+    SpinaAstera,
     StarchasmNyx,
     StarlitAstrologos,
     StygianNymph,
