@@ -2,84 +2,84 @@
 var BlazingHope = require("../json/aLimited/BlazingHope.json");
 var Fischl = require("../json/aLimited/Fischl.json");
 
-var BrightKnightExcelsis = require("../json/BA/BrightKnightExcelsis.json");
-var DeaAnchora = require("../json/BA/DeaAnchora.json");
-var PalatinusEquinox = require("../json/BA/PalatinusEquinox.json");
-var ValkyrieGloria = require("../json/BA/ValkyrieGloria.json");
+var BrightKnightExcelsis = require("../json/BiankaAtaegina/BrightKnightExcelsis.json");
+var DeaAnchora = require("../json/BiankaAtaegina/DeaAnchora.json");
+var PalatinusEquinox = require("../json/BiankaAtaegina/PalatinusEquinox.json");
+var ValkyrieGloria = require("../json/BiankaAtaegina/ValkyrieGloria.json");
 
-var BlackNucleus = require("../json/BZ/BlackNucleus.json");
-var DimensionBreaker = require("../json/BZ/DimensionBreaker.json");
-var HaxxorBunny = require("../json/BZ/HaxxorBunny.json");
-var HerrscherOfReason = require("../json/BZ/HerrscherOfReason.json");
-var SnowySniper = require("../json/BZ/SnowySniper.json");
-var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
-var WolfsDawn = require("../json/BZ/WolfsDawn.json");
-var YamabukiArmor = require("../json/BZ/YamabukiArmor.json");
+var BlackNucleus = require("../json/BronyaZaychik/BlackNucleus.json");
+var DimensionBreaker = require("../json/BronyaZaychik/DimensionBreaker.json");
+var HaxxorBunny = require("../json/BronyaZaychik/HaxxorBunny.json");
+var HerrscherOfReason = require("../json/BronyaZaychik/HerrscherOfReason.json");
+var SnowySniper = require("../json/BronyaZaychik/SnowySniper.json");
+var ValkyrieChariot = require("../json/BronyaZaychik/ValkyrieChariot.json");
+var WolfsDawn = require("../json/BronyaZaychik/WolfsDawn.json");
+var YamabukiArmor = require("../json/BronyaZaychik/YamabukiArmor.json");
 
 var SweetNSpicy = require("../json/CarolePeppers/SweetNSpicy.json");
 
-var MidnightAbsinthe = require("../json/Cioara/MidnightAbsinthe.json");
-
 var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
 
-var AzureEmpyrea = require("../json/FH/AzureEmpyrea.json");
-var HerrscherOfSentience = require("../json/FH/HerrscherOfSentience.json");
-var NightSquire = require("../json/FH/NightSquire.json");
-var Phoenix = require("../json/FH/Phoenix.json");
-var ShadowKnight = require("../json/FH/ShadowKnight.json");
-var ValkyrieAccipiter = require("../json/FH/ValkyrieAccipiter.json");
+var AzureEmpyrea = require("../json/FuHua/AzureEmpyrea.json");
+var HerrscherOfSentience = require("../json/FuHua/HerrscherOfSentience.json");
+var NightSquire = require("../json/FuHua/NightSquire.json");
+var Phoenix = require("../json/FuHua/Phoenix.json");
+var ShadowKnight = require("../json/FuHua/ShadowKnight.json");
+var ValkyrieAccipiter = require("../json/FuHua/ValkyrieAccipiter.json");
 
-var ImayohRitual = require("../json/KA/ImayohRitual.json");
-var SixthSerenade = require("../json/KA/SixthSerenade.json");
-var Sundenjager = require("../json/KA/Sundenjager.json");
+var ArcticKriegsmesser = require("../json/HimekoMurata/ArcticKriegsmesser.json");
+var BattleStorm = require("../json/HimekoMurata/BattleStorm.json");
+var BloodRose = require("../json/HimekoMurata/BloodRose.json");
+var ScarletFusion = require("../json/HimekoMurata/ScarletFusion.json");
+var ValkyrieTriumph = require("../json/HimekoMurata/ValkyrieTriumph.json");
+var VermilionKnight = require("../json/HimekoMurata/VermilionKnight.json");
 
-var DivinePrayer = require("../json/KK/DivinePrayer.json");
-var HerrscherOfFlamescion = require("../json/KK/HerrscherOfFlamescion.json");
-var HerrscherOfTheVoid = require("../json/KK/HerrscherOfTheVoid.json");
-var KnightMoonbeam = require("../json/KK/KnightMoonbeam.json");
-var ValkyrieRanger = require("../json/KK/ValkyrieRanger.json");
-var WhiteComet = require("../json/KK/WhiteComet.json");
+var ImayohRitual = require("../json/KallenKaslana/ImayohRitual.json");
+var SixthSerenade = require("../json/KallenKaslana/SixthSerenade.json");
+var Sundenjager = require("../json/KallenKaslana/Sundenjager.json");
 
-var BlueberryBlitz = require("../json/LO/BlueberryBlitz.json");
+var DivinePrayer = require("../json/KianaKaslana/DivinePrayer.json");
+var HerrscherOfFlamescion = require("../json/KianaKaslana/HerrscherOfFlamescion.json");
+var HerrscherOfTheVoid = require("../json/KianaKaslana/HerrscherOfTheVoid.json");
+var KnightMoonbeam = require("../json/KianaKaslana/KnightMoonbeam.json");
+var ValkyrieRanger = require("../json/KianaKaslana/ValkyrieRanger.json");
+var WhiteComet = require("../json/KianaKaslana/WhiteComet.json");
 
-var ArcticKriegsmesser = require("../json/MH/ArcticKriegsmesser.json");
-var BattleStorm = require("../json/MH/BattleStorm.json");
-var BloodRose = require("../json/MH/BloodRose.json");
-var ScarletFusion = require("../json/MH/ScarletFusion.json");
-var ValkyrieTriumph = require("../json/MH/ValkyrieTriumph.json");
-var VermilionKnight = require("../json/MH/VermilionKnight.json");
+var BlueberryBlitz = require("../json/LiliyaOlenyeva/BlueberryBlitz.json");
+
+var CrimsonImpulse = require("../json/MeiRaiden/CrimsonImpulse.json");
+var HerrscherOfThunder = require("../json/MeiRaiden/HerrscherOfThunder.json");
+var LightningEmpress = require("../json/MeiRaiden/LightningEmpress.json");
+var ShadowDash = require("../json/MeiRaiden/ShadowDash.json");
+var ValkyrieBladestrike = require("../json/MeiRaiden/ValkyrieBladestrike.json");
 
 var InfiniteOuroboros = require("../json/Mobius/InfiniteOuroboros.json");
 
-var CrimsonImpulse = require("../json/RM/CrimsonImpulse.json");
-var HerrscherOfThunder = require("../json/RM/HerrscherOfThunder.json");
-var LightningEmpress = require("../json/RM/LightningEmpress.json");
-var ShadowDash = require("../json/RM/ShadowDash.json");
-var ValkyrieBladestrike = require("../json/RM/ValkyrieBladestrike.json");
+var MidnightAbsinthe = require("../json/NatashaCioara/MidnightAbsinthe.json");
 
-var MolotovCherry = require("../json/RO/MolotovCherry.json");
+var ArgentKnight = require("../json/RitaRossweisse/ArgentKnight.json");
+var FallenRosemary = require("../json/RitaRossweisse/FallenRosemary.json");
+var PhantomIron = require("../json/RitaRossweisse/PhantomIron.json");
+var SpinaAstera = require("../json/RitaRossweisse/SpinaAstera.json");
+var UmbralRose = require("../json/RitaRossweisse/UmbralRose.json");
 
-var ArgentKnight = require("../json/RR/ArgentKnight.json");
-var FallenRosemary = require("../json/RR/FallenRosemary.json");
-var PhantomIron = require("../json/RR/PhantomIron.json");
-var SpinaAstera = require("../json/RR/SpinaAstera.json");
-var UmbralRose = require("../json/RR/UmbralRose.json");
+var MolotovCherry = require("../json/RozaliyaOlenyeva/MolotovCherry.json");
 
-var StarchasmNyx = require("../json/SV/StarchasmNyx.json");
-var StygianNymph = require("../json/SV/StygianNymph.json");
-var SwallowtailPhantasm = require("../json/SV/SwallowtailPhantasm.json");
+var StarchasmNyx = require("../json/SeeleVollerei/StarchasmNyx.json");
+var StygianNymph = require("../json/SeeleVollerei/StygianNymph.json");
+var SwallowtailPhantasm = require("../json/SeeleVollerei/SwallowtailPhantasm.json");
 
-var CelestialHymn = require("../json/TA/CelestialHymn.json");
-var LunaKindred = require("../json/TA/LunaKindred.json");
-var SakunoRondo = require("../json/TA/SakunoRondo.json");
-var StarlitAstrologos = require("../json/TA/StarlitAstrologos.json");
-var ValkyriePledge = require("../json/TA/ValkyriePledge.json");
-var VioletExecuter = require("../json/TA/VioletExecuter.json");
+var CelestialHymn = require("../json/TheresaApocalypse/CelestialHymn.json");
+var LunaKindred = require("../json/TheresaApocalypse/LunaKindred.json");
+var SakunoRondo = require("../json/TheresaApocalypse/SakunoRondo.json");
+var StarlitAstrologos = require("../json/TheresaApocalypse/StarlitAstrologos.json");
+var ValkyriePledge = require("../json/TheresaApocalypse/ValkyriePledge.json");
+var VioletExecuter = require("../json/TheresaApocalypse/VioletExecuter.json");
 
-var DarkBoltJonin = require("../json/YS/DarkBoltJonin.json");
-var FlameSakitama = require("../json/YS/FlameSakitama.json");
-var GoushinnsoMemento = require("../json/YS/GoushinnsoMemento.json");
-var GyakushinnMiko = require("../json/YS/GyakushinnMiko.json");
+var DarkBoltJonin = require("../json/YaeSakura/DarkBoltJonin.json");
+var FlameSakitama = require("../json/YaeSakura/FlameSakitama.json");
+var GoushinnsoMemento = require("../json/YaeSakura/GoushinnsoMemento.json");
+var GyakushinnMiko = require("../json/YaeSakura/GyakushinnMiko.json");
 
 var Valkyries = [
     ArcticKriegsmesser,
@@ -423,7 +423,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/BA/BrightKnightExcelsis.json":2,"../json/BA/DeaAnchora.json":3,"../json/BA/PalatinusEquinox.json":4,"../json/BA/ValkyrieGloria.json":5,"../json/BZ/BlackNucleus.json":6,"../json/BZ/DimensionBreaker.json":7,"../json/BZ/HaxxorBunny.json":8,"../json/BZ/HerrscherOfReason.json":9,"../json/BZ/SnowySniper.json":10,"../json/BZ/ValkyrieChariot.json":11,"../json/BZ/WolfsDawn.json":12,"../json/BZ/YamabukiArmor.json":13,"../json/CarolePeppers/SweetNSpicy.json":14,"../json/Cioara/MidnightAbsinthe.json":15,"../json/Elysia/MissPinkElf.json":16,"../json/FH/AzureEmpyrea.json":17,"../json/FH/HerrscherOfSentience.json":18,"../json/FH/NightSquire.json":19,"../json/FH/Phoenix.json":20,"../json/FH/ShadowKnight.json":21,"../json/FH/ValkyrieAccipiter.json":22,"../json/KA/ImayohRitual.json":23,"../json/KA/SixthSerenade.json":24,"../json/KA/Sundenjager.json":25,"../json/KK/DivinePrayer.json":26,"../json/KK/HerrscherOfFlamescion.json":27,"../json/KK/HerrscherOfTheVoid.json":28,"../json/KK/KnightMoonbeam.json":29,"../json/KK/ValkyrieRanger.json":30,"../json/KK/WhiteComet.json":31,"../json/LO/BlueberryBlitz.json":32,"../json/MH/ArcticKriegsmesser.json":33,"../json/MH/BattleStorm.json":34,"../json/MH/BloodRose.json":35,"../json/MH/ScarletFusion.json":36,"../json/MH/ValkyrieTriumph.json":37,"../json/MH/VermilionKnight.json":38,"../json/Mobius/InfiniteOuroboros.json":39,"../json/RM/CrimsonImpulse.json":40,"../json/RM/HerrscherOfThunder.json":41,"../json/RM/LightningEmpress.json":42,"../json/RM/ShadowDash.json":43,"../json/RM/ValkyrieBladestrike.json":44,"../json/RO/MolotovCherry.json":45,"../json/RR/ArgentKnight.json":46,"../json/RR/FallenRosemary.json":47,"../json/RR/PhantomIron.json":48,"../json/RR/SpinaAstera.json":49,"../json/RR/UmbralRose.json":50,"../json/SV/StarchasmNyx.json":51,"../json/SV/StygianNymph.json":52,"../json/SV/SwallowtailPhantasm.json":53,"../json/TA/CelestialHymn.json":54,"../json/TA/LunaKindred.json":55,"../json/TA/SakunoRondo.json":56,"../json/TA/StarlitAstrologos.json":57,"../json/TA/ValkyriePledge.json":58,"../json/TA/VioletExecuter.json":59,"../json/YS/DarkBoltJonin.json":60,"../json/YS/FlameSakitama.json":61,"../json/YS/GoushinnsoMemento.json":62,"../json/YS/GyakushinnMiko.json":63,"../json/aLimited/BlazingHope.json":64,"../json/aLimited/Fischl.json":65}],2:[function(require,module,exports){
+},{"../json/BiankaAtaegina/BrightKnightExcelsis.json":2,"../json/BiankaAtaegina/DeaAnchora.json":3,"../json/BiankaAtaegina/PalatinusEquinox.json":4,"../json/BiankaAtaegina/ValkyrieGloria.json":5,"../json/BronyaZaychik/BlackNucleus.json":6,"../json/BronyaZaychik/DimensionBreaker.json":7,"../json/BronyaZaychik/HaxxorBunny.json":8,"../json/BronyaZaychik/HerrscherOfReason.json":9,"../json/BronyaZaychik/SnowySniper.json":10,"../json/BronyaZaychik/ValkyrieChariot.json":11,"../json/BronyaZaychik/WolfsDawn.json":12,"../json/BronyaZaychik/YamabukiArmor.json":13,"../json/CarolePeppers/SweetNSpicy.json":14,"../json/Elysia/MissPinkElf.json":15,"../json/FuHua/AzureEmpyrea.json":16,"../json/FuHua/HerrscherOfSentience.json":17,"../json/FuHua/NightSquire.json":18,"../json/FuHua/Phoenix.json":19,"../json/FuHua/ShadowKnight.json":20,"../json/FuHua/ValkyrieAccipiter.json":21,"../json/HimekoMurata/ArcticKriegsmesser.json":22,"../json/HimekoMurata/BattleStorm.json":23,"../json/HimekoMurata/BloodRose.json":24,"../json/HimekoMurata/ScarletFusion.json":25,"../json/HimekoMurata/ValkyrieTriumph.json":26,"../json/HimekoMurata/VermilionKnight.json":27,"../json/KallenKaslana/ImayohRitual.json":28,"../json/KallenKaslana/SixthSerenade.json":29,"../json/KallenKaslana/Sundenjager.json":30,"../json/KianaKaslana/DivinePrayer.json":31,"../json/KianaKaslana/HerrscherOfFlamescion.json":32,"../json/KianaKaslana/HerrscherOfTheVoid.json":33,"../json/KianaKaslana/KnightMoonbeam.json":34,"../json/KianaKaslana/ValkyrieRanger.json":35,"../json/KianaKaslana/WhiteComet.json":36,"../json/LiliyaOlenyeva/BlueberryBlitz.json":37,"../json/MeiRaiden/CrimsonImpulse.json":38,"../json/MeiRaiden/HerrscherOfThunder.json":39,"../json/MeiRaiden/LightningEmpress.json":40,"../json/MeiRaiden/ShadowDash.json":41,"../json/MeiRaiden/ValkyrieBladestrike.json":42,"../json/Mobius/InfiniteOuroboros.json":43,"../json/NatashaCioara/MidnightAbsinthe.json":44,"../json/RitaRossweisse/ArgentKnight.json":45,"../json/RitaRossweisse/FallenRosemary.json":46,"../json/RitaRossweisse/PhantomIron.json":47,"../json/RitaRossweisse/SpinaAstera.json":48,"../json/RitaRossweisse/UmbralRose.json":49,"../json/RozaliyaOlenyeva/MolotovCherry.json":50,"../json/SeeleVollerei/StarchasmNyx.json":51,"../json/SeeleVollerei/StygianNymph.json":52,"../json/SeeleVollerei/SwallowtailPhantasm.json":53,"../json/TheresaApocalypse/CelestialHymn.json":54,"../json/TheresaApocalypse/LunaKindred.json":55,"../json/TheresaApocalypse/SakunoRondo.json":56,"../json/TheresaApocalypse/StarlitAstrologos.json":57,"../json/TheresaApocalypse/ValkyriePledge.json":58,"../json/TheresaApocalypse/VioletExecuter.json":59,"../json/YaeSakura/DarkBoltJonin.json":60,"../json/YaeSakura/FlameSakitama.json":61,"../json/YaeSakura/GoushinnsoMemento.json":62,"../json/YaeSakura/GyakushinnMiko.json":63,"../json/aLimited/BlazingHope.json":64,"../json/aLimited/Fischl.json":65}],2:[function(require,module,exports){
 module.exports={
     "battlesuit": "Bright Knight Excelsis",
     "tag": [
@@ -742,32 +742,6 @@ module.exports={
 
 },{}],15:[function(require,module,exports){
 module.exports={
-    "battlesuit": "Midnight Absinthe",
-    "tag": [
-        "MA",
-        "Raven"
-    ],
-    "type": "Imaginary",
-    "soul": "Original",
-    "firstname": "Natasha",
-    "lastname": "Cioara",
-    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102216343598492.png",
-    "birthday": "",
-    "weapon": "Bows",
-    "costume": [
-        "Midnight Absinthe",
-        "Absinthe Dream"
-    ],
-    "fragdropinfo": [
-        "Supply Shop",
-        "Elysian Shop",
-        "Expansion Battlesuit Supply",
-        "Open World - Adventure Tasks"
-    ]
-}
-
-},{}],16:[function(require,module,exports){
-module.exports={
     "battlesuit": "Miss Pink Elf",
     "tag": [
         "Elysia",
@@ -789,7 +763,7 @@ module.exports={
     ]
 }
 
-},{}],17:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 module.exports={
     "battlesuit": "Azure Empyrea",
     "tag": [
@@ -811,7 +785,7 @@ module.exports={
     ]
 }
 
-},{}],18:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher of Sentience",
     "tag": [
@@ -833,7 +807,7 @@ module.exports={
     ]
 }
 
-},{}],19:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 module.exports={
     "battlesuit": "Night Squire",
     "tag": [
@@ -861,7 +835,7 @@ module.exports={
     ]
 }
 
-},{}],20:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
     "battlesuit": "Phoenix",
     "tag": [
@@ -884,7 +858,7 @@ module.exports={
     ]
 }
 
-},{}],21:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports={
     "battlesuit": "Shadow Knight",
     "tag": [
@@ -905,7 +879,7 @@ module.exports={
     ]
 }
 
-},{}],22:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Accipiter",
     "tag": [
@@ -935,7 +909,155 @@ module.exports={
     ]
 }
 
+},{}],22:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Artic Kriegsmesser",
+    "tag": [
+        "AK"
+    ],
+    "type": "Psychic",
+    "soul": "Original",
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/af/Arctic_Kriegsmesser.png/450px-Arctic_Kriegsmesser.png",
+    "birthday": "June 11th",
+    "weapon": "Greatswords",
+    "costume": [
+        "Artic Kriegsmesser",
+        "Frisian Cutlass"
+    ],
+    "fragdropinfo": [
+        "Asterite Shop"
+    ]
+}
+
 },{}],23:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Battle Storm",
+    "tag": [
+        "BS"
+    ],
+    "type": "Biologic",
+    "soul": "Original",
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/2b/Battle_Storm.png/450px-Battle_Storm.png",
+    "birthday": "June 11th",
+    "weapon": "Greatswords",
+    "costume": [
+        "Battle Storm",
+        "Black Mamba"
+    ],
+    "fragdropinfo": [
+        "Sakura Samsara: Adventure Tasks",
+        "Story 3-5 (H)",
+        "Story 3-12 (H)",
+        "Story S4-10 (H)",
+        "Story S3-11 (S)"
+    ]
+}
+
+},{}],24:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Blood Rose",
+    "tag": [
+        "BR"
+    ],
+    "type": "Psychic",
+    "soul": "Original",
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4f/Blood_Rose.png/450px-Blood_Rose.png",
+    "birthday": "June 11th",
+    "weapon": "Greatswords",
+    "costume": [
+        "Blood Rose",
+        "Night Enchantress",
+        "Rosy Passion",
+        "Black Mamba"
+    ],
+    "fragdropinfo": [
+        "War Treasury"
+    ]
+}
+
+},{}],25:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Scarlet Fusion",
+    "tag": [
+        "SF"
+    ],
+    "type": "Mecha",
+    "soul": "Original",
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/54/Scarlet_Fusion.png/450px-Scarlet_Fusion.png",
+    "birthday": "June 11th",
+    "weapon": "Greatswords",
+    "costume": [
+        "Scarlet Fusion",
+        "Summer Party",
+        "Origin",
+        "Black Mamba"
+    ],
+    "fragdropinfo": [
+        "Sakura Samsara: Adventure Tasks",
+        "Story 4-6 (H)",
+        "Story 2-20 (S)",
+        "Story 4-9 (S)",
+        "Story 5-6 (S)"
+    ]
+}
+
+},{}],26:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Valkyrie Triumph",
+    "tag": [
+        "VT"
+    ],
+    "type": "Biologic",
+    "soul": "Original",
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/02/Valkyrie_Triumph.png/450px-Valkyrie_Triumph.png",
+    "birthday": "June 11th",
+    "weapon": "Greatswords",
+    "costume": [
+        "Valkyrie Triumph",
+        "Black Mamba"
+    ],
+    "fragdropinfo": [
+        "Sakura Samsara: Adventure Tasks",
+        "Story 4-3 (H)",
+        "Story 4-19 (H)",
+        "Story 7-2 (H)",
+        "Story 4-19 (S)"
+    ]
+}
+
+},{}],27:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Vermilion Knight",
+    "tag": [
+        "VK"
+    ],
+    "type": "Mecha",
+    "soul": "Original",
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4c/Vermilion_Knight_-_Eclipse.png/450px-Vermilion_Knight_-_Eclipse.png",
+    "birthday": "June 11th",
+    "weapon": "Greatswords",
+    "costume": [
+        "Vermilion Knight: Eclipse",
+        "Rouged Mayumi",
+        "Vernal Brocade"
+    ],
+    "fragdropinfo": [
+    ]
+}
+
+},{}],28:[function(require,module,exports){
 module.exports={
     "battlesuit": "Imayoh Ritual",
     "tag": [
@@ -960,7 +1082,7 @@ module.exports={
     ]
 }
 
-},{}],24:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 module.exports={
     "battlesuit": "Sixth Serenade",
     "tag": [
@@ -981,7 +1103,7 @@ module.exports={
     ]
 }
 
-},{}],25:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
     "battlesuit": "Sundenjager",
     "tag": [
@@ -1004,7 +1126,7 @@ module.exports={
     ]
 }
 
-},{}],26:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 module.exports={
     "battlesuit": "Divine Prayer",
     "tag": [
@@ -1033,7 +1155,7 @@ module.exports={
     ]
 }
 
-},{}],27:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher Of Flamescion",
     "tag": [
@@ -1056,7 +1178,7 @@ module.exports={
     ]
 }
 
-},{}],28:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher of the Void",
     "tag": [
@@ -1082,7 +1204,7 @@ module.exports={
     ]
 }
 
-},{}],29:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 module.exports={
     "battlesuit": "Knight Moonbeam",
     "tag": [
@@ -1107,7 +1229,7 @@ module.exports={
     ]
 }
 
-},{}],30:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Ranger",
     "tag": [
@@ -1138,7 +1260,7 @@ module.exports={
     ]
 }
 
-},{}],31:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 module.exports={
     "battlesuit": "White Comet",
     "tag": [
@@ -1167,7 +1289,7 @@ module.exports={
     ]
 }
 
-},{}],32:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 module.exports={
     "battlesuit": "Blueberry Blitz",
     "tag": [
@@ -1195,175 +1317,7 @@ module.exports={
     ]
 }
 
-},{}],33:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Artic Kriegsmesser",
-    "tag": [
-        "AK"
-    ],
-    "type": "Psychic",
-    "soul": "Original",
-    "firstname": "Himeko",
-    "lastname": "Murata",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/af/Arctic_Kriegsmesser.png/450px-Arctic_Kriegsmesser.png",
-    "birthday": "June 11th",
-    "weapon": "Greatswords",
-    "costume": [
-        "Artic Kriegsmesser",
-        "Frisian Cutlass"
-    ],
-    "fragdropinfo": [
-        "Asterite Shop"
-    ]
-}
-
-},{}],34:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Battle Storm",
-    "tag": [
-        "BS"
-    ],
-    "type": "Biologic",
-    "soul": "Original",
-    "firstname": "Himeko",
-    "lastname": "Murata",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/2b/Battle_Storm.png/450px-Battle_Storm.png",
-    "birthday": "June 11th",
-    "weapon": "Greatswords",
-    "costume": [
-        "Battle Storm",
-        "Black Mamba"
-    ],
-    "fragdropinfo": [
-        "Sakura Samsara: Adventure Tasks",
-        "Story 3-5 (H)",
-        "Story 3-12 (H)",
-        "Story S4-10 (H)",
-        "Story S3-11 (S)"
-    ]
-}
-
-},{}],35:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Blood Rose",
-    "tag": [
-        "BR"
-    ],
-    "type": "Psychic",
-    "soul": "Original",
-    "firstname": "Himeko",
-    "lastname": "Murata",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4f/Blood_Rose.png/450px-Blood_Rose.png",
-    "birthday": "June 11th",
-    "weapon": "Greatswords",
-    "costume": [
-        "Blood Rose",
-        "Night Enchantress",
-        "Rosy Passion",
-        "Black Mamba"
-    ],
-    "fragdropinfo": [
-        "War Treasury"
-    ]
-}
-
-},{}],36:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Scarlet Fusion",
-    "tag": [
-        "SF"
-    ],
-    "type": "Mecha",
-    "soul": "Original",
-    "firstname": "Himeko",
-    "lastname": "Murata",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/54/Scarlet_Fusion.png/450px-Scarlet_Fusion.png",
-    "birthday": "June 11th",
-    "weapon": "Greatswords",
-    "costume": [
-        "Scarlet Fusion",
-        "Summer Party",
-        "Origin",
-        "Black Mamba"
-    ],
-    "fragdropinfo": [
-        "Sakura Samsara: Adventure Tasks",
-        "Story 4-6 (H)",
-        "Story 2-20 (S)",
-        "Story 4-9 (S)",
-        "Story 5-6 (S)"
-    ]
-}
-
-},{}],37:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Valkyrie Triumph",
-    "tag": [
-        "VT"
-    ],
-    "type": "Biologic",
-    "soul": "Original",
-    "firstname": "Himeko",
-    "lastname": "Murata",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/02/Valkyrie_Triumph.png/450px-Valkyrie_Triumph.png",
-    "birthday": "June 11th",
-    "weapon": "Greatswords",
-    "costume": [
-        "Valkyrie Triumph",
-        "Black Mamba"
-    ],
-    "fragdropinfo": [
-        "Sakura Samsara: Adventure Tasks",
-        "Story 4-3 (H)",
-        "Story 4-19 (H)",
-        "Story 7-2 (H)",
-        "Story 4-19 (S)"
-    ]
-}
-
 },{}],38:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Vermilion Knight",
-    "tag": [
-        "VK"
-    ],
-    "type": "Mecha",
-    "soul": "Original",
-    "firstname": "Himeko",
-    "lastname": "Murata",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4c/Vermilion_Knight_-_Eclipse.png/450px-Vermilion_Knight_-_Eclipse.png",
-    "birthday": "June 11th",
-    "weapon": "Greatswords",
-    "costume": [
-        "Vermilion Knight: Eclipse",
-        "Rouged Mayumi",
-        "Vernal Brocade"
-    ],
-    "fragdropinfo": [
-    ]
-}
-
-},{}],39:[function(require,module,exports){
-module.exports={
-    "battlesuit": "Infinite Ouroboros",
-    "tag": [
-        "IO"
-    ],
-    "type": "Mecha",
-    "soul": "Original",
-    "firstname": "Mobius",
-    "lastname": "",
-    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102215161426682.png",
-    "birthday": "",
-    "weapon": "Crosses",
-    "costume": [
-        "Infinite Ouroboros"
-    ],
-    "fragdropinfo": [
-    ]
-}
-
-},{}],40:[function(require,module,exports){
 module.exports={
     "battlesuit": "Crimson Impulse",
     "tag": [
@@ -1390,7 +1344,7 @@ module.exports={
     ]
 }
 
-},{}],41:[function(require,module,exports){
+},{}],39:[function(require,module,exports){
 module.exports={
     "battlesuit": "Herrscher of Thunder",
     "tag": [
@@ -1415,7 +1369,7 @@ module.exports={
     ]
 }
 
-},{}],42:[function(require,module,exports){
+},{}],40:[function(require,module,exports){
 module.exports={
     "battlesuit": "Lightning Empress",
     "tag": [
@@ -1441,7 +1395,7 @@ module.exports={
     ]
 }
 
-},{}],43:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 module.exports={
     "battlesuit": "Shadow Dash",
     "tag": [
@@ -1472,7 +1426,7 @@ module.exports={
     ]
 }
 
-},{}],44:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 module.exports={
     "battlesuit": "Valkyrie Bladestrike",
     "tag": [
@@ -1503,33 +1457,53 @@ module.exports={
     ]
 }
 
-},{}],45:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 module.exports={
-    "battlesuit": "Molotov Cherry",
+    "battlesuit": "Infinite Ouroboros",
     "tag": [
-        "MC", 
-        "FT"
+        "IO"
     ],
-    "type": "Psychic",
+    "type": "Mecha",
     "soul": "Original",
-    "firstname": "Rozaliya",
-    "lastname": "Olenyeva",
-    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/be/Molotov_Cherry.png/450px-Molotov_Cherry.png",
-    "birthday": "Unknown",
-    "weapon": "Greatswords",
+    "firstname": "Mobius",
+    "lastname": "",
+    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102215161426682.png",
+    "birthday": "",
+    "weapon": "Crosses",
     "costume": [
-        "Molotov Cherry",
-        "Coral Sunrise",
-        "Fervent Tempo",
-        "Gothic Rozamary",
-        "Violet Dreamscape"
+        "Infinite Ouroboros"
     ],
     "fragdropinfo": [
-        "War Treasury"
     ]
 }
 
-},{}],46:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Midnight Absinthe",
+    "tag": [
+        "MA",
+        "Raven"
+    ],
+    "type": "Imaginary",
+    "soul": "Original",
+    "firstname": "Natasha",
+    "lastname": "Cioara",
+    "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102216343598492.png",
+    "birthday": "",
+    "weapon": "Bows",
+    "costume": [
+        "Midnight Absinthe",
+        "Absinthe Dream"
+    ],
+    "fragdropinfo": [
+        "Supply Shop",
+        "Elysian Shop",
+        "Expansion Battlesuit Supply",
+        "Open World - Adventure Tasks"
+    ]
+}
+
+},{}],45:[function(require,module,exports){
 module.exports={
     "battlesuit": "Argent Knight",
     "tag": [
@@ -1553,7 +1527,7 @@ module.exports={
     ]
 }
 
-},{}],47:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 module.exports={
     "battlesuit": "Fallen Rosemary",
     "tag": [
@@ -1575,7 +1549,7 @@ module.exports={
     ]
 }
 
-},{}],48:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 module.exports={
     "battlesuit": "Phantom Iron",
     "tag": [
@@ -1600,7 +1574,7 @@ module.exports={
     ]
 }
 
-},{}],49:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 module.exports={
     "battlesuit": "Spina Astera",
     "tag": [
@@ -1620,7 +1594,7 @@ module.exports={
     ]
 }
 
-},{}],50:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 module.exports={
     "battlesuit": "Umbral Rose",
     "tag": [
@@ -1645,6 +1619,32 @@ module.exports={
         "Story 3-4 (S)",
         "Story 9-10 (H)",
         "Story 9-4 (S)"
+    ]
+}
+
+},{}],50:[function(require,module,exports){
+module.exports={
+    "battlesuit": "Molotov Cherry",
+    "tag": [
+        "MC", 
+        "FT"
+    ],
+    "type": "Psychic",
+    "soul": "Original",
+    "firstname": "Rozaliya",
+    "lastname": "Olenyeva",
+    "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/be/Molotov_Cherry.png/450px-Molotov_Cherry.png",
+    "birthday": "Unknown",
+    "weapon": "Greatswords",
+    "costume": [
+        "Molotov Cherry",
+        "Coral Sunrise",
+        "Fervent Tempo",
+        "Gothic Rozamary",
+        "Violet Dreamscape"
+    ],
+    "fragdropinfo": [
+        "War Treasury"
     ]
 }
 

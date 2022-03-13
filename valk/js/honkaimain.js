@@ -1,84 +1,84 @@
 var BlazingHope = require("../json/aLimited/BlazingHope.json");
 var Fischl = require("../json/aLimited/Fischl.json");
 
-var BrightKnightExcelsis = require("../json/BA/BrightKnightExcelsis.json");
-var DeaAnchora = require("../json/BA/DeaAnchora.json");
-var PalatinusEquinox = require("../json/BA/PalatinusEquinox.json");
-var ValkyrieGloria = require("../json/BA/ValkyrieGloria.json");
+var BrightKnightExcelsis = require("../json/BiankaAtaegina/BrightKnightExcelsis.json");
+var DeaAnchora = require("../json/BiankaAtaegina/DeaAnchora.json");
+var PalatinusEquinox = require("../json/BiankaAtaegina/PalatinusEquinox.json");
+var ValkyrieGloria = require("../json/BiankaAtaegina/ValkyrieGloria.json");
 
-var BlackNucleus = require("../json/BZ/BlackNucleus.json");
-var DimensionBreaker = require("../json/BZ/DimensionBreaker.json");
-var HaxxorBunny = require("../json/BZ/HaxxorBunny.json");
-var HerrscherOfReason = require("../json/BZ/HerrscherOfReason.json");
-var SnowySniper = require("../json/BZ/SnowySniper.json");
-var ValkyrieChariot = require("../json/BZ/ValkyrieChariot.json");
-var WolfsDawn = require("../json/BZ/WolfsDawn.json");
-var YamabukiArmor = require("../json/BZ/YamabukiArmor.json");
+var BlackNucleus = require("../json/BronyaZaychik/BlackNucleus.json");
+var DimensionBreaker = require("../json/BronyaZaychik/DimensionBreaker.json");
+var HaxxorBunny = require("../json/BronyaZaychik/HaxxorBunny.json");
+var HerrscherOfReason = require("../json/BronyaZaychik/HerrscherOfReason.json");
+var SnowySniper = require("../json/BronyaZaychik/SnowySniper.json");
+var ValkyrieChariot = require("../json/BronyaZaychik/ValkyrieChariot.json");
+var WolfsDawn = require("../json/BronyaZaychik/WolfsDawn.json");
+var YamabukiArmor = require("../json/BronyaZaychik/YamabukiArmor.json");
 
 var SweetNSpicy = require("../json/CarolePeppers/SweetNSpicy.json");
 
-var MidnightAbsinthe = require("../json/Cioara/MidnightAbsinthe.json");
-
 var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
 
-var AzureEmpyrea = require("../json/FH/AzureEmpyrea.json");
-var HerrscherOfSentience = require("../json/FH/HerrscherOfSentience.json");
-var NightSquire = require("../json/FH/NightSquire.json");
-var Phoenix = require("../json/FH/Phoenix.json");
-var ShadowKnight = require("../json/FH/ShadowKnight.json");
-var ValkyrieAccipiter = require("../json/FH/ValkyrieAccipiter.json");
+var AzureEmpyrea = require("../json/FuHua/AzureEmpyrea.json");
+var HerrscherOfSentience = require("../json/FuHua/HerrscherOfSentience.json");
+var NightSquire = require("../json/FuHua/NightSquire.json");
+var Phoenix = require("../json/FuHua/Phoenix.json");
+var ShadowKnight = require("../json/FuHua/ShadowKnight.json");
+var ValkyrieAccipiter = require("../json/FuHua/ValkyrieAccipiter.json");
 
-var ImayohRitual = require("../json/KA/ImayohRitual.json");
-var SixthSerenade = require("../json/KA/SixthSerenade.json");
-var Sundenjager = require("../json/KA/Sundenjager.json");
+var ArcticKriegsmesser = require("../json/HimekoMurata/ArcticKriegsmesser.json");
+var BattleStorm = require("../json/HimekoMurata/BattleStorm.json");
+var BloodRose = require("../json/HimekoMurata/BloodRose.json");
+var ScarletFusion = require("../json/HimekoMurata/ScarletFusion.json");
+var ValkyrieTriumph = require("../json/HimekoMurata/ValkyrieTriumph.json");
+var VermilionKnight = require("../json/HimekoMurata/VermilionKnight.json");
 
-var DivinePrayer = require("../json/KK/DivinePrayer.json");
-var HerrscherOfFlamescion = require("../json/KK/HerrscherOfFlamescion.json");
-var HerrscherOfTheVoid = require("../json/KK/HerrscherOfTheVoid.json");
-var KnightMoonbeam = require("../json/KK/KnightMoonbeam.json");
-var ValkyrieRanger = require("../json/KK/ValkyrieRanger.json");
-var WhiteComet = require("../json/KK/WhiteComet.json");
+var ImayohRitual = require("../json/KallenKaslana/ImayohRitual.json");
+var SixthSerenade = require("../json/KallenKaslana/SixthSerenade.json");
+var Sundenjager = require("../json/KallenKaslana/Sundenjager.json");
 
-var BlueberryBlitz = require("../json/LO/BlueberryBlitz.json");
+var DivinePrayer = require("../json/KianaKaslana/DivinePrayer.json");
+var HerrscherOfFlamescion = require("../json/KianaKaslana/HerrscherOfFlamescion.json");
+var HerrscherOfTheVoid = require("../json/KianaKaslana/HerrscherOfTheVoid.json");
+var KnightMoonbeam = require("../json/KianaKaslana/KnightMoonbeam.json");
+var ValkyrieRanger = require("../json/KianaKaslana/ValkyrieRanger.json");
+var WhiteComet = require("../json/KianaKaslana/WhiteComet.json");
 
-var ArcticKriegsmesser = require("../json/MH/ArcticKriegsmesser.json");
-var BattleStorm = require("../json/MH/BattleStorm.json");
-var BloodRose = require("../json/MH/BloodRose.json");
-var ScarletFusion = require("../json/MH/ScarletFusion.json");
-var ValkyrieTriumph = require("../json/MH/ValkyrieTriumph.json");
-var VermilionKnight = require("../json/MH/VermilionKnight.json");
+var BlueberryBlitz = require("../json/LiliyaOlenyeva/BlueberryBlitz.json");
+
+var CrimsonImpulse = require("../json/MeiRaiden/CrimsonImpulse.json");
+var HerrscherOfThunder = require("../json/MeiRaiden/HerrscherOfThunder.json");
+var LightningEmpress = require("../json/MeiRaiden/LightningEmpress.json");
+var ShadowDash = require("../json/MeiRaiden/ShadowDash.json");
+var ValkyrieBladestrike = require("../json/MeiRaiden/ValkyrieBladestrike.json");
 
 var InfiniteOuroboros = require("../json/Mobius/InfiniteOuroboros.json");
 
-var CrimsonImpulse = require("../json/RM/CrimsonImpulse.json");
-var HerrscherOfThunder = require("../json/RM/HerrscherOfThunder.json");
-var LightningEmpress = require("../json/RM/LightningEmpress.json");
-var ShadowDash = require("../json/RM/ShadowDash.json");
-var ValkyrieBladestrike = require("../json/RM/ValkyrieBladestrike.json");
+var MidnightAbsinthe = require("../json/NatashaCioara/MidnightAbsinthe.json");
 
-var MolotovCherry = require("../json/RO/MolotovCherry.json");
+var ArgentKnight = require("../json/RitaRossweisse/ArgentKnight.json");
+var FallenRosemary = require("../json/RitaRossweisse/FallenRosemary.json");
+var PhantomIron = require("../json/RitaRossweisse/PhantomIron.json");
+var SpinaAstera = require("../json/RitaRossweisse/SpinaAstera.json");
+var UmbralRose = require("../json/RitaRossweisse/UmbralRose.json");
 
-var ArgentKnight = require("../json/RR/ArgentKnight.json");
-var FallenRosemary = require("../json/RR/FallenRosemary.json");
-var PhantomIron = require("../json/RR/PhantomIron.json");
-var SpinaAstera = require("../json/RR/SpinaAstera.json");
-var UmbralRose = require("../json/RR/UmbralRose.json");
+var MolotovCherry = require("../json/RozaliyaOlenyeva/MolotovCherry.json");
 
-var StarchasmNyx = require("../json/SV/StarchasmNyx.json");
-var StygianNymph = require("../json/SV/StygianNymph.json");
-var SwallowtailPhantasm = require("../json/SV/SwallowtailPhantasm.json");
+var StarchasmNyx = require("../json/SeeleVollerei/StarchasmNyx.json");
+var StygianNymph = require("../json/SeeleVollerei/StygianNymph.json");
+var SwallowtailPhantasm = require("../json/SeeleVollerei/SwallowtailPhantasm.json");
 
-var CelestialHymn = require("../json/TA/CelestialHymn.json");
-var LunaKindred = require("../json/TA/LunaKindred.json");
-var SakunoRondo = require("../json/TA/SakunoRondo.json");
-var StarlitAstrologos = require("../json/TA/StarlitAstrologos.json");
-var ValkyriePledge = require("../json/TA/ValkyriePledge.json");
-var VioletExecuter = require("../json/TA/VioletExecuter.json");
+var CelestialHymn = require("../json/TheresaApocalypse/CelestialHymn.json");
+var LunaKindred = require("../json/TheresaApocalypse/LunaKindred.json");
+var SakunoRondo = require("../json/TheresaApocalypse/SakunoRondo.json");
+var StarlitAstrologos = require("../json/TheresaApocalypse/StarlitAstrologos.json");
+var ValkyriePledge = require("../json/TheresaApocalypse/ValkyriePledge.json");
+var VioletExecuter = require("../json/TheresaApocalypse/VioletExecuter.json");
 
-var DarkBoltJonin = require("../json/YS/DarkBoltJonin.json");
-var FlameSakitama = require("../json/YS/FlameSakitama.json");
-var GoushinnsoMemento = require("../json/YS/GoushinnsoMemento.json");
-var GyakushinnMiko = require("../json/YS/GyakushinnMiko.json");
+var DarkBoltJonin = require("../json/YaeSakura/DarkBoltJonin.json");
+var FlameSakitama = require("../json/YaeSakura/FlameSakitama.json");
+var GoushinnsoMemento = require("../json/YaeSakura/GoushinnsoMemento.json");
+var GyakushinnMiko = require("../json/YaeSakura/GyakushinnMiko.json");
 
 var Valkyries = [
     ArcticKriegsmesser,
