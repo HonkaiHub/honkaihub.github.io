@@ -29,6 +29,14 @@ html, body {
 		letter-spacing: 2px !important;
 		word-wrap: break-word;
 	}
+	.content .typemech,
+	.content .typebio,
+	.content .typepsy,
+	.content .typequa,
+	.content .typeimg {
+		font-size: 10px;
+		width: 20%;
+	}
 }
 img {
 	border: 0;
