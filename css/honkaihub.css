@@ -52,12 +52,13 @@ html {
 
 .footer {
     background-color: rgba(11, 11, 11, 0.6);
+	color: #444;
 	padding: 8px;
 	text-align: right;
 	word-wrap: break-word;
 }
 
-.footer span {
+.footer .discordusername {
 	color: #357;
 	margin-right: 34px;
 }
@@ -71,4 +72,11 @@ html {
 
 .checkcont {
     background-color: #090;
+}
+
+.nouserselect {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
