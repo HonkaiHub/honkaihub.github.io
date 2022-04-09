@@ -56,6 +56,8 @@ var InfiniteOuroboros = require("../json/Mobius/InfiniteOuroboros.json");
 
 var MidnightAbsinthe = require("../json/NatashaCioara/MidnightAbsinthe.json");
 
+var ReveristCalico = require("../json/Pardofelis/ReveristCalico.json");
+
 var ArgentKnight = require("../json/RitaRossweisse/ArgentKnight.json");
 var FallenRosemary = require("../json/RitaRossweisse/FallenRosemary.json");
 var PhantomIron = require("../json/RitaRossweisse/PhantomIron.json");
@@ -119,6 +121,7 @@ var Valkyries = [
     PalatinusEquinox,
     PhantomIron,
     Phoenix,
+    ReveristCalico,
     SakunoRondo,
     ScarletFusion,
     ShadowDash,
