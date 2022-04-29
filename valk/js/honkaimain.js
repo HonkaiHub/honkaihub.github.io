@@ -11,6 +11,7 @@ var DimensionBreaker = require("../json/BronyaZaychik/DimensionBreaker.json");
 var HaxxorBunny = require("../json/BronyaZaychik/HaxxorBunny.json");
 var HerrscherOfReason = require("../json/BronyaZaychik/HerrscherOfReason.json");
 var SnowySniper = require("../json/BronyaZaychik/SnowySniper.json");
+var Silverwing = require("../json/BronyaZaychik/Silverwing.json");
 var ValkyrieChariot = require("../json/BronyaZaychik/ValkyrieChariot.json");
 var WolfsDawn = require("../json/BronyaZaychik/WolfsDawn.json");
 var YamabukiArmor = require("../json/BronyaZaychik/YamabukiArmor.json");
@@ -126,6 +127,7 @@ var Valkyries = [
     ScarletFusion,
     ShadowDash,
     ShadowKnight,
+    Silverwing,
     SixthSerenade,
     SnowySniper,
     SpinaAstera,
