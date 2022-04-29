@@ -614,7 +614,7 @@ module.exports={
 module.exports={
     "battlesuit": "SILVERWING: N-EX",
     "tag": [
-        "BN"
+        "SW"
     ],
     "type": "Biologic",
     "soul": "Original",
