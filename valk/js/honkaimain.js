@@ -1,6 +1,8 @@
 var BlazingHope = require("../json/aLimited/BlazingHope.json");
 var Fischl = require("../json/aLimited/Fischl.json");
 
+var DisciplinaryPerdition = require("../json/Aponia/DisciplinaryPerdition.json");
+
 var BrightKnightExcelsis = require("../json/BiankaAtaegina/BrightKnightExcelsis.json");
 var DeaAnchora = require("../json/BiankaAtaegina/DeaAnchora.json");
 var PalatinusEquinox = require("../json/BiankaAtaegina/PalatinusEquinox.json");
@@ -17,6 +19,8 @@ var WolfsDawn = require("../json/BronyaZaychik/WolfsDawn.json");
 var YamabukiArmor = require("../json/BronyaZaychik/YamabukiArmor.json");
 
 var SweetNSpicy = require("../json/CarolePeppers/SweetNSpicy.json");
+
+var GoldenDiva = require("../json/Eden/GoldenDiva.json");
 
 var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
 
@@ -98,10 +102,12 @@ var Valkyries = [
     DarkBoltJonin,
     DeaAnchora,
     DimensionBreaker,
+    DisciplinaryPerdition,
     DivinePrayer,
     FallenRosemary,
     Fischl,
     FlameSakitama,
+    GoldenDiva,
     GoushinnsoMemento,
     GyakushinnMiko,
     HaxxorBunny,
