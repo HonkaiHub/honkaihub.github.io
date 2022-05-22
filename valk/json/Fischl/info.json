@@ -1,0 +1,28 @@
+{
+    "firstname": "Fischl",
+    "lastname": "von Luftschloss Narfidort",
+    "birthday": "May 27th",
+    "VA": "Maaya Uchida",
+    "battlesuits": [
+        {
+            "battlesuit": "Prinzessin der Verurteilung!",
+            "tag": [
+                "Fischl",
+                "Amy",
+                "Prinzessin der Verurteilung",
+                "Collab"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210707/2021070719411078536.png",
+            "weapon": "Bows",
+            "costume": [
+                "Prinzessin der Verurteilung!"
+            ],
+            "fragdropinfo": [
+                "Collab Supply",
+                "Event Shop (Collab)"
+            ]
+        }
+    ]
+}

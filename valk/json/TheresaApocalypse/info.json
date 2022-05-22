@@ -1,0 +1,134 @@
+{
+    "firstname": "Theresa",
+    "lastname": "Apocalypse",
+    "birthday": "March 28th",
+    "VA": "Tamura Yukari",
+    "battlesuits": [
+        {
+            "battlesuit": "Celestial Hymn",
+            "tag": [
+                "CH",
+                "Teri"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/bb/Celestial_Hymn.png/450px-Celestial_Hymn.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Celestial Hymn",
+                "Empyrean Psalms",
+                "Starry Night",
+                "Grand Sage"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Luna Kindred",
+            "tag": [
+                "LK",
+                "Teri"
+            ],
+            "type": "Biologic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b4/Luna_Kindred.png/450px-Luna_Kindred.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Sakuno Rondo",
+                "Rosy Bridesmaid"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Schicksal HQ adventure tasks rating reward"
+            ]
+        },
+        {
+            "battlesuit": "Sakuno Rondo",
+            "tag": [
+                "SR",
+                "Teri"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/f/fa/Sakuno_Rondo.png/450px-Sakuno_Rondo.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Sakuno Rondo",
+                "Lilac of the Valley",
+                "Magical Teriri",
+                "Morning Sunshine"
+            ],
+            "fragdropinfo": [
+                "Story 5-8 (H)",
+                "Story 6-6 (H)",
+                "Story 5-8 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Starlit Astrologos",
+            "tag": [
+                "SA",
+                "Teri"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8c/Starlit_Astrologos.png/936px-Starlit_Astrologos.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Starlit Astrologos"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Valkyrie Pledge",
+            "tag": [
+                "VP",
+                "Teri"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/a4/Valkyrie_Pledge.png/450px-Valkyrie_Pledge.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Valkyrie Pledge",
+                "Shallow Sunset",
+                "Pledge",
+                "Campus Detective",
+                "Ouranon's Forgiveness",
+                "Sugar Haw Child",
+                "Morning Sunshine"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 4-9 (H)",
+                "Story 5-5 (H)",
+                "Story 3-16 (S)",
+                "Story 5-4 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Violet Executer",
+            "tag": [
+                "VE",
+                "TP",
+                "Teri"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/7/7b/Violet_Executer.png/450px-Violet_Executer.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Violet Executer",
+                "Blood Knight: Moonlight",
+                "Wonderland Trek",
+                "Twilight Paladin",
+                "Morning Sunshine",
+                "Verdant Sky"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        }
+    ]
+}

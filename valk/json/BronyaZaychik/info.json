@@ -1,0 +1,187 @@
+{
+    "firstname": "Bronya",
+    "lastname": "Zaychik",
+    "birthday": "August 18th",
+    "VA": "Asumi Kana",
+    "battlesuits": [
+        {
+            "battlesuit": "Black Nucleus",
+            "tag": [
+                "BN"
+            ],
+            "type": "Biologic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/59/Black_Nucleus.png/450px-Black_Nucleus.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Black Nucleus",
+                "Fleurs du Mal"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Dimension Breaker",
+            "tag": [
+                "DB"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8e/Dimension_Breaker.png/450px-Dimension_Breaker.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Dimension Breaker",
+                "White Devil",
+                "Techno Beats",
+                "School Swimsuit"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Haxxor Bunny",
+            "tag": [
+                "HB"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210422/2021042212543030446.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Haxxor Bunny",
+                "Old Times"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Battle Arsenal",
+                "Open World: Adventure tasks"
+            ]
+        },
+        {
+            "battlesuit": "Herrscher of Reason",
+            "tag": [
+                "HoR",
+                "HR",
+                "BK"
+            ],
+            "type": "Mecha",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/0a/Herrscher_of_Reason.png/450px-Herrscher_of_Reason.png",
+            "weapon": "Cannons",
+            "costume": [
+                "DAE Raison"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "SILVERWING: N-EX",
+            "tag": [
+                "SW"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.hoyoverse.com/contentweb/20220113/2022011317564048151.png",
+            "weapon": "Cannons",
+            "costume": [
+                "SILVERWING: N-EX",
+                "Heart of the Night",
+                "Neonized"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Snowy Sniper",
+            "tag": [
+                "SS"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8a/Snowy_Sniper.png/450px-Snowy_Sniper.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Snowy Sniper",
+                "Carrot and Beet Soup",
+                "Nightfall Witch",
+                "School Swimsuit"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 2-9 (H)",
+                "Story 2-9 (S)",
+                "Story S3-8 (S)",
+                "Story 6-2 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Valkyrie Chariot",
+            "tag": [
+                "VC"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/5a/Valkyrie_Chariot.png/450px-Valkyrie_Chariot.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Valkyrie Chariot",
+                "Blue Reunion",
+                "Blue Sky",
+                "School Swimsuit"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 1-9 (H)",
+                "Story 2-20 (H)",
+                "Story S4-13 (H)",
+                "Story S3-9 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Wolf's Dawn",
+            "tag": [
+                "WD"
+            ],
+            "type": "Psychic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/d/d1/Wolf%27s_Dawn.png/450px-Wolf%27s_Dawn.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Wolf's Dawn",
+                "Mercurial Hatter",
+                "Midnight Blues"
+            ],
+            "fragdropinfo": [
+                "Story 6-2 (H)",
+                "Story 3-1 (S)",
+                "Story 6-8 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Yamabuki Armor",
+            "tag": [
+                "YA",
+                "DK"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/99/Yamabuki_Armor.png/450px-Yamabuki_Armor.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Yamabuki Armor",
+                "Drive Kometa",
+                "Throatwort",
+                "Candy Demon",
+                "School Swimsuit"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 1-18 (H)",
+                "Story 3-15 (H)",
+                "Story S4-14 (S)",
+                "Story 6-4 (S)"
+            ]
+        }
+    ]
+}

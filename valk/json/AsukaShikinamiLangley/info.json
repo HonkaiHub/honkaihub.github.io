@@ -1,0 +1,29 @@
+{
+    "firstname": "Asuka",
+    "lastname": "Shikinami Langley",
+    "birthday": "December 4th",
+    "VA": "Yuko Miyamura",
+    "battlesuits": [
+        {
+            "battlesuit": "Blazing Hope",
+            "tag": [
+                "Asuka",
+                "BH",
+                "Collab",
+                "Limited"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210126/2021012614530670099.png",
+            "weapon": "Lances",
+            "costume": [
+                "Blazing Hope",
+                "Auburn Sync PS"
+            ],
+            "fragdropinfo": [
+                "Collab Supply",
+                "Event Shop (New Century)"
+            ]
+        }
+    ]
+}

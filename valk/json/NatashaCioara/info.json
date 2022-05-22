@@ -1,0 +1,29 @@
+{
+    "firstname": "Natasha",
+    "lastname": "Cioara",
+    "birthday": "",
+    "VA": "Kobayashi Sanae",
+    "battlesuits": [
+        {
+            "battlesuit": "Midnight Absinthe",
+            "tag": [
+                "MA",
+                "Raven"
+            ],
+            "type": "Imaginary",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102216343598492.png",
+            "weapon": "Bows",
+            "costume": [
+                "Midnight Absinthe",
+                "Absinthe Dream"
+            ],
+            "fragdropinfo": [
+                "Supply Shop",
+                "Elysian Shop",
+                "Expansion Battlesuit Supply",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}

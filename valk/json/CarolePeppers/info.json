@@ -1,0 +1,27 @@
+{
+    "firstname": "Carole",
+    "lastname": "Pepper",
+    "birthday": "September 23th",
+    "VA": "Junko Iwao",
+    "battlesuits": [
+        {
+            "battlesuit": "Sweet \'n\' Spicy",
+            "tag": [
+                "SnS"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211202/2021120216472550335.png",
+            "weapon": "Gauntlets",
+            "costume": [
+                "Sweet \'n\' Spicy"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Battle Arsenal",
+                "Event Supply",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}

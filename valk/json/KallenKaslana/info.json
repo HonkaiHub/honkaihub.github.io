@@ -1,0 +1,62 @@
+{
+    "firstname": "Kallen",
+    "lastname": "Kaslana",
+    "birthday": "",
+    "VA": "Mizuki Nana",
+    "battlesuits": [
+        {
+            "battlesuit": "Imayoh Ritual",
+            "tag": [
+                "IR"
+            ],
+            "type": "Mecha",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/d/d4/Imayoh_Ritual.png/450px-Imayoh_Ritual.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Imayoh Ritual",
+                "Snow Fairy",
+                "Blanc X: Kata"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure tasks",
+                "Memorial Arena - Weekly Score Rewards",
+                "Asterite Shop"
+            ]
+        },
+        {
+            "battlesuit": "Sixth Serenade",
+            "tag": [
+                "6S"
+            ],
+            "type": "Psychic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/6/63/Sixth_Serenade.png/450px-Sixth_Serenade.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Sixth Serenade"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Sundenjager",
+            "tag": [
+                "SJ",
+                "SH"
+            ],
+            "type": "Mecha",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/55/Sundenjager.png/450px-Sundenjager.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Sundenjager"
+            ],
+            "fragdropinfo": [
+                "Open World: Adventure tasks",
+                "Asterite Shop"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "firstname": "Himeko",
+    "lastname": "Murata",
+    "birthday": "June 11th",
+    "VA": "Rie Tanaka",
+    "battlesuits": [
+        {
+            "battlesuit": "Artic Kriegsmesser",
+            "tag": [
+                "AK"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/af/Arctic_Kriegsmesser.png/450px-Arctic_Kriegsmesser.png",
+            "weapon": "Greatswords",
+            "costume": [
+                "Artic Kriegsmesser",
+                "Frisian Cutlass"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop"
+            ]
+        },
+        {
+            "battlesuit": "Battle Storm",
+            "tag": [
+                "BS"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/2b/Battle_Storm.png/450px-Battle_Storm.png",
+            "weapon": "Greatswords",
+            "costume": [
+                "Battle Storm",
+                "Black Mamba"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 3-5 (H)",
+                "Story 3-12 (H)",
+                "Story S4-10 (H)",
+                "Story S3-11 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Blood Rose",
+            "tag": [
+                "BR"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4f/Blood_Rose.png/450px-Blood_Rose.png",
+            "weapon": "Greatswords",
+            "costume": [
+                "Blood Rose",
+                "Night Enchantress",
+                "Rosy Passion",
+                "Black Mamba"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Scarlet Fusion",
+            "tag": [
+                "SF"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/54/Scarlet_Fusion.png/450px-Scarlet_Fusion.png",
+            "weapon": "Greatswords",
+            "costume": [
+                "Scarlet Fusion",
+                "Summer Party",
+                "Origin",
+                "Black Mamba"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 4-6 (H)",
+                "Story 2-20 (S)",
+                "Story 4-9 (S)",
+                "Story 5-6 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Valkyrie Triumph",
+            "tag": [
+                "VT"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/02/Valkyrie_Triumph.png/450px-Valkyrie_Triumph.png",
+            "weapon": "Greatswords",
+            "costume": [
+                "Valkyrie Triumph",
+                "Black Mamba"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 4-3 (H)",
+                "Story 4-19 (H)",
+                "Story 7-2 (H)",
+                "Story 4-19 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Vermilion Knight",
+            "tag": [
+                "VK"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4c/Vermilion_Knight_-_Eclipse.png/450px-Vermilion_Knight_-_Eclipse.png",
+            "weapon": "Greatswords",
+            "costume": [
+                "Vermilion Knight: Eclipse",
+                "Rouged Mayumi",
+                "Vernal Brocade"
+            ],
+            "fragdropinfo": [
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "firstname": "Mobius",
+    "lastname": "",
+    "birthday": "",
+    "VA": "Rumi Okubo",
+    "battlesuits": [
+        {
+            "battlesuit": "Infinite Ouroboros",
+            "tag": [
+                "IO"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102215161426682.png",
+            "weapon": "Crosses",
+            "costume": [
+                "Infinite Ouroboros"
+            ],
+            "fragdropinfo": [
+            ]
+        }
+    ]
+}

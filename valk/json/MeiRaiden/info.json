@@ -1,0 +1,123 @@
+{
+    "firstname": "Mei",
+    "lastname": "Raiden",
+    "birthday": "April 13th",
+    "VA": "Sawashiro Miyuki",
+    "battlesuits": [
+        {
+            "battlesuit": "Crimson Impulse",
+            "tag": [
+                "CI"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/c/c6/Crimson_Impulse.png/450px-Crimson_Impulse.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Crimson Impulse",
+                "Gardenia",
+                "Vast Ocean"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 1-6 (H)",
+                "Story 2-16 (H)",
+                "Story S4-7 (H)",
+                "Story 3-9 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Herrscher of Thunder",
+            "tag": [
+                "HoT",
+                "HT",
+                "HoL",
+                "McD"
+            ],
+            "type": "Psychic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/3/3c/Herrscher_of_Thunder.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Herrscher of Thunder",
+                "Rainy Springtide",
+                "Aqueous Springtide"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Lightning Empress",
+            "tag": [
+                "LE"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4d/Lightning_Empress.png/450px-Lightning_Empress.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Lightning Empress",
+                "Scorching Golden Thunder",
+                "Aqua Chime",
+                "Eventide Phantom",
+                "Ultramarine Octave",
+                "Vast Ocean"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Shadow Dash",
+            "tag": [
+                "SD",
+                "DS"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/92/Shadow_Dash.png/450px-Shadow_Dash.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Shadow Dash",
+                "Danzai Spectramancer",
+                "Orochi Cuirass",
+                "Soul Symphony",
+                "Hind of Noel",
+                "Vast Ocean"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 2-6 (H)",
+                "Story 4-15 (H)",
+                "Story 1-18 (S)",
+                "Story 5-2 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Valkyrie Bladestrike",
+            "tag": [
+                "VB",
+                "VBS",
+                "Ful"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/c/ca/Striker_Fulminata.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Valkyrie Bladestrike",
+                "Striker Fulminata",
+                "Blue Memories",
+                "Aeterna Purum",
+                "Vast Ocean"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 1-15 (H)",
+                "Story 3-9 (H)",
+                "Story 4-13 (S)",
+                "Story 6-6 (S)"
+            ]
+        }
+    ]
+}

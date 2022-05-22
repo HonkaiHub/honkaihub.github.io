@@ -1,163 +1,52 @@
-var BlazingHope = require("../json/aLimited/BlazingHope.json");
-var Fischl = require("../json/aLimited/Fischl.json");
+var Aponia = require("../json/Aponia/info.json");
+var AsukaShikinamiLangley = require("../json/AsukaShikinamiLangley/info.json");
+var BiankaAtaegina = require("../json/BiankaAtaegina/info.json");
+var BronyaZaychik = require("../json/BronyaZaychik/info.json");
+var CarolePeppers = require("../json/CarolePeppers/info.json");
+var Eden = require("../json/Eden/info.json");
+var Elysia = require("../json/Elysia/info.json");
+var Fischl = require("../json/Fischl/info.json");
+var FuHua = require("../json/FuHua/info.json");
+var HimekoMurata = require("../json/HimekoMurata/info.json");
+var KallenKaslana = require("../json/KallenKaslana/info.json");
+var KianaKaslana = require("../json/KianaKaslana/info.json");
+var LiliyaOlenyeva = require("../json/LiliyaOlenyeva/info.json");
+var MeiRaiden = require("../json/MeiRaiden/info.json");
+var Mobius = require("../json/Mobius/info.json");
+var NatashaCioara = require("../json/NatashaCioara/info.json");
+var Pardofelis = require("../json/Pardofelis/info.json");
+var RitaRossweisse = require("../json/RitaRossweisse/info.json");
+var RozaliyaOlenyeva = require("../json/RozaliyaOlenyeva/info.json");
+var SeeleVollerei = require("../json/SeeleVollerei/info.json");
+var TheresaApocalypse = require("../json/TheresaApocalypse/info.json");
+var YaeSakura = require("../json/YaeSakura/info.json");
 
-var DisciplinaryPerdition = require("../json/Aponia/DisciplinaryPerdition.json");
-
-var BrightKnightExcelsis = require("../json/BiankaAtaegina/BrightKnightExcelsis.json");
-var DeaAnchora = require("../json/BiankaAtaegina/DeaAnchora.json");
-var PalatinusEquinox = require("../json/BiankaAtaegina/PalatinusEquinox.json");
-var ValkyrieGloria = require("../json/BiankaAtaegina/ValkyrieGloria.json");
-
-var BlackNucleus = require("../json/BronyaZaychik/BlackNucleus.json");
-var DimensionBreaker = require("../json/BronyaZaychik/DimensionBreaker.json");
-var HaxxorBunny = require("../json/BronyaZaychik/HaxxorBunny.json");
-var HerrscherOfReason = require("../json/BronyaZaychik/HerrscherOfReason.json");
-var SnowySniper = require("../json/BronyaZaychik/SnowySniper.json");
-var Silverwing = require("../json/BronyaZaychik/Silverwing.json");
-var ValkyrieChariot = require("../json/BronyaZaychik/ValkyrieChariot.json");
-var WolfsDawn = require("../json/BronyaZaychik/WolfsDawn.json");
-var YamabukiArmor = require("../json/BronyaZaychik/YamabukiArmor.json");
-
-var SweetNSpicy = require("../json/CarolePeppers/SweetNSpicy.json");
-
-var GoldenDiva = require("../json/Eden/GoldenDiva.json");
-
-var MissPinkElf = require("../json/Elysia/MissPinkElf.json");
-
-var AzureEmpyrea = require("../json/FuHua/AzureEmpyrea.json");
-var HerrscherOfSentience = require("../json/FuHua/HerrscherOfSentience.json");
-var NightSquire = require("../json/FuHua/NightSquire.json");
-var Phoenix = require("../json/FuHua/Phoenix.json");
-var ShadowKnight = require("../json/FuHua/ShadowKnight.json");
-var ValkyrieAccipiter = require("../json/FuHua/ValkyrieAccipiter.json");
-
-var ArcticKriegsmesser = require("../json/HimekoMurata/ArcticKriegsmesser.json");
-var BattleStorm = require("../json/HimekoMurata/BattleStorm.json");
-var BloodRose = require("../json/HimekoMurata/BloodRose.json");
-var ScarletFusion = require("../json/HimekoMurata/ScarletFusion.json");
-var ValkyrieTriumph = require("../json/HimekoMurata/ValkyrieTriumph.json");
-var VermilionKnight = require("../json/HimekoMurata/VermilionKnight.json");
-
-var ImayohRitual = require("../json/KallenKaslana/ImayohRitual.json");
-var SixthSerenade = require("../json/KallenKaslana/SixthSerenade.json");
-var Sundenjager = require("../json/KallenKaslana/Sundenjager.json");
-
-var DivinePrayer = require("../json/KianaKaslana/DivinePrayer.json");
-var HerrscherOfFlamescion = require("../json/KianaKaslana/HerrscherOfFlamescion.json");
-var HerrscherOfTheVoid = require("../json/KianaKaslana/HerrscherOfTheVoid.json");
-var KnightMoonbeam = require("../json/KianaKaslana/KnightMoonbeam.json");
-var ValkyrieRanger = require("../json/KianaKaslana/ValkyrieRanger.json");
-var WhiteComet = require("../json/KianaKaslana/WhiteComet.json");
-
-var BlueberryBlitz = require("../json/LiliyaOlenyeva/BlueberryBlitz.json");
-
-var CrimsonImpulse = require("../json/MeiRaiden/CrimsonImpulse.json");
-var HerrscherOfThunder = require("../json/MeiRaiden/HerrscherOfThunder.json");
-var LightningEmpress = require("../json/MeiRaiden/LightningEmpress.json");
-var ShadowDash = require("../json/MeiRaiden/ShadowDash.json");
-var ValkyrieBladestrike = require("../json/MeiRaiden/ValkyrieBladestrike.json");
-
-var InfiniteOuroboros = require("../json/Mobius/InfiniteOuroboros.json");
-
-var MidnightAbsinthe = require("../json/NatashaCioara/MidnightAbsinthe.json");
-
-var ReveristCalico = require("../json/Pardofelis/ReveristCalico.json");
-
-var ArgentKnight = require("../json/RitaRossweisse/ArgentKnight.json");
-var FallenRosemary = require("../json/RitaRossweisse/FallenRosemary.json");
-var PhantomIron = require("../json/RitaRossweisse/PhantomIron.json");
-var SpinaAstera = require("../json/RitaRossweisse/SpinaAstera.json");
-var UmbralRose = require("../json/RitaRossweisse/UmbralRose.json");
-
-var MolotovCherry = require("../json/RozaliyaOlenyeva/MolotovCherry.json");
-
-var StarchasmNyx = require("../json/SeeleVollerei/StarchasmNyx.json");
-var StygianNymph = require("../json/SeeleVollerei/StygianNymph.json");
-var SwallowtailPhantasm = require("../json/SeeleVollerei/SwallowtailPhantasm.json");
-
-var CelestialHymn = require("../json/TheresaApocalypse/CelestialHymn.json");
-var LunaKindred = require("../json/TheresaApocalypse/LunaKindred.json");
-var SakunoRondo = require("../json/TheresaApocalypse/SakunoRondo.json");
-var StarlitAstrologos = require("../json/TheresaApocalypse/StarlitAstrologos.json");
-var ValkyriePledge = require("../json/TheresaApocalypse/ValkyriePledge.json");
-var VioletExecuter = require("../json/TheresaApocalypse/VioletExecuter.json");
-
-var DarkBoltJonin = require("../json/YaeSakura/DarkBoltJonin.json");
-var FlameSakitama = require("../json/YaeSakura/FlameSakitama.json");
-var GoushinnsoMemento = require("../json/YaeSakura/GoushinnsoMemento.json");
-var GyakushinnMiko = require("../json/YaeSakura/GyakushinnMiko.json");
-
-var Valkyries = [
-    ArcticKriegsmesser,
-    ArgentKnight,
-    AzureEmpyrea,
-    BattleStorm,
-    BlackNucleus,
-    BlazingHope,
-    BloodRose,
-    BlueberryBlitz,
-    BrightKnightExcelsis,
-    CelestialHymn,
-    CrimsonImpulse,
-    DarkBoltJonin,
-    DeaAnchora,
-    DimensionBreaker,
-    DisciplinaryPerdition,
-    DivinePrayer,
-    FallenRosemary,
+var Characters = [
+    Aponia,
+    AsukaShikinamiLangley,
+    BiankaAtaegina,
+    BronyaZaychik,
+    CarolePeppers,
+    Eden,
+    Elysia,
     Fischl,
-    FlameSakitama,
-    GoldenDiva,
-    GoushinnsoMemento,
-    GyakushinnMiko,
-    HaxxorBunny,
-    HerrscherOfFlamescion,
-    HerrscherOfReason,
-    HerrscherOfSentience,
-    HerrscherOfTheVoid,
-    HerrscherOfThunder,
-    ImayohRitual,
-    InfiniteOuroboros,
-    KnightMoonbeam,
-    LightningEmpress,
-    LunaKindred,
-    MidnightAbsinthe,
-    MissPinkElf,
-    MolotovCherry,
-    NightSquire,
-    PalatinusEquinox,
-    PhantomIron,
-    Phoenix,
-    ReveristCalico,
-    SakunoRondo,
-    ScarletFusion,
-    ShadowDash,
-    ShadowKnight,
-    Silverwing,
-    SixthSerenade,
-    SnowySniper,
-    SpinaAstera,
-    StarchasmNyx,
-    StarlitAstrologos,
-    StygianNymph,
-    Sundenjager,
-    SwallowtailPhantasm,
-    SweetNSpicy,
-    UmbralRose,
-    ValkyrieAccipiter,
-    ValkyrieBladestrike,
-    ValkyrieChariot,
-    ValkyrieGloria,
-    ValkyriePledge,
-    ValkyrieRanger,
-    ValkyrieTriumph,
-    VermilionKnight,
-    VioletExecuter,
-    WhiteComet,
-    WolfsDawn,
-    YamabukiArmor
+    FuHua,
+    HimekoMurata,
+    KallenKaslana,
+    KianaKaslana,
+    LiliyaOlenyeva,
+    MeiRaiden,
+    Mobius,
+    NatashaCioara,
+    Pardofelis,
+    RitaRossweisse,
+    RozaliyaOlenyeva,
+    SeeleVollerei,
+    TheresaApocalypse,
+    YaeSakura
 ];
 
+var Battlesuits = [];
 var dataResult = "";
 var tagLength = "";
 var costumeLength = "";
@@ -177,7 +66,8 @@ searchBarInput.addEventListener("keyup", function(event) {
 	}
 });
 
-var ValkyrieLength = Valkyries.length;
+var TotalBattlesuitLength = 0;
+var CharacterLength = Characters.length;
 var TypeTotalMech = 0;
 var TypeTotalBio = 0;
 var TypeTotalPsy = 0;
@@ -187,38 +77,54 @@ var AwakeningTotal = 0;
 var NonAwakeningTotal = 0;
 
 window.onload = function() {
+    getAllBattlesuits();
     totalTypeStats();
 }
 
-//console.log("ValkyrieLength: " + ValkyrieLength);
-document.getElementById("ValkyrieLength").innerHTML = ValkyrieLength;
+document.getElementById("CharacterLength").innerHTML = CharacterLength;
+
+function getAllBattlesuits() {
+    var CurrentBattlesuitLength = 0;
+
+    for(var i=0; i<CharacterLength; i++){
+        TotalBattlesuitLength += Characters[i].battlesuits.length;
+        CurrentBattlesuitLength = Characters[i].battlesuits.length;
+        //console.log("CurrentBattlesuitLength: " + CurrentBattlesuitLength);
+        //console.log("TotalBattlesuitLength: " + TotalBattlesuitLength);
+
+        for(var j=0; j<CurrentBattlesuitLength; j++) {
+            Battlesuits.push(Characters[i].battlesuits[j]);
+        }
+    }
+    //console.log("Battlesuits = " + JSON.stringify(Battlesuits));
+    document.getElementById("TotalBattlesuitLength").innerHTML = TotalBattlesuitLength;
+}
 
 function totalTypeStats(){
-    for (var i=0; i<ValkyrieLength; i++) {
+    for (var i=0; i<TotalBattlesuitLength; i++) {
         // Total of each type
-        if (Valkyries[i].type=="Mecha"){
+        if (Battlesuits[i].type=="Mecha"){
             TypeTotalMech++;
         }
-        if (Valkyries[i].type=="Biologic"){
+        if (Battlesuits[i].type=="Biologic"){
             TypeTotalBio++;
         }
-        if (Valkyries[i].type=="Psychic"){
+        if (Battlesuits[i].type=="Psychic"){
             TypeTotalPsy++;
         }
-        if (Valkyries[i].type=="Quantum"){
+        if (Battlesuits[i].type=="Quantum"){
             TypeTotalQua++;
         }
-        if (Valkyries[i].type=="Imaginary"){
+        if (Battlesuits[i].type=="Imaginary"){
             TypeTotalImg++;
         }
         // Total of Non-Awakening or Awakening
-        if (Valkyries[i].soul=="Awakening"){
+        if (Battlesuits[i].soul=="Awakening"){
             AwakeningTotal++;
         }
-        if (Valkyries[i].soul=="Original"){
+        if (Battlesuits[i].soul=="Original"){
             NonAwakeningTotal++;
         }
-
     }
     document.getElementById("TypeTotalMech").innerHTML = TypeTotalMech;
     document.getElementById("TypeTotalBio").innerHTML = TypeTotalBio;
@@ -231,9 +137,9 @@ function totalTypeStats(){
 
 var searchResultCounter = 0;
 
-function getTags(length, output, data, i) {
+function getTags(length, output, data) {
     for (var j=0; j<length; j++) {
-        output += "[<b>" + data[i].tag[j] + "</b>]";
+        output += "[<b>" + data.tag[j] + "</b>]";
         if (j<length-1) {
             output += " ";
         }
@@ -241,9 +147,9 @@ function getTags(length, output, data, i) {
     return output;
 }
 
-function getCostumes(length, output, data, i) {
+function getCostumes(length, output, data) {
     for (var j=0; j<length; j++) {
-        output += "- " + data[i].costume[j];
+        output += "- " + data.costume[j];
         if (j<length-1) {
             output += "<br>";
         }
@@ -251,9 +157,9 @@ function getCostumes(length, output, data, i) {
     return output;
 }
 
-function getFragDropInfos(length, output, data, i) {
+function getFragDropInfos(length, output, data) {
     for (var j=0; j<length; j++) {
-        output += "- " + data[i].fragdropinfo[j];
+        output += "- " + data.fragdropinfo[j];
         if (j<length-1) {
             output += "<br>";
         }
@@ -311,37 +217,37 @@ function aSearchResultCounter() {
     return resultCounterTemplate;
 }
 
-function templateInfo(data, i) {
+function templateInfo(data, i, j) {
     var dataResult = "";
     var tags = "";
     var costumes = "";
     var fragdropinfos = "";
 
-    tags = getTags(tagLength, tags, Valkyries, i);
-    costumes = getCostumes(costumeLength, costumes, Valkyries, i);
-    fragdropinfos = getFragDropInfos(fragdropinfoLength, fragdropinfos, Valkyries, i);
+    tags = getTags(tagLength, tags, data);
+    costumes = getCostumes(costumeLength, costumes, data);
+    fragdropinfos = getFragDropInfos(fragdropinfoLength, fragdropinfos, data);
 
     dataResult += "<div class='content'>";
         dataResult += "<div class='columns is-mobile'>";
             dataResult += "<div class='column is-10'>";
-                dataResult += "<h1>" + Valkyries[i].battlesuit + "</h1>";
-                dataResult += "<h2>" + Valkyries[i].firstname + " " + Valkyries[i].lastname + "</h2>";
+                dataResult += "<h1>" + Characters[i].battlesuits[j].battlesuit + "</h1>";
+                dataResult += "<h2>" + Characters[i].firstname + " " + Characters[i].lastname + "</h2>";
                 dataResult += "<p class='tagList'>" + tags + "</p>";
             dataResult += "</div>";
 
             dataResult += "<div class='column is-2'>";
-                if (Valkyries[i].type == "Mecha") {
-                    dataResult += "<img class='typeicon' src='img/MECH.png' title='" + Valkyries[i].type + "'>";
-                } else if (Valkyries[i].type == "Biologic") {
-                    dataResult += "<img class='typeicon' src='img/BIO.png' title='" + Valkyries[i].type + "'>";
-                } else if (Valkyries[i].type == "Psychic") {
-                    dataResult += "<img class='typeicon' src='img/PSY.png' title='" + Valkyries[i].type + "'>";
-                } else if (Valkyries[i].type == "Quantum") {
-                    dataResult += "<img class='typeicon' src='img/QUA.png' title='" + Valkyries[i].type + "'>";
-                } else if (Valkyries[i].type == "Imaginary") {
-                    dataResult += "<img class='typeicon' src='img/IMG.png' title='" + Valkyries[i].type + "'>";
+                if (Characters[i].battlesuits[j].type == "Mecha") {
+                    dataResult += "<img class='typeicon' src='img/MECH.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                } else if (Characters[i].battlesuits[j].type == "Biologic") {
+                    dataResult += "<img class='typeicon' src='img/BIO.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                } else if (Characters[i].battlesuits[j].type == "Psychic") {
+                    dataResult += "<img class='typeicon' src='img/PSY.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                } else if (Characters[i].battlesuits[j].type == "Quantum") {
+                    dataResult += "<img class='typeicon' src='img/QUA.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                } else if (Characters[i].battlesuits[j].type == "Imaginary") {
+                    dataResult += "<img class='typeicon' src='img/IMG.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else {
-                    dataResult += "<img class='typeimg' src='img/NONE.png' title='" + Valkyries[i].type + "'>";
+                    dataResult += "<img class='typeimg' src='img/NONE.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 }
             dataResult += "</div>";
         dataResult += "</div>";
@@ -349,13 +255,14 @@ function templateInfo(data, i) {
         dataResult += "<div class='columns'>";
 
             dataResult += "<div class='column is-half'>";
-                dataResult += "<img class='valkpic' src='" + Valkyries[i].img + "'>";
+                dataResult += "<img class='valkpic' src='" + Characters[i].battlesuits[j].img + "'>";
             dataResult += "</div>";
 
             dataResult += "<div class='column is-half'>";
-                dataResult += "<h4>Soul: <font color='#FFF'>" + Valkyries[i].soul + "</font></h4>";
-                dataResult += "<h4>Birthday: <font color='#FFF'>" + Valkyries[i].birthday + "</font></h4>";
-                dataResult += "<h4>Weapon: <font color='#FFF'>" + Valkyries[i].weapon + "</font></h4><br>";
+                dataResult += "<h4>Birthday: <font color='#FFF'>" + Characters[i].birthday + "</font></h4>";
+                dataResult += "<h4>VA: <font color='#FFF'>" + Characters[i].VA + "</font></h4>";
+                dataResult += "<h4>Soul: <font color='#FFF'>" + Characters[i].battlesuits[j].soul + "</font></h4>";
+                dataResult += "<h4>Weapon: <font color='#FFF'>" + Characters[i].battlesuits[j].weapon + "</font></h4><br>";
                 dataResult += "<h4>Costume (" + costumeLength + ") </h4>" + costumes + "<br><br>";
                 dataResult += "<h4>Fragment Drop Info (" + fragdropinfoLength + ") </h4>" + fragdropinfos + "<br><br>";
             dataResult += "</div>";
@@ -368,49 +275,55 @@ function templateInfo(data, i) {
 
 function showResult() {
     var dataResult = "";
-    searchValue = searchInput.value;
     var showAllStr = "[showAll]";
+    var dataBattlesuits = "";
+    searchValue = searchInput.value;
     //console.log("searchValue: " + searchValue);
 
     // Initialize the Search Result Counter to 0
     searchResultCounter = 0;
 
-    for (var i=0; i<ValkyrieLength; i++) {
-        tagLength = Valkyries[i].tag.length;
-        costumeLength = Valkyries[i].costume.length;
-        fragdropinfoLength = Valkyries[i].fragdropinfo.length;
+    for (var i=0; i<CharacterLength; i++) {
+        var CurrentBattlesuitLength = Characters[i].battlesuits.length;
+        //console.log("CurrentBattlesuitLength : " + CurrentBattlesuitLength);
 
-        if (searchValue == "" || searchValue == " " || (searchValue.length < 2)) {
-            // Do nothing
-            //console.log("[1] searchResultCounter: " + searchResultCounter);
-        } else if (showAllStr.toLowerCase().includes(searchValue.toLowerCase())) {
-            // A specific command to show all Valkyries
-            var dataResult = "";
-        	for (var i=0, len=Valkyries.length; i<len; i++) {
+        for(var j=0; j<CurrentBattlesuitLength; j++) {
+            dataBattlesuits = Characters[i].battlesuits[j];
+            tagLength = dataBattlesuits.tag.length;
+            costumeLength = dataBattlesuits.costume.length;
+            fragdropinfoLength = dataBattlesuits.fragdropinfo.length;
+
+            if (searchValue == "" || searchValue == " " || (searchValue.length < 2)) {
+                // Do nothing
+                //console.log("[1] searchResultCounter: " + searchResultCounter);
+            } else if (showAllStr.toLowerCase().includes(searchValue.toLowerCase())) {
+                // A specific command to show all Valkyries
                 searchResultCounter++;
                 //console.log("[2] searchResultCounter: " + searchResultCounter);
-                tagLength = Valkyries[i].tag.length;
-                costumeLength = Valkyries[i].costume.length;
-                fragdropinfoLength = Valkyries[i].fragdropinfo.length;
-        		dataResult += templateInfo(Valkyries, i);
-        	}
-            document.getElementById("output").innerHTML = dataResult;
 
-        } else if (Valkyries[i].battlesuit.toLowerCase() == searchValue.toLowerCase() ||
-            Valkyries[i].battlesuit.toLowerCase().includes(searchValue.toLowerCase()) ||
-            Valkyries[i].firstname.toLowerCase().includes(searchValue.toLowerCase()) ||
-            Valkyries[i].lastname.toLowerCase().includes(searchValue.toLowerCase()) ||
-            (Valkyries[i].firstname.toLowerCase() + " " + Valkyries[i].lastname.toLowerCase()).includes(searchValue.toLowerCase()) ||
-            (Valkyries[i].lastname.toLowerCase() + " " + Valkyries[i].firstname.toLowerCase()).includes(searchValue.toLowerCase()) ||
-            Valkyries[i].type.toLowerCase().includes(searchValue.toLowerCase()) ||
-            Valkyries[i].soul.toLowerCase() == searchValue.toLowerCase() ||
-            Valkyries[i].weapon.toLowerCase().includes(searchValue.toLowerCase()) ||
-            Valkyries[i].tag.map(function(x){return x.toLowerCase()}).includes(searchValue.toLowerCase()) ||
-            Valkyries[i].tag.map(function(x){return "["+x.toLowerCase()+"]"}).includes(searchValue.toLowerCase())) {
-            // Search one or multiple results
-            searchResultCounter++;
-            //console.log("[3] searchResultCounter: " + searchResultCounter);
-            dataResult += templateInfo(Valkyries, i)
+                dataResult += templateInfo(dataBattlesuits, i, j);
+            } else if (dataBattlesuits.battlesuit.toLowerCase() == searchValue.toLowerCase() ||
+                dataBattlesuits.battlesuit.toLowerCase().includes(searchValue.toLowerCase()) ||
+                dataBattlesuits.type.toLowerCase().includes(searchValue.toLowerCase()) ||
+                dataBattlesuits.soul.toLowerCase() == searchValue.toLowerCase() ||
+                dataBattlesuits.weapon.toLowerCase().includes(searchValue.toLowerCase()) ||
+                dataBattlesuits.tag.map(function(x){return x.toLowerCase()}).includes(searchValue.toLowerCase()) ||
+                dataBattlesuits.tag.map(function(x){return "["+x.toLowerCase()+"]"}).includes(searchValue.toLowerCase())) {
+                // Search one or multiple results
+                searchResultCounter++;
+                //console.log("[3] searchResultCounter: " + searchResultCounter);
+
+                dataResult += templateInfo(dataBattlesuits, i, j);
+            } else if (Characters[i].firstname.toLowerCase().includes(searchValue.toLowerCase()) ||
+                Characters[i].lastname.toLowerCase().includes(searchValue.toLowerCase()) ||
+                (Characters[i].firstname.toLowerCase() + " " + Characters[i].lastname.toLowerCase()).includes(searchValue.toLowerCase()) ||
+                (Characters[i].lastname.toLowerCase() + " " + Characters[i].firstname.toLowerCase()).includes(searchValue.toLowerCase())) {
+                // Search one or multiple results
+                searchResultCounter++;
+                //console.log("[4] searchResultCounter: " + searchResultCounter);
+                
+                dataResult += templateInfo(dataBattlesuits, i, j);
+            }
         }
     }
 

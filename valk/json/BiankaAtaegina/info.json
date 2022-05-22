@@ -1,0 +1,79 @@
+{
+    "firstname": "Bianka",
+    "lastname": "Ataegina",
+    "birthday": "January 1st",
+    "VA": "Noto Mamiko",
+    "battlesuits": [
+        {
+            "battlesuit": "Bright Knight Excelsis",
+            "tag": [
+                "BKE",
+                "DuDu",
+                "DooDoo"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/5/5c/Bright_Knight_-_Excelsis.png",
+            "weapon": "Lances",
+            "costume": [
+                "Bright Knight: Excelsis",
+                "Emerald of Alfheim"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Dea Anchora",
+            "tag": [
+                "DA",
+                "DuDu",
+                "DooDoo"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121616452893349.png",
+            "weapon": "Lances",
+            "costume": [
+                "Dea Anchora"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Palatinus Equinox",
+            "tag": [
+                "PE",
+                "DuDu",
+                "DooDoo"
+            ],
+            "type": "Imaginary",
+            "soul": "Awakening",
+            "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/24/dcb55ffc3f12df6c80d6de887cd38dad_7039603813498117131.png",
+            "weapon": "Lances",
+            "costume": [
+                "Palatinus Equinox"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Valkyrie Gloria",
+            "tag": [
+                "VG",
+                "DuDu",
+                "DooDoo"
+            ],
+            "type": "Quantum",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/3/37/Valkyrie_Gloria.png/936px-Valkyrie_Gloria.png",
+            "weapon": "Lances",
+            "costume": [
+                "Valkyrie Gloria",
+                "Lord Paramount",
+                "Purrfect Holiday"
+            ],
+            "fragdropinfo": [
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "firstname": "Sakura",
+    "lastname": "Yae",
+    "birthday": "July 22th",
+    "VA": "Ayane Sakura",
+    "battlesuits": [
+        {
+            "battlesuit": "DarkBolt Jonin",
+            "tag": [
+                "DJ",
+                "Kasumi"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4b/Darkbolt_Jonin.png/936px-Darkbolt_Jonin.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Darkbolt Jonin",
+                "Peach Sanctuary",
+                "Shiden Kasumi",
+                "Neon Shade"
+            ],
+            "fragdropinfo": [
+                "Open World: Adventure Tasks",
+                "Asterite Shop",
+                "Battle Arsenal"
+            ]
+        },
+        {
+            "battlesuit": "Flame Sakitama",
+            "tag": [
+                "FS"
+            ],
+            "type": "Biologic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/f/f5/Flame_Sakitama_%28Costume%29.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Flame Sakitama",
+                "Dream Raiment",
+                "Mauve Cascade"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Asterite Shop"
+            ]
+        },
+        {
+            "battlesuit": "Goushinnso Memento",
+            "tag": [
+                "Meme"
+            ],
+            "type": "Mecha",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/95/Goushinnso_Memento.png/450px-Goushinnso_Memento.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Goushinnso Memento",
+                "Blanc X: Ichijin",
+                "Hyoukai Sonata",
+                "Summer Dream"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Gyakushinn Miko",
+            "tag": [
+                "Miko"
+            ],
+            "type": "Biologic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b5/Gyakushinn_Miko.png/450px-Gyakushinn_Miko.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Gyakushinn Miko",
+                "Summer Sakura",
+                "Midnight Marigold",
+                "Frozen Sakura",
+                "Sublime Lotus",
+                "Summer Dream"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Sakura Samsara - Adventure Tasks - Finalization Reward",
+                "Asterite Shop"
+            ]
+        }
+    ]
+}

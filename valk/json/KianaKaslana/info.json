@@ -1,0 +1,141 @@
+{
+    "firstname": "Kiana",
+    "lastname": "Kaslana",
+    "birthday": "December 7th",
+    "VA": "Kugimiya Rie",
+    "battlesuits": [
+        {
+            "battlesuit": "Divine Prayer",
+            "tag": [
+                "DP",
+                "Tuna"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/93/Divine_Prayer.png/450px-Divine_Prayer.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Divine Prayer",
+                "Frostmoon Bunny",
+                "Winter Princess",
+                "Lavender Love",
+                "Sunny Beach"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 2-3 (H)",
+                "Story 1-9 (S)",
+                "Story 4-11 (S)"
+            ]
+        },
+        {
+            "battlesuit": "Herrscher Of Flamescion",
+            "tag": [
+                "HoFS",
+                "HFS",
+                "HoF",
+                "Tuna"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210811/2021081119171972528.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Herrscher of Flamescion"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Herrscher of the Void",
+            "tag": [
+                "HotV",
+                "HoV",
+                "HV",
+                "GK",
+                "Tuna"
+            ],
+            "type": "Biologic",
+            "soul": "Awakening",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/29/Herrscher_of_the_Void.png/450px-Herrscher_of_the_Void.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Herrscher of the Void",
+                "Magic Girl Sirin",
+                "Parasol Kaiserin"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Knight Moonbeam",
+            "tag": [
+                "KMB",
+                "Tuna"
+            ],
+            "type": "Biologic",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/2d/Knight_Moonbeam.png/450px-Knight_Moonbeam.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Knight Moonbeam",
+                "Bastet's Secret",
+                "Dark Devourer",
+                "Sunny Beach"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Valkyrie Ranger",
+            "tag": [
+                "VR",
+                "VD",
+                "Tuna"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/6/64/Valkyrie_Ranger.png/450px-Valkyrie_Ranger.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Valkyrie Ranger",
+                "Void Drifter",
+                "Ocean Ranger",
+                "Honkai World Diva",
+                "Red Lictor",
+                "Sunny Beach"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 1-11 (H)",
+                "Story 3-3 (H)",
+                "Story 4-12 (H)"
+            ]
+        },
+        {
+            "battlesuit": "White Comet",
+            "tag": [
+                "WC",
+                "Tuna"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/6/63/White_Comet.png/926px-White_Comet.png",
+            "weapon": "Pistols",
+            "costume": [
+                "White Comet",
+                "Starless Rift",
+                "Prodigal Girl",
+                "Sunny Beach"
+            ],
+            "fragdropinfo": [
+                "Sakura Samsara: Adventure Tasks",
+                "Story 1-3 (H)",
+                "Story 2-12 (H)",
+                "Story S4-2 (H)",
+                "Story S3-4 (S)"
+            ]
+        }
+    ]
+}
