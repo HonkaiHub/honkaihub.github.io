@@ -425,6 +425,7 @@ module.exports={
             "weapon": "Lances",
             "costume": [
                 "Bright Knight: Excelsis",
+                "GAe Hunter",
                 "Emerald of Alfheim"
             ],
             "fragdropinfo": [
