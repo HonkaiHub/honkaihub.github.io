@@ -29,7 +29,10 @@
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/1/13/Stygian_Nymph.png/450px-Stygian_Nymph.png",
             "weapon": "Scythes",
             "costume": [
-                "Stygian Nymph"
+                "Stygian Nymph",
+				"Mirrored Flourishes",
+				"Stygian Seafoam",
+				"Estonia in Spring"
             ],
             "fragdropinfo": [
             ]

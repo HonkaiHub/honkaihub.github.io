@@ -29,7 +29,25 @@
             ]
         },
         {
-            "battlesuit": "Herrscher Of Flamescion",
+            "battlesuit": "Herrscher of Finality",
+            "tag": [
+                "HoFi",
+                "HFi",
+                "Tuna",
+				"God Tuna"
+            ],
+            "type": "Imaginary",
+            "soul": "Awakening",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/4c4c03e6c3e928fc69442f569e349cfd_557792211697198613.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Herrscher of Finality"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Herrscher of Flamescion",
             "tag": [
                 "HoFS",
                 "HFS",
@@ -37,11 +55,13 @@
                 "Tuna"
             ],
             "type": "Psychic",
-            "soul": "Original",
+            "soul": "Awakening",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210811/2021081119171972528.png",
             "weapon": "Pistols",
             "costume": [
-                "Herrscher of Flamescion"
+                "Herrscher of Flamescion",
+				"Time Runner",
+				"Flowering Luminance"
             ],
             "fragdropinfo": [
             ]

@@ -1267,7 +1267,25 @@ module.exports={
             ]
         },
         {
-            "battlesuit": "Herrscher Of Flamescion",
+            "battlesuit": "Herrscher of Finality",
+            "tag": [
+                "HoFi",
+                "HFi",
+                "Tuna",
+				"God Tuna"
+            ],
+            "type": "Imaginary",
+            "soul": "Awakening",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/4c4c03e6c3e928fc69442f569e349cfd_557792211697198613.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Herrscher of Finality"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Herrscher of Flamescion",
             "tag": [
                 "HoFS",
                 "HFS",
@@ -1275,11 +1293,13 @@ module.exports={
                 "Tuna"
             ],
             "type": "Psychic",
-            "soul": "Original",
+            "soul": "Awakening",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210811/2021081119171972528.png",
             "weapon": "Pistols",
             "costume": [
-                "Herrscher of Flamescion"
+                "Herrscher of Flamescion",
+				"Time Runner",
+				"Flowering Luminance"
             ],
             "fragdropinfo": [
             ]
@@ -1429,7 +1449,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/28/6e45dce42cbbe9250817e6cde90d11dd_5460077910253630048.png",
             "weapon": "Fists",
             "costume": [
-                "Jade Knight"
+                "Jade Knight",
+				"Auspicious Dazzel"
             ],
             "fragdropinfo": [
                 "War Treasury"
@@ -1484,6 +1505,22 @@ module.exports={
                 "Rainy Springtide",
                 "Aqueous Springtide",
 				"Haunted Dusk"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
+            "battlesuit": "Herrscher of Origin",
+            "tag": [
+                "HoO",
+                "HO"
+            ],
+            "type": "Imaginary",
+            "soul": "Awakening",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/eb52c16d904fcca15ffe8acd736fd632_7891080749805781343.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Herrscher of Origin"
             ],
             "fragdropinfo": [
             ]
@@ -1699,7 +1736,9 @@ module.exports={
             "weapon": "Scythes",
             "costume": [
                 "Fallen Rosemary",
-                "Deepwood Thyme"
+                "Deepwood Thyme",
+				"Summer Night's Dream",
+				"Sweet Osmanthus"
             ],
             "fragdropinfo": [
                 "War Treasury"
@@ -1830,7 +1869,10 @@ module.exports={
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/1/13/Stygian_Nymph.png/450px-Stygian_Nymph.png",
             "weapon": "Scythes",
             "costume": [
-                "Stygian Nymph"
+                "Stygian Nymph",
+				"Mirrored Flourishes",
+				"Stygian Seafoam",
+				"Estonia in Spring"
             ],
             "fragdropinfo": [
             ]

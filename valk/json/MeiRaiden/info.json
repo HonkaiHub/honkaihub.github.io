@@ -48,6 +48,22 @@
             ]
         },
         {
+            "battlesuit": "Herrscher of Origin",
+            "tag": [
+                "HoO",
+                "HO"
+            ],
+            "type": "Imaginary",
+            "soul": "Awakening",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/eb52c16d904fcca15ffe8acd736fd632_7891080749805781343.png",
+            "weapon": "Katanas",
+            "costume": [
+                "Herrscher of Origin"
+            ],
+            "fragdropinfo": [
+            ]
+        },
+        {
             "battlesuit": "Lightning Empress",
             "tag": [
                 "LE"
