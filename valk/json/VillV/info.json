@@ -1,0 +1,30 @@
+{
+    "firstname": "Vill-V",
+    "lastname": "",
+    "birthday": "May 25th",
+    "VA": "Hisako Kanemoto",
+    "battlesuits": [
+        {
+            "battlesuit": "Helical Contraption",
+            "tag": [
+                "Vill-V",
+                "VillV",
+				"Vill V"
+                "HC",
+				"Expert",
+				"Magician",
+				"Chef",
+				"Kevin Killer MK5"
+            ],
+            "type": "Quantum",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/10/d83c66e853175c2c3e6d58e5349810d3_824927973745836596.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Helical Contraption"
+            ],
+            "fragdropinfo": [
+            ]
+        }
+    ]
+}

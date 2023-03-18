@@ -21,6 +21,7 @@ var RitaRossweisse = require("../json/RitaRossweisse/info.json");
 var RozaliyaOlenyeva = require("../json/RozaliyaOlenyeva/info.json");
 var SeeleVollerei = require("../json/SeeleVollerei/info.json");
 var TheresaApocalypse = require("../json/TheresaApocalypse/info.json");
+var VillV = require("../json/VillV/info.json");
 var YaeSakura = require("../json/YaeSakura/info.json");
 
 var Characters = [
@@ -46,6 +47,7 @@ var Characters = [
     RozaliyaOlenyeva,
     SeeleVollerei,
     TheresaApocalypse,
+	VillV,
     YaeSakura
 ];
 
@@ -349,7 +351,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/Griseo/info.json":11,"../json/HimekoMurata/info.json":12,"../json/KallenKaslana/info.json":13,"../json/KianaKaslana/info.json":14,"../json/LiliyaOlenyeva/info.json":15,"../json/MeiRaiden/info.json":16,"../json/Mobius/info.json":17,"../json/NatashaCioara/info.json":18,"../json/Pardofelis/info.json":19,"../json/RitaRossweisse/info.json":20,"../json/RozaliyaOlenyeva/info.json":21,"../json/SeeleVollerei/info.json":22,"../json/TheresaApocalypse/info.json":23,"../json/YaeSakura/info.json":24}],2:[function(require,module,exports){
+},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/Griseo/info.json":11,"../json/HimekoMurata/info.json":12,"../json/KallenKaslana/info.json":13,"../json/KianaKaslana/info.json":14,"../json/LiliyaOlenyeva/info.json":15,"../json/MeiRaiden/info.json":16,"../json/Mobius/info.json":17,"../json/NatashaCioara/info.json":18,"../json/Pardofelis/info.json":19,"../json/RitaRossweisse/info.json":20,"../json/RozaliyaOlenyeva/info.json":21,"../json/SeeleVollerei/info.json":22,"../json/TheresaApocalypse/info.json":23,"../json/VillV/info.json":24,"../json/YaeSakura/info.json":25}],2:[function(require,module,exports){
 module.exports={
     "firstname": "Aponia",
     "lastname": "",
@@ -746,17 +748,22 @@ module.exports={
     "VA": "Marina Inoue",
     "battlesuits": [
         {
-            "battlesuit": "Miss Pink Elf",
+            "battlesuit": "Miss Pink Elf♪",
             "tag": [
                 "Elysia",
-                "Miss Pink Elf"
+				"Ellie",
+                "Miss Pink Elf",
+				"Miss Pink Elf♪",
+				"♪"
             ],
             "type": "Psychic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210916/2021091612102521960.png",
             "weapon": "Bows",
             "costume": [
-                "Miss Pink Elf"
+                "Miss Pink Elf♪",
+				"Miss Pink♪",
+				"Summer Miss Elf♪"
             ],
             "fragdropinfo": [
                 "Expansion Battlesuit Supply",
@@ -1467,20 +1474,24 @@ module.exports={
 module.exports={
     "firstname": "Mobius",
     "lastname": "",
-    "birthday": "",
+    "birthday": "April 30th",
     "VA": "Rumi Okubo",
     "battlesuits": [
         {
             "battlesuit": "Infinite Ouroboros",
             "tag": [
-                "IO"
+                "Mobius",
+				"Dr Mobius",
+				"Snek",
+				"IO"
             ],
             "type": "Mecha",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102215161426682.png",
             "weapon": "Crosses",
             "costume": [
-                "Infinite Ouroboros"
+                "Infinite Ouroboros",
+				"Daughter of Corals"
             ],
             "fragdropinfo": [
             ]
@@ -1540,10 +1551,11 @@ module.exports={
             "weapon": "Chakrams",
             "costume": [
                 "Reverist Calico"
+				"Spectral Claws",
+				"Midnight Summer Collector"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
-                "Battle Arsenal",
                 "Event Supply",
                 "Open World - Adventure Tasks"
             ]
@@ -1884,8 +1896,39 @@ module.exports={
         }
     ]
 }
-
 },{}],24:[function(require,module,exports){
+module.exports={
+    "firstname": "Vill-V",
+    "lastname": "",
+    "birthday": "May 25th",
+    "VA": "Hisako Kanemoto",
+    "battlesuits": [
+        {
+            "battlesuit": "Helical Contraption",
+            "tag": [
+                "Vill-V",
+                "VillV",
+				"Vill V"
+                "HC",
+				"Expert",
+				"Magician",
+				"Chef",
+				"Kevin Killer MK5"
+            ],
+            "type": "Quantum",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/10/d83c66e853175c2c3e6d58e5349810d3_824927973745836596.png",
+            "weapon": "Cannons",
+            "costume": [
+                "Helical Contraption"
+            ],
+            "fragdropinfo": [
+            ]
+        }
+    ]
+}
+
+},{}],25:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",
@@ -1936,7 +1979,10 @@ module.exports={
         {
             "battlesuit": "Goushinnso Memento",
             "tag": [
-                "Meme"
+                "Meme",
+				"Sakura",
+				"Flame Chaster",
+				"GM"
             ],
             "type": "Mecha",
             "soul": "Awakening",
@@ -1945,8 +1991,10 @@ module.exports={
             "costume": [
                 "Goushinnso Memento",
                 "Blanc X: Ichijin",
+				"Blooming Maiko",
+				"Summer Dream",
                 "Hyoukai Sonata",
-                "Summer Dream"
+                "Sakura Summer"
             ],
             "fragdropinfo": [
                 "War Treasury"

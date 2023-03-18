@@ -5,17 +5,22 @@
     "VA": "Marina Inoue",
     "battlesuits": [
         {
-            "battlesuit": "Miss Pink Elf",
+            "battlesuit": "Miss Pink Elf♪",
             "tag": [
                 "Elysia",
-                "Miss Pink Elf"
+				"Ellie",
+                "Miss Pink Elf",
+				"Miss Pink Elf♪",
+				"♪"
             ],
             "type": "Psychic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210916/2021091612102521960.png",
             "weapon": "Bows",
             "costume": [
-                "Miss Pink Elf"
+                "Miss Pink Elf♪",
+				"Miss Pink♪",
+				"Summer Miss Elf♪"
             ],
             "fragdropinfo": [
                 "Expansion Battlesuit Supply",

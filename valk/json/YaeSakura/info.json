@@ -48,7 +48,10 @@
         {
             "battlesuit": "Goushinnso Memento",
             "tag": [
-                "Meme"
+                "Meme",
+				"Sakura",
+				"Flame Chaster",
+				"GM"
             ],
             "type": "Mecha",
             "soul": "Awakening",
@@ -57,8 +60,10 @@
             "costume": [
                 "Goushinnso Memento",
                 "Blanc X: Ichijin",
+				"Blooming Maiko",
+				"Summer Dream",
                 "Hyoukai Sonata",
-                "Summer Dream"
+                "Sakura Summer"
             ],
             "fragdropinfo": [
                 "War Treasury"
