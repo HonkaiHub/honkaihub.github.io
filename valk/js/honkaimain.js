@@ -7,6 +7,7 @@ var Eden = require("../json/Eden/info.json");
 var Elysia = require("../json/Elysia/info.json");
 var Fischl = require("../json/Fischl/info.json");
 var FuHua = require("../json/FuHua/info.json");
+var Griseo = require("../json/Griseo/info.json");
 var HimekoMurata = require("../json/HimekoMurata/info.json");
 var KallenKaslana = require("../json/KallenKaslana/info.json");
 var KianaKaslana = require("../json/KianaKaslana/info.json");

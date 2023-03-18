@@ -8,6 +8,7 @@ var Eden = require("../json/Eden/info.json");
 var Elysia = require("../json/Elysia/info.json");
 var Fischl = require("../json/Fischl/info.json");
 var FuHua = require("../json/FuHua/info.json");
+var Griseo = require("../json/Griseo/info.json");
 var HimekoMurata = require("../json/HimekoMurata/info.json");
 var KallenKaslana = require("../json/KallenKaslana/info.json");
 var KianaKaslana = require("../json/KianaKaslana/info.json");
@@ -32,6 +33,7 @@ var Characters = [
     Elysia,
     Fischl,
     FuHua,
+	Griseo,
     HimekoMurata,
     KallenKaslana,
     KianaKaslana,
@@ -347,7 +349,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/HimekoMurata/info.json":11,"../json/KallenKaslana/info.json":12,"../json/KianaKaslana/info.json":13,"../json/LiliyaOlenyeva/info.json":14,"../json/MeiRaiden/info.json":15,"../json/Mobius/info.json":16,"../json/NatashaCioara/info.json":17,"../json/Pardofelis/info.json":18,"../json/RitaRossweisse/info.json":19,"../json/RozaliyaOlenyeva/info.json":20,"../json/SeeleVollerei/info.json":21,"../json/TheresaApocalypse/info.json":22,"../json/YaeSakura/info.json":23}],2:[function(require,module,exports){
+},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/Griseo/info.json":11,"../json/HimekoMurata/info.json":12,"../json/KallenKaslana/info.json":13,"../json/KianaKaslana/info.json":14,"../json/LiliyaOlenyeva/info.json":15,"../json/MeiRaiden/info.json":16,"../json/Mobius/info.json":17,"../json/NatashaCioara/info.json":18,"../json/Pardofelis/info.json":19,"../json/RitaRossweisse/info.json":20,"../json/RozaliyaOlenyeva/info.json":21,"../json/SeeleVollerei/info.json":22,"../json/TheresaApocalypse/info.json":23,"../json/YaeSakura/info.json":24}],2:[function(require,module,exports){
 module.exports={
     "firstname": "Aponia",
     "lastname": "",
@@ -936,8 +938,37 @@ module.exports={
         }
     ]
 }
-
 },{}],11:[function(require,module,exports){
+module.exports={
+    "firstname": "Griseo",
+    "lastname": "",
+    "birthday": "December 21st",
+    "VA": "Hina Kino",
+    "battlesuits": [
+        {
+            "battlesuit": "Starry Impression",
+            "tag": [
+                "Griseo",
+                "SI",
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/27/eae3b86db5d6e41bfaee153ccfdafbb6_8117075818443700536.png",
+            "weapon": "Cross",
+            "costume": [
+                "Starry Impression"
+                "Summer as a Painting"
+                "Maroon Riding Hood"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World: Adventure tasks"
+            ]
+        }
+    ]
+}
+
+},{}],12:[function(require,module,exports){
 module.exports={
     "firstname": "Himeko",
     "lastname": "Murata",
@@ -1065,7 +1096,7 @@ module.exports={
     ]
 }
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 module.exports={
     "firstname": "Kallen",
     "lastname": "Kaslana",
@@ -1129,7 +1160,7 @@ module.exports={
     ]
 }
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 module.exports={
     "firstname": "Kiana",
     "lastname": "Kaslana",
@@ -1272,7 +1303,7 @@ module.exports={
     ]
 }
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 module.exports={
     "firstname": "Liliya",
     "lastname": "Olenyeva",
@@ -1305,7 +1336,7 @@ module.exports={
     ]
 }
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 module.exports={
     "firstname": "Mei",
     "lastname": "Raiden",
@@ -1430,7 +1461,7 @@ module.exports={
     ]
 }
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 module.exports={
     "firstname": "Mobius",
     "lastname": "",
@@ -1455,7 +1486,7 @@ module.exports={
     ]
 }
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 module.exports={
     "firstname": "Natasha",
     "lastname": "Cioara",
@@ -1486,7 +1517,7 @@ module.exports={
     ]
 }
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
     "firstname": "Pardofelis",
     "lastname": "",
@@ -1518,7 +1549,7 @@ module.exports={
     ]
 }
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports={
     "firstname": "Rita",
     "lastname": "Rossweisse",
@@ -1622,7 +1653,7 @@ module.exports={
     ]
 }
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
     "firstname": "Rozaliya",
     "lastname": "Olenyeva",
@@ -1653,7 +1684,7 @@ module.exports={
     ]
 }
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 module.exports={
     "firstname": "Seele",
     "lastname": "Vollerei",
@@ -1715,7 +1746,7 @@ module.exports={
     ]
 }
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 module.exports={
     "firstname": "Theresa",
     "lastname": "Apocalypse",
@@ -1851,7 +1882,7 @@ module.exports={
     ]
 }
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",

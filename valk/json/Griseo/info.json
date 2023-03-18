@@ -1,0 +1,28 @@
+{
+    "firstname": "Griseo",
+    "lastname": "",
+    "birthday": "December 21st",
+    "VA": "Hina Kino",
+    "battlesuits": [
+        {
+            "battlesuit": "Starry Impression",
+            "tag": [
+                "Griseo",
+                "SI",
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/27/eae3b86db5d6e41bfaee153ccfdafbb6_8117075818443700536.png",
+            "weapon": "Cross",
+            "costume": [
+                "Starry Impression"
+                "Summer as a Painting"
+                "Maroon Riding Hood"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World: Adventure tasks"
+            ]
+        }
+    ]
+}
