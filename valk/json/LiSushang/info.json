@@ -1,0 +1,25 @@
+{
+    "firstname": "Sushang",
+    "lastname": "Li",
+    "birthday": "April 3rd",
+    "VA": "Fukuen Misato",
+    "battlesuits": [
+        {
+            "battlesuit": "Jade Knight",
+            "tag": [
+                "JK",
+				"Sushang"
+            ],
+            "type": "Psyphic",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/28/6e45dce42cbbe9250817e6cde90d11dd_5460077910253630048.png",
+            "weapon": "Fists",
+            "costume": [
+                "Jade Knight"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        }
+    ]
+}

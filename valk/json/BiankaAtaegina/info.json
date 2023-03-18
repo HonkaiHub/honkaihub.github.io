@@ -9,7 +9,8 @@
             "tag": [
                 "BKE",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Mecha",
             "soul": "Original",
@@ -28,7 +29,8 @@
             "tag": [
                 "DA",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Biologic",
             "soul": "Original",
@@ -45,14 +47,16 @@
             "tag": [
                 "PE",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Imaginary",
             "soul": "Awakening",
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/24/dcb55ffc3f12df6c80d6de887cd38dad_7039603813498117131.png",
             "weapon": "Lances",
             "costume": [
-                "Palatinus Equinox"
+                "Palatinus Equinox",
+				"Nibelungen Traumlied"
             ],
             "fragdropinfo": [
             ]
@@ -62,7 +66,8 @@
             "tag": [
                 "VG",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Quantum",
             "soul": "Original",

@@ -13,6 +13,7 @@ var HimekoMurata = require("../json/HimekoMurata/info.json");
 var KallenKaslana = require("../json/KallenKaslana/info.json");
 var KianaKaslana = require("../json/KianaKaslana/info.json");
 var LiliyaOlenyeva = require("../json/LiliyaOlenyeva/info.json");
+var LiSushang = require("../json/LiSushang/info.json");
 var MeiRaiden = require("../json/MeiRaiden/info.json");
 var Mobius = require("../json/Mobius/info.json");
 var NatashaCioara = require("../json/NatashaCioara/info.json");
@@ -39,6 +40,7 @@ var Characters = [
     KallenKaslana,
     KianaKaslana,
     LiliyaOlenyeva,
+	LiSushang,
     MeiRaiden,
     Mobius,
     NatashaCioara,
@@ -351,7 +353,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/Griseo/info.json":11,"../json/HimekoMurata/info.json":12,"../json/KallenKaslana/info.json":13,"../json/KianaKaslana/info.json":14,"../json/LiliyaOlenyeva/info.json":15,"../json/MeiRaiden/info.json":16,"../json/Mobius/info.json":17,"../json/NatashaCioara/info.json":18,"../json/Pardofelis/info.json":19,"../json/RitaRossweisse/info.json":20,"../json/RozaliyaOlenyeva/info.json":21,"../json/SeeleVollerei/info.json":22,"../json/TheresaApocalypse/info.json":23,"../json/VillV/info.json":24,"../json/YaeSakura/info.json":25}],2:[function(require,module,exports){
+},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/Griseo/info.json":11,"../json/HimekoMurata/info.json":12,"../json/KallenKaslana/info.json":13,"../json/KianaKaslana/info.json":14,"../json/LiliyaOlenyeva/info.json":15,"../json/LiSushang/info.json":16,"../json/MeiRaiden/info.json":17,"../json/Mobius/info.json":18,"../json/NatashaCioara/info.json":19,"../json/Pardofelis/info.json":20,"../json/RitaRossweisse/info.json":21,"../json/RozaliyaOlenyeva/info.json":22,"../json/SeeleVollerei/info.json":23,"../json/TheresaApocalypse/info.json":24,"../json/VillV/info.json":25,"../json/YaeSakura/info.json":26}],2:[function(require,module,exports){
 module.exports={
     "firstname": "Aponia",
     "lastname": "",
@@ -370,7 +372,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/05/18/6786af57f9ada26a0632c2c8781db381_3884192242082214047.png",
             "weapon": "Chakrams",
             "costume": [
-                "Disciplinary Perdition"
+                "Disciplinary Perdition",
+				"Mesmerizing Blue"
             ],
             "fragdropinfo": [
             ]
@@ -421,7 +424,8 @@ module.exports={
             "tag": [
                 "BKE",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Mecha",
             "soul": "Original",
@@ -440,7 +444,8 @@ module.exports={
             "tag": [
                 "DA",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Biologic",
             "soul": "Original",
@@ -457,14 +462,16 @@ module.exports={
             "tag": [
                 "PE",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Imaginary",
             "soul": "Awakening",
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/24/dcb55ffc3f12df6c80d6de887cd38dad_7039603813498117131.png",
             "weapon": "Lances",
             "costume": [
-                "Palatinus Equinox"
+                "Palatinus Equinox",
+				"Nibelungen Traumlied"
             ],
             "fragdropinfo": [
             ]
@@ -474,7 +481,8 @@ module.exports={
             "tag": [
                 "VG",
                 "DuDu",
-                "DooDoo"
+                "DooDoo",
+				"Duck"
             ],
             "type": "Quantum",
             "soul": "Original",
@@ -728,7 +736,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/05/18/5e22c2ab33bf2bc9f4ba9de713c7b051_999753904121001001.png",
             "weapon": "Pistols",
             "costume": [
-                "Golden Diva"
+                "Golden Diva",
+				"Flowing Rhyme"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
@@ -1352,6 +1361,33 @@ module.exports={
 
 },{}],16:[function(require,module,exports){
 module.exports={
+    "firstname": "Sushang",
+    "lastname": "Li",
+    "birthday": "April 3rd",
+    "VA": "Fukuen Misato",
+    "battlesuits": [
+        {
+            "battlesuit": "Jade Knight",
+            "tag": [
+                "JK",
+				"Sushang"
+            ],
+            "type": "Psyphic",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/28/6e45dce42cbbe9250817e6cde90d11dd_5460077910253630048.png",
+            "weapon": "Fists",
+            "costume": [
+                "Jade Knight"
+            ],
+            "fragdropinfo": [
+                "War Treasury"
+            ]
+        }
+    ]
+}
+
+},{}],17:[function(require,module,exports){
+module.exports={
     "firstname": "Mei",
     "lastname": "Raiden",
     "birthday": "April 13th",
@@ -1476,7 +1512,7 @@ module.exports={
     ]
 }
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 module.exports={
     "firstname": "Mobius",
     "lastname": "",
@@ -1497,7 +1533,8 @@ module.exports={
             "weapon": "Crosses",
             "costume": [
                 "Infinite Ouroboros",
-				"Daughter of Corals"
+				"Daughter of Corals",
+				"Scorching Gravel"
             ],
             "fragdropinfo": [
             ]
@@ -1505,7 +1542,7 @@ module.exports={
     ]
 }
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
     "firstname": "Natasha",
     "lastname": "Cioara",
@@ -1536,7 +1573,7 @@ module.exports={
     ]
 }
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports={
     "firstname": "Pardofelis",
     "lastname": "",
@@ -1569,7 +1606,7 @@ module.exports={
     ]
 }
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
     "firstname": "Rita",
     "lastname": "Rossweisse",
@@ -1673,7 +1710,7 @@ module.exports={
     ]
 }
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 module.exports={
     "firstname": "Rozaliya",
     "lastname": "Olenyeva",
@@ -1704,7 +1741,7 @@ module.exports={
     ]
 }
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 module.exports={
     "firstname": "Seele",
     "lastname": "Vollerei",
@@ -1766,7 +1803,7 @@ module.exports={
     ]
 }
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports={
     "firstname": "Theresa",
     "lastname": "Apocalypse",
@@ -1902,7 +1939,7 @@ module.exports={
         }
     ]
 }
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 module.exports={
     "firstname": "Vill-V",
     "lastname": "",
@@ -1935,7 +1972,7 @@ module.exports={
     ]
 }
 
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",

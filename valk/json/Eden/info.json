@@ -15,11 +15,11 @@
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/05/18/5e22c2ab33bf2bc9f4ba9de713c7b051_999753904121001001.png",
             "weapon": "Pistols",
             "costume": [
-                "Golden Diva"
+                "Golden Diva",
+				"Flowing Rhyme"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
-                "Battle Arsenal",
                 "Event Supply",
                 "Open World - Adventure Tasks"
             ]
