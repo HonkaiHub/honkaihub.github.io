@@ -695,7 +695,8 @@ module.exports={
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211202/2021120216472550335.png",
             "weapon": "Gauntlets",
             "costume": [
-                "Sweet \'n\' Spicy"
+                "Sweet \'n\' Spicy",
+				"Let the Class End"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
@@ -1380,7 +1381,8 @@ module.exports={
             "costume": [
                 "Herrscher of Thunder",
                 "Rainy Springtide",
-                "Aqueous Springtide"
+                "Aqueous Springtide",
+				"Haunted Dusk"
             ],
             "fragdropinfo": [
             ]
@@ -1784,7 +1786,8 @@ module.exports={
             "weapon": "Crosses",
             "costume": [
                 "Sakuno Rondo",
-                "Rosy Bridesmaid"
+                "Rosy Bridesmaid",
+				"Before the Dawn"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
