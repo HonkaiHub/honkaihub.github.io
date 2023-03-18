@@ -26,6 +26,28 @@
                 "Expansion Battlesuit Supply",
                 "War Treasury"
             ]
+        },
+        {
+            "battlesuit": "Herrscher of Human: Ego",
+            "tag": [
+                "Elysia",
+				"Ellie",
+                "HoH",
+				"HoHE",
+				"HoE",
+				"Herrscher of Human Ego",
+				"Herrscher of Human",
+				"Herrscher of Ego"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/14/0dd831ded4229ff468ec5feabbda33fe_7869572467525857527.png",
+            "weapon": "Bows",
+            "costume": [
+                "Herrscher of Human: Ego"
+            ],
+            "fragdropinfo": [
+            ]
         }
     ]
 }

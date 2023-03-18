@@ -769,6 +769,28 @@ module.exports={
                 "Expansion Battlesuit Supply",
                 "War Treasury"
             ]
+        },
+        {
+            "battlesuit": "Herrscher of Human: Ego",
+            "tag": [
+                "Elysia",
+				"Ellie",
+                "HoH",
+				"HoHE",
+				"HoE",
+				"Herrscher of Human Ego",
+				"Herrscher of Human",
+				"Herrscher of Ego"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/14/0dd831ded4229ff468ec5feabbda33fe_7869572467525857527.png",
+            "weapon": "Bows",
+            "costume": [
+                "Herrscher of Human: Ego"
+            ],
+            "fragdropinfo": [
+            ]
         }
     ]
 }
@@ -805,8 +827,8 @@ module.exports={
 
 },{}],10:[function(require,module,exports){
 module.exports={
-    "firstname": "Fu",
-    "lastname": "Hua",
+    "firstname": "Hua",
+    "lastname": "Fu",
     "birthday": "February 9th",
     "VA": "Takayama Minami",
     "battlesuits": [
@@ -818,10 +840,7 @@ module.exports={
             ],
             "type": "Psychic",
             "soul": "Awakening",
-            "firstname": "Fu",
-            "lastname": "Hua",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b9/Azure_Empyrea.png/936px-Azure_Empyrea.png",
-            "birthday": "February 9th",
             "weapon": "Gauntlets",
             "costume": [
                 "Azure Empyrea",
@@ -835,14 +854,12 @@ module.exports={
             "tag": [
                 "HoS",
                 "HS",
-                "Yandere Fu Hua"
+                "Yandere Fu Hua",
+				"Hua?"
             ],
             "type": "Biologic",
             "soul": "Awakening",
-            "firstname": "Fu",
-            "lastname": "Hua",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314314026333.png",
-            "birthday": "February 9th",
             "weapon": "Gauntlets",
             "costume": [
                 "Herrscher of Sentience"
@@ -857,10 +874,7 @@ module.exports={
             ],
             "type": "Biologic",
             "soul": "Original",
-            "firstname": "Fu",
-            "lastname": "Hua",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/1/12/Night_Squire.png/450px-Night_Squire.png",
-            "birthday": "February 9th",
             "weapon": "Gauntlets",
             "costume": [
                 "Night Squire",
@@ -883,10 +897,7 @@ module.exports={
             ],
             "type": "Psychic",
             "soul": "Original",
-            "firstname": "Fu",
-            "lastname": "Hua",
-            "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/2/2a/Phoenix_%28Costume%29.png",
-            "birthday": "February 9th",
+            "img": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200618/2020061811401293651.png",
             "weapon": "Gauntlets",
             "costume": [
                 "Phoenix",
@@ -904,14 +915,12 @@ module.exports={
             ],
             "type": "Mecha",
             "soul": "Original",
-            "firstname": "Fu",
-            "lastname": "Hua",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215224878220.png",
-            "birthday": "February 9th",
             "weapon": "Gauntlets",
             "costume": [
                 "Shadow Knight",
-                "Blood Voivode"
+                "Blood Voivode",
+				"Seagull's Soar"
             ],
             "fragdropinfo": [
             ]
@@ -925,10 +934,7 @@ module.exports={
             ],
             "type": "Psychic",
             "soul": "Original",
-            "firstname": "Fu",
-            "lastname": "Hua",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/f/f7/Valkyrie_Accipiter.png/450px-Valkyrie_Accipiter.png",
-            "birthday": "February 9th",
             "weapon": "Gauntlets",
             "costume": [
                 "Valkyrie Accipiter",
@@ -957,15 +963,15 @@ module.exports={
             "battlesuit": "Starry Impression",
             "tag": [
                 "Griseo",
-                "SI",
+                "SI"
             ],
             "type": "Psychic",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/27/eae3b86db5d6e41bfaee153ccfdafbb6_8117075818443700536.png",
-            "weapon": "Cross",
+            "weapon": "Crosses",
             "costume": [
-                "Starry Impression"
-                "Summer as a Painting"
+                "Starry Impression",
+                "Summer as a Painting",
                 "Maroon Riding Hood"
             ],
             "fragdropinfo": [
@@ -1920,7 +1926,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/10/d83c66e853175c2c3e6d58e5349810d3_824927973745836596.png",
             "weapon": "Cannons",
             "costume": [
-                "Helical Contraption"
+                "Helical Contraption",
+				"I'm the Storm"
             ],
             "fragdropinfo": [
             ]
