@@ -588,7 +588,6 @@ module.exports={
             ],
             "fragdropinfo": [
                 "Asterite Shop",
-                "Battle Arsenal",
                 "Open World: Adventure tasks"
             ]
         },
@@ -604,9 +603,14 @@ module.exports={
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/0a/Herrscher_of_Reason.png/450px-Herrscher_of_Reason.png",
             "weapon": "Cannons",
             "costume": [
-                "DAE Raison"
+                "DAE Raison",
+				"Bestial Afterburn",
+				"Ultraviolet Kinetik",
+				"Magic Girl Bronya"
             ],
             "fragdropinfo": [
+                "Dorm Supply",
+                "War Treasury"
             ]
         },
         {
@@ -716,6 +720,22 @@ module.exports={
                 "Story S4-14 (S)",
                 "Story 6-4 (S)"
             ]
+        },
+        {
+            "battlesuit": "Herrscher of Truth",
+            "tag": [
+                "HoTr",
+                "HTr"
+            ],
+            "type": "Imaginary",
+            "soul": "Awakening",
+            "weapon": "Cannons",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/01/10/7fafd3e3dd83dd1c2a320516aeb4ab91_3752372391162345187.png",
+            "costume": [
+                "Herrscher of Truth"
+            ],
+            "fragdropinfo": [
+            ]
         }
     ]
 }
@@ -738,11 +758,11 @@ module.exports={
             "weapon": "Gauntlets",
             "costume": [
                 "Sweet \'n\' Spicy",
-				"Let the Class End"
+				"Let the Class End",
+				"Special Blend"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
-                "Battle Arsenal",
                 "Event Supply",
                 "Open World - Adventure Tasks"
             ]
