@@ -16,12 +16,16 @@
             "weapon": "Bows",
             "costume": [
                 "Midnight Absinthe",
-                "Absinthe Dream"
+                "Absinthe Dream",
+				"Spectral Raven"
+				
             ],
             "fragdropinfo": [
-                "Supply Shop",
                 "Elysian Shop",
+                "Supply Shop",
+				"Witch's Corridor",
                 "Expansion Battlesuit Supply",
+				"Expeditions",
                 "Open World - Adventure Tasks"
             ]
         }

@@ -1,3 +1,4 @@
+var AiHyperion = require("../json/AiHyperion/info.json");
 var Aponia = require("../json/Aponia/info.json");
 var AsukaShikinamiLangley = require("../json/AsukaShikinamiLangley/info.json");
 var BiankaAtaegina = require("../json/BiankaAtaegina/info.json");
@@ -12,6 +13,7 @@ var HimekoMurata = require("../json/HimekoMurata/info.json");
 var KallenKaslana = require("../json/KallenKaslana/info.json");
 var KianaKaslana = require("../json/KianaKaslana/info.json");
 var LiliyaOlenyeva = require("../json/LiliyaOlenyeva/info.json");
+var LiSushang = require("../json/LiSushang/info.json");
 var MeiRaiden = require("../json/MeiRaiden/info.json");
 var Mobius = require("../json/Mobius/info.json");
 var NatashaCioara = require("../json/NatashaCioara/info.json");
@@ -24,6 +26,7 @@ var VillV = require("../json/VillV/info.json");
 var YaeSakura = require("../json/YaeSakura/info.json");
 
 var Characters = [
+	AiHyperion,
     Aponia,
     AsukaShikinamiLangley,
     BiankaAtaegina,
@@ -33,10 +36,12 @@ var Characters = [
     Elysia,
     Fischl,
     FuHua,
+	Griseo,
     HimekoMurata,
     KallenKaslana,
     KianaKaslana,
     LiliyaOlenyeva,
+	LiSushang,
     MeiRaiden,
     Mobius,
     NatashaCioara,

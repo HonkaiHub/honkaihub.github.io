@@ -1,0 +1,28 @@
+{
+    "firstname": "Ai",
+    "lastname": "Hyperion Λ",
+    "birthday": "???",
+    "VA": "Horie Yui",
+    "battlesuits": [
+        {
+            "battlesuit": "Chrono Navi",
+            "tag": [
+                "Ai Chan",
+				"Ai Hyperion",
+				"Λ",
+				"CN"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/12/07/203a8b005841acc6aa37efa0f29af46c_3773438973604570257.png",
+            "weapon": "Chakram",
+            "costume": [
+                "Chrono Navi"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}

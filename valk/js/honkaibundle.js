@@ -1,4 +1,5 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+var AiHyperion = require("../json/AiHyperion/info.json");
 var Aponia = require("../json/Aponia/info.json");
 var AsukaShikinamiLangley = require("../json/AsukaShikinamiLangley/info.json");
 var BiankaAtaegina = require("../json/BiankaAtaegina/info.json");
@@ -26,6 +27,7 @@ var VillV = require("../json/VillV/info.json");
 var YaeSakura = require("../json/YaeSakura/info.json");
 
 var Characters = [
+	AiHyperion,
     Aponia,
     AsukaShikinamiLangley,
     BiankaAtaegina,
@@ -353,7 +355,37 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/Aponia/info.json":2,"../json/AsukaShikinamiLangley/info.json":3,"../json/BiankaAtaegina/info.json":4,"../json/BronyaZaychik/info.json":5,"../json/CarolePeppers/info.json":6,"../json/Eden/info.json":7,"../json/Elysia/info.json":8,"../json/Fischl/info.json":9,"../json/FuHua/info.json":10,"../json/Griseo/info.json":11,"../json/HimekoMurata/info.json":12,"../json/KallenKaslana/info.json":13,"../json/KianaKaslana/info.json":14,"../json/LiliyaOlenyeva/info.json":15,"../json/LiSushang/info.json":16,"../json/MeiRaiden/info.json":17,"../json/Mobius/info.json":18,"../json/NatashaCioara/info.json":19,"../json/Pardofelis/info.json":20,"../json/RitaRossweisse/info.json":21,"../json/RozaliyaOlenyeva/info.json":22,"../json/SeeleVollerei/info.json":23,"../json/TheresaApocalypse/info.json":24,"../json/VillV/info.json":25,"../json/YaeSakura/info.json":26}],2:[function(require,module,exports){
+},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/Mobius/info.json":19,"../json/NatashaCioara/info.json":20,"../json/Pardofelis/info.json":21,"../json/RitaRossweisse/info.json":22,"../json/RozaliyaOlenyeva/info.json":23,"../json/SeeleVollerei/info.json":24,"../json/TheresaApocalypse/info.json":25,"../json/VillV/info.json":26,"../json/YaeSakura/info.json":27}],2:[function(require,module,exports){
+module.exports={
+    "firstname": "Ai",
+    "lastname": "Hyperion Λ",
+    "birthday": "???",
+    "VA": "Horie Yui",
+    "battlesuits": [
+        {
+            "battlesuit": "Chrono Navi",
+            "tag": [
+                "Ai Chan",
+				"Ai Hyperion",
+				"Λ",
+				"CN"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/12/07/203a8b005841acc6aa37efa0f29af46c_3773438973604570257.png",
+            "weapon": "Chakram",
+            "costume": [
+                "Chrono Navi"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}
+
+},{}],3:[function(require,module,exports){
 module.exports={
     "firstname": "Aponia",
     "lastname": "",
@@ -381,7 +413,7 @@ module.exports={
     ]
 }
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 module.exports={
     "firstname": "Asuka",
     "lastname": "Shikinami Langley",
@@ -412,7 +444,7 @@ module.exports={
     ]
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 module.exports={
     "firstname": "Bianka",
     "lastname": "Ataegina",
@@ -499,7 +531,7 @@ module.exports={
     ]
 }
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 module.exports={
     "firstname": "Bronya",
     "lastname": "Zaychik",
@@ -688,7 +720,7 @@ module.exports={
     ]
 }
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 module.exports={
     "firstname": "Carole",
     "lastname": "Pepper",
@@ -718,7 +750,7 @@ module.exports={
     ]
 }
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 module.exports={
     "firstname": "Eden",
     "lastname": "",
@@ -737,11 +769,11 @@ module.exports={
             "weapon": "Pistols",
             "costume": [
                 "Golden Diva",
-				"Flowing Rhyme"
+				"Flowing Rhyme",
+				"Crimson Carol"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
-                "Battle Arsenal",
                 "Event Supply",
                 "Open World - Adventure Tasks"
             ]
@@ -749,7 +781,7 @@ module.exports={
     ]
 }
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 module.exports={
     "firstname": "Elysia",
     "lastname": "",
@@ -804,7 +836,7 @@ module.exports={
     ]
 }
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 module.exports={
     "firstname": "Fischl",
     "lastname": "von Luftschloss Narfidort",
@@ -834,7 +866,7 @@ module.exports={
     ]
 }
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 module.exports={
     "firstname": "Hua",
     "lastname": "Fu",
@@ -961,7 +993,7 @@ module.exports={
         }
     ]
 }
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 module.exports={
     "firstname": "Griseo",
     "lastname": "",
@@ -991,7 +1023,7 @@ module.exports={
     ]
 }
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 module.exports={
     "firstname": "Himeko",
     "lastname": "Murata",
@@ -1119,7 +1151,7 @@ module.exports={
     ]
 }
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 module.exports={
     "firstname": "Kallen",
     "lastname": "Kaslana",
@@ -1183,7 +1215,7 @@ module.exports={
     ]
 }
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 module.exports={
     "firstname": "Kiana",
     "lastname": "Kaslana",
@@ -1326,7 +1358,7 @@ module.exports={
     ]
 }
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 module.exports={
     "firstname": "Liliya",
     "lastname": "Olenyeva",
@@ -1359,7 +1391,7 @@ module.exports={
     ]
 }
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 module.exports={
     "firstname": "Sushang",
     "lastname": "Li",
@@ -1386,7 +1418,7 @@ module.exports={
     ]
 }
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 module.exports={
     "firstname": "Mei",
     "lastname": "Raiden",
@@ -1512,7 +1544,7 @@ module.exports={
     ]
 }
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
     "firstname": "Mobius",
     "lastname": "",
@@ -1542,7 +1574,7 @@ module.exports={
     ]
 }
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports={
     "firstname": "Natasha",
     "lastname": "Cioara",
@@ -1561,19 +1593,23 @@ module.exports={
             "weapon": "Bows",
             "costume": [
                 "Midnight Absinthe",
-                "Absinthe Dream"
+                "Absinthe Dream",
+				"Spectral Raven"
+				
             ],
             "fragdropinfo": [
-                "Supply Shop",
                 "Elysian Shop",
+                "Supply Shop",
+				"Witch's Corridor",
                 "Expansion Battlesuit Supply",
+				"Expeditions",
                 "Open World - Adventure Tasks"
             ]
         }
     ]
 }
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
     "firstname": "Pardofelis",
     "lastname": "",
@@ -1606,7 +1642,7 @@ module.exports={
     ]
 }
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 module.exports={
     "firstname": "Rita",
     "lastname": "Rossweisse",
@@ -1679,7 +1715,8 @@ module.exports={
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/23/6822f297db0cfed3495d1fe9d5b6ef0d_7210328008175051063.png",
             "weapon": "Scythes",
             "costume": [
-                "Spina Astera"
+                "Spina Astera",
+				"Eternal Dance"
             ],
             "fragdropinfo": [
             ]
@@ -1710,7 +1747,7 @@ module.exports={
     ]
 }
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 module.exports={
     "firstname": "Rozaliya",
     "lastname": "Olenyeva",
@@ -1741,7 +1778,7 @@ module.exports={
     ]
 }
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports={
     "firstname": "Seele",
     "lastname": "Vollerei",
@@ -1803,7 +1840,7 @@ module.exports={
     ]
 }
 
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 module.exports={
     "firstname": "Theresa",
     "lastname": "Apocalypse",
@@ -1939,7 +1976,7 @@ module.exports={
         }
     ]
 }
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 module.exports={
     "firstname": "Vill-V",
     "lastname": "",
@@ -1972,7 +2009,7 @@ module.exports={
     ]
 }
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",
