@@ -12,7 +12,7 @@
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/af/Arctic_Kriegsmesser.png/450px-Arctic_Kriegsmesser.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Artic Kriegsmesser",
                 "Frisian Cutlass"
@@ -29,7 +29,7 @@
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/2b/Battle_Storm.png/450px-Battle_Storm.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Battle Storm",
                 "Black Mamba"
@@ -50,7 +50,7 @@
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4f/Blood_Rose.png/450px-Blood_Rose.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Blood Rose",
                 "Night Enchantress",
@@ -69,7 +69,7 @@
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/54/Scarlet_Fusion.png/450px-Scarlet_Fusion.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Scarlet Fusion",
                 "Summer Party",
@@ -92,7 +92,7 @@
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/02/Valkyrie_Triumph.png/450px-Valkyrie_Triumph.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Valkyrie Triumph",
                 "Black Mamba"
@@ -113,7 +113,7 @@
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4c/Vermilion_Knight_-_Eclipse.png/450px-Vermilion_Knight_-_Eclipse.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Vermilion Knight: Eclipse",
                 "Rouged Mayumi",

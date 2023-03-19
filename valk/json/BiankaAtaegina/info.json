@@ -15,7 +15,7 @@
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/5/5c/Bright_Knight_-_Excelsis.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Bright Knight: Excelsis",
                 "GAe Hunter",
@@ -35,7 +35,7 @@
             "type": "Biologic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121616452893349.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Dea Anchora"
             ],
@@ -53,7 +53,7 @@
             "type": "Imaginary",
             "soul": "Awakening",
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/24/dcb55ffc3f12df6c80d6de887cd38dad_7039603813498117131.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Palatinus Equinox",
 				"Nibelungen Traumlied"
@@ -72,7 +72,7 @@
             "type": "Quantum",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/3/37/Valkyrie_Gloria.png/936px-Valkyrie_Gloria.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Valkyrie Gloria",
                 "Lord Paramount",

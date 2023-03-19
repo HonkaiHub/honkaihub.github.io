@@ -191,7 +191,7 @@ function howTo() {
                 howToTemplate += "<b><u>Battlesuit</u></b> (ex: Celestial Hymn)<br>";
                 howToTemplate += "<b><u>Type</u></b> (ex: Mecha, Biologic, Psychic, Quantum)<br>";
                 howToTemplate += "<b><u>Soul</u></b> (ex: Original, Awakening)<br>";
-                howToTemplate += "<b><u>Weapon</u></b> (ex: Cannons, Crosses, Gauntlets, Greatswords, Katanas, Lances, Pistols, Scythes)<br>";
+                howToTemplate += "<b><u>Weapon</u></b> (ex: Blade, Cross, Fists, 2 Handed, Heavy, Lance, Pistols, Scythe, Chakram)<br>";
                 howToTemplate += "<b><u>Tag</u></b> (ex: AK, AE, ... [Check the next section about Tag])<br>";
                 howToTemplate += "<h2>Searching with a Tag accurately</h2>";
                 howToTemplate += "Sometime, searching with an tag might cause some inaccuracy.<br>";
@@ -402,7 +402,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/05/18/6786af57f9ada26a0632c2c8781db381_3884192242082214047.png",
-            "weapon": "Chakrams",
+            "weapon": "Chakram",
             "costume": [
                 "Disciplinary Perdition",
 				"Mesmerizing Blue"
@@ -431,7 +431,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210126/2021012614530670099.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Blazing Hope",
                 "Auburn Sync PS"
@@ -462,7 +462,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/5/5c/Bright_Knight_-_Excelsis.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Bright Knight: Excelsis",
                 "GAe Hunter",
@@ -482,7 +482,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121616452893349.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Dea Anchora"
             ],
@@ -500,7 +500,7 @@ module.exports={
             "type": "Imaginary",
             "soul": "Awakening",
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/24/dcb55ffc3f12df6c80d6de887cd38dad_7039603813498117131.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Palatinus Equinox",
 				"Nibelungen Traumlied"
@@ -519,7 +519,7 @@ module.exports={
             "type": "Quantum",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/3/37/Valkyrie_Gloria.png/936px-Valkyrie_Gloria.png",
-            "weapon": "Lances",
+            "weapon": "Lance",
             "costume": [
                 "Valkyrie Gloria",
                 "Lord Paramount",
@@ -755,7 +755,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211202/2021120216472550335.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Sweet \'n\' Spicy",
 				"Let the Class End",
@@ -820,7 +820,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210916/2021091612102521960.png",
-            "weapon": "Bows",
+            "weapon": "Bow",
             "costume": [
                 "Miss Pink Elf♪",
 				"Miss Pink♪",
@@ -846,7 +846,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/14/0dd831ded4229ff468ec5feabbda33fe_7869572467525857527.png",
-            "weapon": "Bows",
+            "weapon": "Bow",
             "costume": [
                 "Herrscher of Human: Ego"
             ],
@@ -874,7 +874,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210707/2021070719411078536.png",
-            "weapon": "Bows",
+            "weapon": "Bow",
             "costume": [
                 "Prinzessin der Verurteilung!"
             ],
@@ -902,7 +902,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b9/Azure_Empyrea.png/936px-Azure_Empyrea.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Azure Empyrea",
                 "Cerulean Court"
@@ -921,7 +921,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314314026333.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Herrscher of Sentience"
             ],
@@ -936,7 +936,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/1/12/Night_Squire.png/450px-Night_Squire.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Night Squire",
                 "Dark Butler",
@@ -959,7 +959,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200618/2020061811401293651.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Phoenix",
                 "Fire and Sword",
@@ -977,7 +977,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215224878220.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Shadow Knight",
                 "Blood Voivode",
@@ -996,7 +996,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/f/f7/Valkyrie_Accipiter.png/450px-Valkyrie_Accipiter.png",
-            "weapon": "Gauntlets",
+            "weapon": "Fists",
             "costume": [
                 "Valkyrie Accipiter",
                 "Blue Swallow",
@@ -1029,7 +1029,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/27/eae3b86db5d6e41bfaee153ccfdafbb6_8117075818443700536.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Starry Impression",
                 "Summer as a Painting",
@@ -1058,7 +1058,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/af/Arctic_Kriegsmesser.png/450px-Arctic_Kriegsmesser.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Artic Kriegsmesser",
                 "Frisian Cutlass"
@@ -1075,7 +1075,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/2/2b/Battle_Storm.png/450px-Battle_Storm.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Battle Storm",
                 "Black Mamba"
@@ -1096,7 +1096,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4f/Blood_Rose.png/450px-Blood_Rose.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Blood Rose",
                 "Night Enchantress",
@@ -1115,7 +1115,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/54/Scarlet_Fusion.png/450px-Scarlet_Fusion.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Scarlet Fusion",
                 "Summer Party",
@@ -1138,7 +1138,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/02/Valkyrie_Triumph.png/450px-Valkyrie_Triumph.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Valkyrie Triumph",
                 "Black Mamba"
@@ -1159,7 +1159,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4c/Vermilion_Knight_-_Eclipse.png/450px-Vermilion_Knight_-_Eclipse.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Vermilion Knight: Eclipse",
                 "Rouged Mayumi",
@@ -1413,7 +1413,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4e/Blueberry_Blitz.png/450px-Blueberry_Blitz.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Blueberry Blitz",
                 "Lavender Glow",
@@ -1444,7 +1444,7 @@ module.exports={
                 "JK",
 				"Sushang"
             ],
-            "type": "Psyphic",
+            "type": "Psychic",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/10/28/6e45dce42cbbe9250817e6cde90d11dd_5460077910253630048.png",
             "weapon": "Fists",
@@ -1474,7 +1474,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/c/c6/Crimson_Impulse.png/450px-Crimson_Impulse.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Crimson Impulse",
                 "Gardenia",
@@ -1499,7 +1499,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/3/3c/Herrscher_of_Thunder.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Herrscher of Thunder",
                 "Rainy Springtide",
@@ -1518,7 +1518,7 @@ module.exports={
             "type": "Imaginary",
             "soul": "Awakening",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/eb52c16d904fcca15ffe8acd736fd632_7891080749805781343.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Herrscher of Origin"
             ],
@@ -1533,7 +1533,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4d/Lightning_Empress.png/450px-Lightning_Empress.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Lightning Empress",
                 "Scorching Golden Thunder",
@@ -1555,7 +1555,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/92/Shadow_Dash.png/450px-Shadow_Dash.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Shadow Dash",
                 "Danzai Spectramancer",
@@ -1573,7 +1573,7 @@ module.exports={
             ]
         },
         {
-            "battlesuit": "Valkyrie Bladestrike",
+            "battlesuit": "Valkyrie Heavystrike",
             "tag": [
                 "VB",
                 "VBS",
@@ -1582,9 +1582,9 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/c/ca/Striker_Fulminata.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
-                "Valkyrie Bladestrike",
+                "Valkyrie Heavystrike",
                 "Striker Fulminata",
                 "Blue Memories",
                 "Aeterna Purum",
@@ -1619,7 +1619,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102215161426682.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Infinite Ouroboros",
 				"Daughter of Corals",
@@ -1647,7 +1647,7 @@ module.exports={
             "type": "Imaginary",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20211022/2021102216343598492.png",
-            "weapon": "Bows",
+            "weapon": "Bow",
             "costume": [
                 "Midnight Absinthe",
                 "Absinthe Dream",
@@ -1684,7 +1684,7 @@ module.exports={
             "type": "Imaginary",
             "soul": "Original",
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/04/07/6648d3c1754054c5915773b291547b4d_3715035717990934289.png",
-            "weapon": "Chakrams",
+            "weapon": "Chakram",
             "costume": [
                 "Reverist Calico",
 				"Spectral Claws",
@@ -1716,7 +1716,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/1/1e/Argent_Knight_-_Artemis.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Argent Knight: Artemis",
                 "Maid of Celestia",
@@ -1733,7 +1733,7 @@ module.exports={
             "type": "Quantum",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200915/2020091513442677610.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Fallen Rosemary",
                 "Deepwood Thyme",
@@ -1752,7 +1752,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/6/61/Phantom_Iron.png/450px-Phantom_Iron.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Phantom Iron",
                 "Icy Sea Spray"
@@ -1772,7 +1772,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/02/23/6822f297db0cfed3495d1fe9d5b6ef0d_7210328008175051063.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Spina Astera",
 				"Eternal Dance"
@@ -1788,7 +1788,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8a/Umbral_Rose.png/450px-Umbral_Rose.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Umbral Rose",
                 "Dame de Coeur",
@@ -1822,7 +1822,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/be/Molotov_Cherry.png/450px-Molotov_Cherry.png",
-            "weapon": "Greatswords",
+            "weapon": "2 Handed",
             "costume": [
                 "Molotov Cherry",
                 "Coral Sunrise",
@@ -1852,7 +1852,7 @@ module.exports={
             "type": "Quantum",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210525/2021052511041472654.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Starchasm Nyx"
             ],
@@ -1867,7 +1867,7 @@ module.exports={
             "type": "Quantum",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/1/13/Stygian_Nymph.png/450px-Stygian_Nymph.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Stygian Nymph",
 				"Mirrored Flourishes",
@@ -1885,7 +1885,7 @@ module.exports={
             "type": "Quantum",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/e/e0/Swallowtail_Phantasm.png/450px-Swallowtail_Phantasm.png",
-            "weapon": "Scythes",
+            "weapon": "Scythe",
             "costume": [
                 "Swallowtail Phantasm",
                 "Azure Memories",
@@ -1918,7 +1918,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/bb/Celestial_Hymn.png/450px-Celestial_Hymn.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Celestial Hymn",
                 "Empyrean Psalms",
@@ -1937,7 +1937,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b4/Luna_Kindred.png/450px-Luna_Kindred.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Sakuno Rondo",
                 "Rosy Bridesmaid",
@@ -1957,7 +1957,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/f/fa/Sakuno_Rondo.png/450px-Sakuno_Rondo.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Sakuno Rondo",
                 "Lilac of the Valley",
@@ -1979,7 +1979,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8c/Starlit_Astrologos.png/936px-Starlit_Astrologos.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Starlit Astrologos"
             ],
@@ -1995,7 +1995,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/a/a4/Valkyrie_Pledge.png/450px-Valkyrie_Pledge.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Valkyrie Pledge",
                 "Shallow Sunset",
@@ -2023,7 +2023,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/7/7b/Violet_Executer.png/450px-Violet_Executer.png",
-            "weapon": "Crosses",
+            "weapon": "Cross",
             "costume": [
                 "Violet Executer",
                 "Blood Knight: Moonlight",
@@ -2087,7 +2087,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4b/Darkbolt_Jonin.png/936px-Darkbolt_Jonin.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Darkbolt Jonin",
                 "Peach Sanctuary",
@@ -2108,7 +2108,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/f/f5/Flame_Sakitama_%28Costume%29.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Flame Sakitama",
                 "Dream Raiment",
@@ -2130,7 +2130,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/95/Goushinnso_Memento.png/450px-Goushinnso_Memento.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Goushinnso Memento",
                 "Blanc X: Ichijin",
@@ -2151,7 +2151,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b5/Gyakushinn_Miko.png/450px-Gyakushinn_Miko.png",
-            "weapon": "Katanas",
+            "weapon": "Heavy",
             "costume": [
                 "Gyakushinn Miko",
                 "Summer Sakura",
