@@ -191,7 +191,7 @@ function howTo() {
                 howToTemplate += "<b><u>Battlesuit</u></b> (ex: Celestial Hymn)<br>";
                 howToTemplate += "<b><u>Type</u></b> (ex: Mecha, Biologic, Psychic, Quantum)<br>";
                 howToTemplate += "<b><u>Soul</u></b> (ex: Original, Awakening)<br>";
-                howToTemplate += "<b><u>Weapon</u></b> (ex: Blade, Cross, Fists, 2 Handed, Heavy, Lance, Pistols, Scythe, Chakram)<br>";
+                howToTemplate += "<b><u>Weapon</u></b> (ex: Blade, Cross, Fists, 2 Handed, Blade, Lance, Pistols, Scythe, Chakram)<br>";
                 howToTemplate += "<b><u>Tag</u></b> (ex: AK, AE, ... [Check the next section about Tag])<br>";
                 howToTemplate += "<h2>Searching with a Tag accurately</h2>";
                 howToTemplate += "Sometime, searching with an tag might cause some inaccuracy.<br>";
@@ -546,7 +546,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/59/Black_Nucleus.png/450px-Black_Nucleus.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Black Nucleus",
                 "Fleurs du Mal"
@@ -562,7 +562,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8e/Dimension_Breaker.png/450px-Dimension_Breaker.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Dimension Breaker",
                 "White Devil",
@@ -581,7 +581,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210422/2021042212543030446.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Haxxor Bunny",
                 "Old Times"
@@ -601,7 +601,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/0/0a/Herrscher_of_Reason.png/450px-Herrscher_of_Reason.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "DAE Raison",
 				"Bestial Afterburn",
@@ -621,7 +621,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://uploadstatic-sea.hoyoverse.com/contentweb/20220113/2022011317564048151.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "SILVERWING: N-EX",
                 "Heart of the Night",
@@ -638,7 +638,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8a/Snowy_Sniper.png/450px-Snowy_Sniper.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Snowy Sniper",
                 "Carrot and Beet Soup",
@@ -661,7 +661,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/5/5a/Valkyrie_Chariot.png/450px-Valkyrie_Chariot.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Valkyrie Chariot",
                 "Blue Reunion",
@@ -684,7 +684,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/d/d1/Wolf%27s_Dawn.png/450px-Wolf%27s_Dawn.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Wolf's Dawn",
                 "Mercurial Hatter",
@@ -705,7 +705,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/99/Yamabuki_Armor.png/450px-Yamabuki_Armor.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Yamabuki Armor",
                 "Drive Kometa",
@@ -729,7 +729,7 @@ module.exports={
             ],
             "type": "Imaginary",
             "soul": "Awakening",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/01/10/7fafd3e3dd83dd1c2a320516aeb4ab91_3752372391162345187.png",
             "costume": [
                 "Herrscher of Truth"
@@ -1474,7 +1474,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/c/c6/Crimson_Impulse.png/450px-Crimson_Impulse.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Crimson Impulse",
                 "Gardenia",
@@ -1499,7 +1499,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/3/3c/Herrscher_of_Thunder.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Herrscher of Thunder",
                 "Rainy Springtide",
@@ -1518,7 +1518,7 @@ module.exports={
             "type": "Imaginary",
             "soul": "Awakening",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/eb52c16d904fcca15ffe8acd736fd632_7891080749805781343.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Herrscher of Origin"
             ],
@@ -1533,7 +1533,7 @@ module.exports={
             "type": "Psychic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4d/Lightning_Empress.png/450px-Lightning_Empress.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Lightning Empress",
                 "Scorching Golden Thunder",
@@ -1555,7 +1555,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/92/Shadow_Dash.png/450px-Shadow_Dash.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Shadow Dash",
                 "Danzai Spectramancer",
@@ -1573,7 +1573,7 @@ module.exports={
             ]
         },
         {
-            "battlesuit": "Valkyrie Heavystrike",
+            "battlesuit": "Valkyrie Bladestrike",
             "tag": [
                 "VB",
                 "VBS",
@@ -1582,9 +1582,9 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/c/ca/Striker_Fulminata.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
-                "Valkyrie Heavystrike",
+                "Valkyrie Bladestrike",
                 "Striker Fulminata",
                 "Blue Memories",
                 "Aeterna Purum",
@@ -2060,7 +2060,7 @@ module.exports={
             "type": "Quantum",
             "soul": "Original",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/08/10/d83c66e853175c2c3e6d58e5349810d3_824927973745836596.png",
-            "weapon": "Cannons",
+            "weapon": "Heavy",
             "costume": [
                 "Helical Contraption",
 				"I'm the Storm"
@@ -2087,7 +2087,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Original",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/4/4b/Darkbolt_Jonin.png/936px-Darkbolt_Jonin.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Darkbolt Jonin",
                 "Peach Sanctuary",
@@ -2108,7 +2108,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/f/f5/Flame_Sakitama_%28Costume%29.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Flame Sakitama",
                 "Dream Raiment",
@@ -2130,7 +2130,7 @@ module.exports={
             "type": "Mecha",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/9/95/Goushinnso_Memento.png/450px-Goushinnso_Memento.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Goushinnso Memento",
                 "Blanc X: Ichijin",
@@ -2151,7 +2151,7 @@ module.exports={
             "type": "Biologic",
             "soul": "Awakening",
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/b/b5/Gyakushinn_Miko.png/450px-Gyakushinn_Miko.png",
-            "weapon": "Heavy",
+            "weapon": "Blade",
             "costume": [
                 "Gyakushinn Miko",
                 "Summer Sakura",
