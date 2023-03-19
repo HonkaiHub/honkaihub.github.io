@@ -1686,7 +1686,7 @@ module.exports={
             "img": "https://webstatic-sea.hoyoverse.com/upload/contentweb/2022/04/07/6648d3c1754054c5915773b291547b4d_3715035717990934289.png",
             "weapon": "Chakrams",
             "costume": [
-                "Reverist Calico"
+                "Reverist Calico",
 				"Spectral Claws",
 				"Midnight Summer Collector"
             ],
@@ -1896,7 +1896,7 @@ module.exports={
                 "Stage 4-10 (H)",
                 "Stage XI-1-2 (H)",
                 "Stage 6-5 (S)",
-                "Stage XI-1-1 (S)",
+                "Stage XI-1-1 (S)"
             ]
         }
     ]
@@ -2050,7 +2050,7 @@ module.exports={
             "tag": [
                 "Vill-V",
                 "VillV",
-				"Vill V"
+				"Vill V",
                 "HC",
 				"Expert",
 				"Magician",
