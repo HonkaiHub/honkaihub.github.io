@@ -454,6 +454,7 @@ module.exports={
         {
             "battlesuit": "Bright Knight Excelsis",
             "tag": [
+                "Durandal",
                 "BKE",
                 "DuDu",
                 "DooDoo",
@@ -474,6 +475,7 @@ module.exports={
         {
             "battlesuit": "Dea Anchora",
             "tag": [
+                "Durandal",
                 "DA",
                 "DuDu",
                 "DooDoo",
@@ -492,6 +494,7 @@ module.exports={
         {
             "battlesuit": "Palatinus Equinox",
             "tag": [
+                "Durandal",
                 "PE",
                 "DuDu",
                 "DooDoo",
@@ -511,6 +514,7 @@ module.exports={
         {
             "battlesuit": "Valkyrie Gloria",
             "tag": [
+                "Durandal",
                 "VG",
                 "DuDu",
                 "DooDoo",
