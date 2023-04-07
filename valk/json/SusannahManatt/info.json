@@ -1,0 +1,27 @@
+{
+    "firstname": "Susannah",
+    "lastname": "Manatt",
+    "birthday": "November 29th",
+    "VA": "Chinatsu Hirose",
+    "battlesuits": [
+        {
+            "battlesuit": "Valkyrie Quicksand",
+            "tag": [
+                "VQ",
+				"Sus"
+            ],
+            "type": "Quantum",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/31/0ee890ca4d3632fce857211971b397d9_8694845541496430798.png",
+            "weapon": "Chakram",
+            "costume": [
+                "Valkyrie Quicksand",
+				"Immortal Blades Uniform"
+            ],
+            "fragdropinfo": [
+                "Astrite Shop",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}

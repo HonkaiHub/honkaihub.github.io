@@ -22,6 +22,7 @@ var Pardofelis = require("../json/Pardofelis/info.json");
 var RitaRossweisse = require("../json/RitaRossweisse/info.json");
 var RozaliyaOlenyeva = require("../json/RozaliyaOlenyeva/info.json");
 var SeeleVollerei = require("../json/SeeleVollerei/info.json");
+var SusannahManatt = require("../json/SusannahManatt/info.json");
 var TheresaApocalypse = require("../json/TheresaApocalypse/info.json");
 var VillV = require("../json/VillV/info.json");
 var YaeSakura = require("../json/YaeSakura/info.json");
@@ -50,6 +51,7 @@ var Characters = [
     RitaRossweisse,
     RozaliyaOlenyeva,
     SeeleVollerei,
+	SusannahManatt,
     TheresaApocalypse,
 	VillV,
     YaeSakura
@@ -355,7 +357,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/Mobius/info.json":19,"../json/NatashaCioara/info.json":20,"../json/Pardofelis/info.json":21,"../json/RitaRossweisse/info.json":22,"../json/RozaliyaOlenyeva/info.json":23,"../json/SeeleVollerei/info.json":24,"../json/TheresaApocalypse/info.json":25,"../json/VillV/info.json":26,"../json/YaeSakura/info.json":27}],2:[function(require,module,exports){
+},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/Mobius/info.json":19,"../json/NatashaCioara/info.json":20,"../json/Pardofelis/info.json":21,"../json/RitaRossweisse/info.json":22,"../json/RozaliyaOlenyeva/info.json":23,"../json/SeeleVollerei/info.json":24,"../json/SusannahManatt/info.json":25,"../json/TheresaApocalypse/info.json":26,"../json/VillV/info.json":27,"../json/YaeSakura/info.json":28}],2:[function(require,module,exports){
 module.exports={
     "firstname": "Ai",
     "lastname": "Hyperion Λ",
@@ -1908,6 +1910,35 @@ module.exports={
 
 },{}],25:[function(require,module,exports){
 module.exports={
+    "firstname": "Susannah",
+    "lastname": "Manatt",
+    "birthday": "November 29th",
+    "VA": "Chinatsu Hirose",
+    "battlesuits": [
+        {
+            "battlesuit": "Valkyrie Quicksand",
+            "tag": [
+                "VQ",
+				"Sus"
+            ],
+            "type": "Quantum",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/31/0ee890ca4d3632fce857211971b397d9_8694845541496430798.png",
+            "weapon": "Chakram",
+            "costume": [
+                "Valkyrie Quicksand",
+				"Immortal Blades Uniform"
+            ],
+            "fragdropinfo": [
+                "Astrite Shop",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}
+
+},{}],26:[function(require,module,exports){
+module.exports={
     "firstname": "Theresa",
     "lastname": "Apocalypse",
     "birthday": "March 28th",
@@ -2042,7 +2073,7 @@ module.exports={
         }
     ]
 }
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports={
     "firstname": "Vill-V",
     "lastname": "",
@@ -2075,7 +2106,7 @@ module.exports={
     ]
 }
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",
