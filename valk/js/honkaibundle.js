@@ -854,7 +854,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/09/14/0dd831ded4229ff468ec5feabbda33fe_7869572467525857527.png",
             "weapon": "Bow",
             "costume": [
-                "Herrscher of Human: Ego"
+                "Herrscher of Human: Ego",
+				"Peachy Spring"
             ],
             "fragdropinfo": [
             ]
@@ -929,7 +930,9 @@ module.exports={
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314314026333.png",
             "weapon": "Fists",
             "costume": [
-                "Herrscher of Sentience"
+                "Herrscher of Sentience",
+				"Ooh! Summer!",
+				"Turn Up the Music"
             ],
             "fragdropinfo": [
             ]
