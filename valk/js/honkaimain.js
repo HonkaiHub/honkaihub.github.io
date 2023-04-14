@@ -192,7 +192,7 @@ function howTo() {
                 howToTemplate += "<b><u>Battlesuit</u></b> (ex: Celestial Hymn)<br>";
                 howToTemplate += "<b><u>Type</u></b> (ex: Mecha, Biologic, Psychic, Quantum)<br>";
                 howToTemplate += "<b><u>Soul</u></b> (ex: Original, Awakening)<br>";
-                howToTemplate += "<b><u>Weapon</u></b> (ex: Cannons, Crosses, Gauntlets, Greatswords, Katanas, Lances, Pistols, Scythes)<br>";
+                howToTemplate += "<b><u>Weapon</u></b> (ex: Heavy, Cross, Fists, 2 Handed, Blade, Lance, Pistols, Scythe, Chakram)<br>";
                 howToTemplate += "<b><u>Tag</u></b> (ex: AK, AE, ... [Check the next section about Tag])<br>";
                 howToTemplate += "<h2>Searching with a Tag accurately</h2>";
                 howToTemplate += "Sometime, searching with an tag might cause some inaccuracy.<br>";
