@@ -570,8 +570,8 @@ module.exports=[
     },
     {
         "acronym": ["HoO"],
-    },
         "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/07c717c930aecc641bade643d7d862e8_7636864933569256512.png"
+    },
     {
         "acronym": ["HoS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314311783164.png"
