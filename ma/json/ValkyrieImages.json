@@ -16,12 +16,24 @@
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
     },
     {
+        "acronym": ["HoFi"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/625700e827bb334b0b01807ef523cb41_4396449823970494724.png"
+    },
+    {
+        "acronym": ["HoO"],
+    },
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/07c717c930aecc641bade643d7d862e8_7636864933569256512.png"
+    {
         "acronym": ["HoS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314311783164.png"
-    },
+	},
     {
         "acronym": ["HoT"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200806/2020080615421783866.png"
+    },
+    {
+        "acronym": ["HoTr"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/01/10/dbb168138fe42a86abbad08093120186_6346573304400366927.png"
     },
     {
         "acronym": ["HV"],

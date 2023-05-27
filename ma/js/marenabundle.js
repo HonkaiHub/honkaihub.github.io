@@ -3,6 +3,7 @@ var NotAvailable = require("../json/0_na.json");
 var DeathlyDoom = require("../json/DeathlyDoom.json");
 var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
+var HuskMysticism = require("../json/HuskMysticism.json");
 var Jizo = require("../json/Jizo.json");
 var Rimestar = require("../json/Rimestar.json");
 var Tonatiuh = require("../json/Tonatiuh.json");
@@ -12,6 +13,7 @@ var MABosses = [
     DeathlyDoom,
     HerrscheroftheVoid,
     Huodou,
+	HuskMysticism,
     Jizo,
     Rimestar,
     Tonatiuh
@@ -180,7 +182,7 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
 
 // browserify js/marena.js -o js/marenabundle.js
 
-},{"../json/0_na.json":2,"../json/DeathlyDoom.json":3,"../json/HerrscheroftheVoid.json":4,"../json/Huodou.json":5,"../json/Jizo.json":6,"../json/Rimestar.json":7,"../json/Tonatiuh.json":8,"../json/ValkyrieImages.json":9}],2:[function(require,module,exports){
+},{"../json/0_na.json":2,"../json/DeathlyDoom.json":3,"../json/HerrscheroftheVoid.json":4,"../json/Huodou.json":5,"../json/HuskMysticism.json":6,"../json/Jizo.json":7,"../json/Rimestar.json":8,"../json/Tonatiuh.json":9,"../json/ValkyrieImages.json":10}],2:[function(require,module,exports){
 module.exports={
     "name": "Not Available",
     "type": "N/A",
@@ -364,6 +366,44 @@ module.exports={
 
 },{}],6:[function(require,module,exports){
 module.exports={
+    "name": "Husk Mysticism",
+    "type": "Imaginary",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "HoO",
+                    "rank": "S",
+                    "weapon": "Domain of Unity",
+                    "stigT": "Raiden Mei",
+                    "stigM": "Raiden Mei",
+                    "stigB": "Raiden Mei"
+                }, 
+                {
+                    "valk": "HoFi",
+                    "rank": "S",
+                    "weapon": "Domain of Genesis",
+                    "stigT": "Kiana Kaslana",
+                    "stigM": "Kiana Kaslana",
+                    "stigB": "Kiana Kaslana"
+                },
+                {
+                    "valk": "HoTr",
+                    "rank": "S",
+                    "weapon": "Domain of Ascension: Truth",
+                    "stigT": "Bronya Zaychik",
+                    "stigM": "Bronya Zaychik",
+                    "stigB": "Bronya Zaychik"
+                }
+            ],
+            "player": "Marisa Honkai",
+            "video": "https://www.youtube.com/embed/wItZ3xAWK0w?start=113"
+        }
+    ]
+}
+
+},{}],7:[function(require,module,exports){
+module.exports={
     "name": "Jizo",
     "type": "Biologic",
     "team": [
@@ -400,7 +440,7 @@ module.exports={
     ]
 }
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 module.exports={
     "name": "Rimestar",
     "type": "Psychic",
@@ -468,7 +508,7 @@ module.exports={
     ]
 }
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 module.exports={
     "name": "Tonatiuh",
     "type": "Quantum",
@@ -506,7 +546,7 @@ module.exports={
     ]
 }
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 module.exports=[
     {
         "acronym": ["BS"],
@@ -525,12 +565,24 @@ module.exports=[
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200701/2020070118474838579.png"
     },
     {
+        "acronym": ["HoFi"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/625700e827bb334b0b01807ef523cb41_4396449823970494724.png"
+    },
+    {
+        "acronym": ["HoO"],
+    },
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/07c717c930aecc641bade643d7d862e8_7636864933569256512.png"
+    {
         "acronym": ["HoS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210303/2021030314311783164.png"
-    },
+	},
     {
         "acronym": ["HoT"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200806/2020080615421783866.png"
+    },
+    {
+        "acronym": ["HoTr"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/01/10/dbb168138fe42a86abbad08093120186_6346573304400366927.png"
     },
     {
         "acronym": ["HV"],

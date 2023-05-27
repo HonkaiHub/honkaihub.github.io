@@ -1,0 +1,36 @@
+{
+    "name": "Husk Mysticism",
+    "type": "Imaginary",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "HoO",
+                    "rank": "S",
+                    "weapon": "Domain of Unity",
+                    "stigT": "Raiden Mei",
+                    "stigM": "Raiden Mei",
+                    "stigB": "Raiden Mei"
+                }, 
+                {
+                    "valk": "HoFi",
+                    "rank": "S",
+                    "weapon": "Domain of Genesis",
+                    "stigT": "Kiana Kaslana",
+                    "stigM": "Kiana Kaslana",
+                    "stigB": "Kiana Kaslana"
+                },
+                {
+                    "valk": "HoTr",
+                    "rank": "S",
+                    "weapon": "Domain of Ascension: Truth",
+                    "stigT": "Bronya Zaychik",
+                    "stigM": "Bronya Zaychik",
+                    "stigB": "Bronya Zaychik"
+                }
+            ],
+            "player": "Marisa Honkai",
+            "video": "https://www.youtube.com/embed/wItZ3xAWK0w?start=113"
+        }
+    ]
+}

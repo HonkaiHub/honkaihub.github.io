@@ -2,6 +2,7 @@ var NotAvailable = require("../json/0_na.json");
 var DeathlyDoom = require("../json/DeathlyDoom.json");
 var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
+var HuskMysticism = require("../json/HuskMysticism.json");
 var Jizo = require("../json/Jizo.json");
 var Rimestar = require("../json/Rimestar.json");
 var Tonatiuh = require("../json/Tonatiuh.json");
@@ -11,6 +12,7 @@ var MABosses = [
     DeathlyDoom,
     HerrscheroftheVoid,
     Huodou,
+	HuskMysticism,
     Jizo,
     Rimestar,
     Tonatiuh
