@@ -115,6 +115,15 @@ describe('Search Valkyries Page', () => {
         .should('be.visible')
         .and('have.attr', 'src')
         .should('include','QUA')
+
+        cy.get('#searchInput')
+        .clear()
+        .type('Img').should('have.value', 'Img')
+        cy.get('#clickButton').click()
+        cy.get('.typeicon')
+        .should('be.visible')
+        .and('have.attr', 'src')
+        .should('include','IMG')
     })
 
     it('Search by Soul', () => {
@@ -134,39 +143,39 @@ describe('Search Valkyries Page', () => {
     it('Search by Weapon', () => {
         cy.get('#searchInput')
         .clear()
-        .type('Cannons').should('have.value', 'Cannons')
+        .type('Heavy').should('have.value', 'Heavy')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Cannons')
+        cy.contains('Weapon: Heavy')
 
         cy.get('#searchInput')
         .clear()
-        .type('Crosses').should('have.value', 'Crosses')
+        .type('Cross').should('have.value', 'Cross')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Crosses')
+        cy.contains('Weapon: Cross')
 
         cy.get('#searchInput')
         .clear()
-        .type('Gauntlets').should('have.value', 'Gauntlets')
+        .type('Fists').should('have.value', 'Fists')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Gauntlets')
+        cy.contains('Weapon: Fists')
 
         cy.get('#searchInput')
         .clear()
-        .type('Greatswords').should('have.value', 'Greatswords')
+        .type('2-Handed').should('have.value', '2-Handed')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Greatswords')
+        cy.contains('Weapon: 2-Handed')
 
         cy.get('#searchInput')
         .clear()
-        .type('Katanas').should('have.value', 'Katanas')
+        .type('Blade').should('have.value', 'Blade')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Katanas')
+        cy.contains('Weapon: Blade')
 
         cy.get('#searchInput')
         .clear()
-        .type('Lances').should('have.value', 'Lances')
+        .type('Lance').should('have.value', 'Lance')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Lances')
+        cy.contains('Weapon: Lance')
 
         cy.get('#searchInput')
         .clear()
@@ -176,9 +185,27 @@ describe('Search Valkyries Page', () => {
 
         cy.get('#searchInput')
         .clear()
-        .type('Scythes').should('have.value', 'Scythes')
+        .type('Scythe').should('have.value', 'Scythe')
         cy.get('#clickButton').click()
-        cy.contains('Weapon: Scythes')
+        cy.contains('Weapon: Scythe')
+		
+        cy.get('#searchInput')
+        .clear()
+        .type('Chakram').should('have.value', 'Chakram')
+        cy.get('#clickButton').click()
+        cy.contains('Weapon: Chakram')
+
+        cy.get('#searchInput')
+        .clear()
+        .type('Bow').should('have.value', 'Bow')
+        cy.get('#clickButton').click()
+        cy.contains('Weapon: Bow')
+
+        cy.get('#searchInput')
+        .clear()
+        .type('Javelin').should('have.value', 'Javelin')
+        cy.get('#clickButton').click()
+        cy.contains('Weapon: Javelin')
     })
 
     it('Search by Tag', () => {
