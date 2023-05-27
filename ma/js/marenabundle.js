@@ -542,6 +542,36 @@ module.exports={
             ],
             "player": "Rixuel",
             "video": "https://www.youtube.com/embed/JK1zQEqZxOs"
+        },
+        {
+            "party": [
+                {
+                    "valk": "SI",
+                    "rank": "SSS",
+                    "weapon": "Elysian Asta: Heart's Color",
+                    "stigT": "Cezanne",
+                    "stigM": "Cezanne",
+                    "stigB": "Cezanne"
+                },
+                {
+                    "valk": "HoS",
+                    "rank": "S",
+                    "weapon": "Cosmic Duality",
+                    "stigT": "Tesla Band",
+                    "stigM": "Aladdin",
+                    "stigB": "Aladdin"
+                },
+                {
+                    "valk": "VQ",
+                    "rank": "SS",
+                    "weapon": "Twirling Glaze: Lustrous Bloom",
+                    "stigT": "Aladdin",
+                    "stigM": "Aladdin",
+                    "stigB": "Aladdin"
+                }
+            ],
+            "player": "Marisa Honkai",
+            "video": "https://www.youtube.com/embed/wItZ3xAWK0w?start=30"
         }
     ]
 }
@@ -613,6 +643,10 @@ module.exports=[
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061816132847384.png"
     },
     {
+        "acronym": ["SI"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/27/e00a7cc0f0f1e104a8349a80a89761f8_8937579688510715390.png"
+    },
+    {
         "acronym": ["SS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915594971535.png"
     },
@@ -623,6 +657,10 @@ module.exports=[
     {
         "acronym": ["VD"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821154273054.png"
+    },
+    {
+        "acronym": ["VQ"],
+        "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/31/20c3b448592d84ab5ef39468191a16e9_4971815610908835117.png"
     },
     {
         "acronym": ["WD"],

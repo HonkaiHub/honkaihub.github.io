@@ -31,6 +31,36 @@
             ],
             "player": "Rixuel",
             "video": "https://www.youtube.com/embed/JK1zQEqZxOs"
+        },
+        {
+            "party": [
+                {
+                    "valk": "SI",
+                    "rank": "SSS",
+                    "weapon": "Elysian Asta: Heart's Color",
+                    "stigT": "Cezanne",
+                    "stigM": "Cezanne",
+                    "stigB": "Cezanne"
+                },
+                {
+                    "valk": "HoS",
+                    "rank": "S",
+                    "weapon": "Cosmic Duality",
+                    "stigT": "Tesla Band",
+                    "stigM": "Aladdin",
+                    "stigB": "Aladdin"
+                },
+                {
+                    "valk": "VQ",
+                    "rank": "SS",
+                    "weapon": "Twirling Glaze: Lustrous Bloom",
+                    "stigT": "Aladdin",
+                    "stigM": "Aladdin",
+                    "stigB": "Aladdin"
+                }
+            ],
+            "player": "Marisa Honkai",
+            "video": "https://www.youtube.com/embed/wItZ3xAWK0w?start=30"
         }
     ]
 }

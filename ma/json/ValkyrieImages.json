@@ -64,6 +64,10 @@
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061816132847384.png"
     },
     {
+        "acronym": ["SI"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/06/27/e00a7cc0f0f1e104a8349a80a89761f8_8937579688510715390.png"
+    },
+    {
         "acronym": ["SS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200619/2020061915594971535.png"
     },
@@ -74,6 +78,10 @@
     {
         "acronym": ["VD"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200618/2020061821154273054.png"
+    },
+    {
+        "acronym": ["VQ"],
+        "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/03/31/20c3b448592d84ab5ef39468191a16e9_4971815610908835117.png"
     },
     {
         "acronym": ["WD"],
