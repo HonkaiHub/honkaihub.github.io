@@ -252,17 +252,17 @@ function templateInfo(data, i, j) {
 
             dataResult += "<div class='column is-2'>";
                 if (Characters[i].battlesuits[j].type == "Mecha") {
-                    dataResult += "<img class='typeicon' src='img/MECH.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                    dataResult += "<img class='typeicon' src='/img/MECH.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else if (Characters[i].battlesuits[j].type == "Biologic") {
-                    dataResult += "<img class='typeicon' src='img/BIO.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                    dataResult += "<img class='typeicon' src='/img/BIO.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else if (Characters[i].battlesuits[j].type == "Psychic") {
-                    dataResult += "<img class='typeicon' src='img/PSY.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                    dataResult += "<img class='typeicon' src='/img/PSY.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else if (Characters[i].battlesuits[j].type == "Quantum") {
-                    dataResult += "<img class='typeicon' src='img/QUA.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                    dataResult += "<img class='typeicon' src='/img/QUA.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else if (Characters[i].battlesuits[j].type == "Imaginary") {
-                    dataResult += "<img class='typeicon' src='img/IMG.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                    dataResult += "<img class='typeicon' src='/img/IMG.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else {
-                    dataResult += "<img class='typeimg' src='img/NONE.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                    dataResult += "<img class='typeimg' src='/img/NONE.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 }
             dataResult += "</div>";
         dataResult += "</div>";
