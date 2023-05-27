@@ -366,7 +366,7 @@ module.exports={
 
 },{}],6:[function(require,module,exports){
 module.exports={
-    "name": "Husk Mysticism",
+    "name": "HuskMysticism",
     "type": "Imaginary",
     "team": [
         {
