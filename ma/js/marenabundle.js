@@ -5,6 +5,7 @@ var HerrscheroftheVoid = require("../json/HerrscheroftheVoid.json");
 var Huodou = require("../json/Huodou.json");
 var HuskMysticism = require("../json/HuskMysticism.json");
 var Jizo = require("../json/Jizo.json");
+var KallenKaslana = require("../json/KallenKaslana.json");
 var Rimestar = require("../json/Rimestar.json");
 var Tonatiuh = require("../json/Tonatiuh.json");
 
@@ -15,6 +16,7 @@ var MABosses = [
     Huodou,
 	HuskMysticism,
     Jizo,
+	KallenKaslana,
     Rimestar,
     Tonatiuh
 ]
@@ -182,7 +184,7 @@ document.getElementsByClassName("modal-close")[0].onclick = function() {
 
 // browserify js/marena.js -o js/marenabundle.js
 
-},{"../json/0_na.json":2,"../json/DeathlyDoom.json":3,"../json/HerrscheroftheVoid.json":4,"../json/Huodou.json":5,"../json/HuskMysticism.json":6,"../json/Jizo.json":7,"../json/Rimestar.json":8,"../json/Tonatiuh.json":9,"../json/ValkyrieImages.json":10}],2:[function(require,module,exports){
+},{"../json/0_na.json":2,"../json/DeathlyDoom.json":3,"../json/HerrscheroftheVoid.json":4,"../json/Huodou.json":5,"../json/HuskMysticism.json":6,"../json/Jizo.json":7,"../json/KallenKaslana.json":8,"../json/Rimestar.json":9,"../json/Tonatiuh.json":10,"../json/ValkyrieImages.json":11}],2:[function(require,module,exports){
 module.exports={
     "name": "Not Available",
     "type": "N/A",
@@ -442,6 +444,44 @@ module.exports={
 
 },{}],8:[function(require,module,exports){
 module.exports={
+    "name": "KallenKaslana",
+    "type": "N/A",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "SI",
+                    "rank": "SSS",
+                    "weapon": "Elysian Asta: Heart's Color",
+                    "stigT": "Cezanne",
+                    "stigM": "Paganini",
+                    "stigB": "Isaac Newton"
+                },
+                {
+                    "valk": "HoS",
+                    "rank": "SSS",
+                    "weapon": "Domain of Sentience",
+                    "stigT": "Avogadro",
+                    "stigM": "Avogadro",
+                    "stigB": "Cezanne"
+                },
+                {
+                    "valk": "PE",
+                    "rank": "SSS",
+                    "weapon": "Midnight Ategina",
+                    "stigT": "Bianka: Theatre",
+                    "stigM": "Bianka: Theatre",
+                    "stigB": "Bianka: Theatre"
+                }
+            ],
+            "player": "TheWalshinator",
+            "video": "https://www.youtube.com/embed/ez2fn0Z6KVY?start=236"
+        }
+    ]
+}
+
+},{}],9:[function(require,module,exports){
+module.exports={
     "name": "Rimestar",
     "type": "Psychic",
     "team": [
@@ -508,7 +548,7 @@ module.exports={
     ]
 }
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 module.exports={
     "name": "Tonatiuh",
     "type": "Quantum",
@@ -576,7 +616,7 @@ module.exports={
     ]
 }
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 module.exports=[
     {
         "acronym": ["BS"],
@@ -629,6 +669,10 @@ module.exports=[
     {
         "acronym": ["NS"],
         "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20200702/2020070215521531223.png"
+    },
+    {
+        "acronym": ["PE"],
+        "img": "https://webstatic.hoyoverse.com/upload/contentweb/2022/02/23/ecf1c59afcb7ed4033cd0690134ae924_4123575058055262609.png"
     },
     {
         "acronym": ["PX"],

@@ -1,0 +1,36 @@
+{
+    "name": "KallenKaslana",
+    "type": "N/A",
+    "team": [
+        {
+            "party": [
+                {
+                    "valk": "SI",
+                    "rank": "SSS",
+                    "weapon": "Elysian Asta: Heart's Color",
+                    "stigT": "Cezanne",
+                    "stigM": "Paganini",
+                    "stigB": "Isaac Newton"
+                },
+                {
+                    "valk": "HoS",
+                    "rank": "SSS",
+                    "weapon": "Domain of Sentience",
+                    "stigT": "Avogadro",
+                    "stigM": "Avogadro",
+                    "stigB": "Cezanne"
+                },
+                {
+                    "valk": "PE",
+                    "rank": "SSS",
+                    "weapon": "Midnight Ategina",
+                    "stigT": "Bianka: Theatre",
+                    "stigM": "Bianka: Theatre",
+                    "stigB": "Bianka: Theatre"
+                }
+            ],
+            "player": "TheWalshinator",
+            "video": "https://www.youtube.com/embed/ez2fn0Z6KVY?start=236"
+        }
+    ]
+}
