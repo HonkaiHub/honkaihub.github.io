@@ -1,0 +1,29 @@
+{
+    "firstname": "Kira",
+    "lastname": "Shigure",
+    "birthday": "September 8th",
+    "VA": "Ibuki Kido",
+    "battlesuits": [
+        {
+            "battlesuit": "Sugary Starburst",
+            "tag": [
+				"Idol",
+				"SS",
+				"Last Snow Wolf",
+				"Drifter",
+				"Sea of Quanta Explorer"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/06/25/ac3eac653887ce7e79eec791c1c83266_6582723501613356418.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Sugary Starburst"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}

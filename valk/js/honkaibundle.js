@@ -24,6 +24,7 @@ var Prometheus = require("../json/Prometheus/info.json");
 var RitaRossweisse = require("../json/RitaRossweisse/info.json");
 var RozaliyaOlenyeva = require("../json/RozaliyaOlenyeva/info.json");
 var SeeleVollerei = require("../json/SeeleVollerei/info.json");
+var ShigureKira = require("../json/ShigureKira/info.json");
 var SusannahManatt = require("../json/SusannahManatt/info.json");
 var TheresaApocalypse = require("../json/TheresaApocalypse/info.json");
 var VillV = require("../json/VillV/info.json");
@@ -55,6 +56,7 @@ var Characters = [
     RitaRossweisse,
     RozaliyaOlenyeva,
     SeeleVollerei,
+	ShigureKira,
 	SusannahManatt,
     TheresaApocalypse,
 	VillV,
@@ -361,7 +363,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/MistelnSchariac/info.json":19,"../json/Mobius/info.json":20,"../json/NatashaCioara/info.json":21,"../json/Pardofelis/info.json":22,"../json/Prometheus/info.json":23,"../json/RitaRossweisse/info.json":24,"../json/RozaliyaOlenyeva/info.json":25,"../json/SeeleVollerei/info.json":26,"../json/SusannahManatt/info.json":27,"../json/TheresaApocalypse/info.json":28,"../json/VillV/info.json":29,"../json/YaeSakura/info.json":30}],2:[function(require,module,exports){
+},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/MistelnSchariac/info.json":19,"../json/Mobius/info.json":20,"../json/NatashaCioara/info.json":21,"../json/Pardofelis/info.json":22,"../json/Prometheus/info.json":23,"../json/RitaRossweisse/info.json":24,"../json/RozaliyaOlenyeva/info.json":25,"../json/SeeleVollerei/info.json":26,"../json/ShigureKira/info.json":27,"../json/SusannahManatt/info.json":28,"../json/TheresaApocalypse/info.json":29,"../json/VillV/info.json":30,"../json/YaeSakura/info.json":31}],2:[function(require,module,exports){
 module.exports={
     "firstname": "Ai",
     "lastname": "Hyperion Λ",
@@ -534,7 +536,9 @@ module.exports={
             "costume": [
                 "Valkyrie Gloria",
                 "Lord Paramount",
-                "Purrfect Holiday"
+                "Purrfect Holiday",
+				"New Outfit",
+				"Starlit Evening"
             ],
             "fragdropinfo": [
             ]
@@ -743,7 +747,8 @@ module.exports={
             "weapon": "Heavy",
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/01/10/7fafd3e3dd83dd1c2a320516aeb4ab91_3752372391162345187.png",
             "costume": [
-                "Herrscher of Truth"
+                "Herrscher of Truth",
+				"Seaside Vibes"
             ],
             "fragdropinfo": [
             ]
@@ -1293,7 +1298,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/4c4c03e6c3e928fc69442f569e349cfd_557792211697198613.png",
             "weapon": "Pistols",
             "costume": [
-                "Herrscher of Finality"
+                "Herrscher of Finality",
+				"Selenic Ripples"
             ],
             "fragdropinfo": [
             ]
@@ -1535,7 +1541,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/contentweb/2023/02/15/eb52c16d904fcca15ffe8acd736fd632_7891080749805781343.png",
             "weapon": "Blade",
             "costume": [
-                "Herrscher of Origin"
+                "Herrscher of Origin",
+				"Crooning Tides"
             ],
             "fragdropinfo": [
             ]
@@ -1982,6 +1989,37 @@ module.exports={
 
 },{}],27:[function(require,module,exports){
 module.exports={
+    "firstname": "Kira",
+    "lastname": "Shigure",
+    "birthday": "September 8th",
+    "VA": "Ibuki Kido",
+    "battlesuits": [
+        {
+            "battlesuit": "Sugary Starburst",
+            "tag": [
+				"Idol",
+				"SS",
+				"Last Snow Wolf",
+				"Drifter",
+				"Sea of Quanta Explorer"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/06/25/ac3eac653887ce7e79eec791c1c83266_6582723501613356418.png",
+            "weapon": "Pistols",
+            "costume": [
+                "Sugary Starburst"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World - Adventure Tasks"
+            ]
+        }
+    ]
+}
+
+},{}],28:[function(require,module,exports){
+module.exports={
     "firstname": "Susannah",
     "lastname": "Manatt",
     "birthday": "November 29th",
@@ -2009,7 +2047,7 @@ module.exports={
     ]
 }
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 module.exports={
     "firstname": "Theresa",
     "lastname": "Apocalypse",
@@ -2145,7 +2183,7 @@ module.exports={
         }
     ]
 }
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
     "firstname": "Vill-V",
     "lastname": "",
@@ -2178,7 +2216,7 @@ module.exports={
     ]
 }
 
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",

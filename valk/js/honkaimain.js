@@ -23,6 +23,7 @@ var Prometheus = require("../json/Prometheus/info.json");
 var RitaRossweisse = require("../json/RitaRossweisse/info.json");
 var RozaliyaOlenyeva = require("../json/RozaliyaOlenyeva/info.json");
 var SeeleVollerei = require("../json/SeeleVollerei/info.json");
+var ShigureKira = require("../json/ShigureKira/info.json");
 var SusannahManatt = require("../json/SusannahManatt/info.json");
 var TheresaApocalypse = require("../json/TheresaApocalypse/info.json");
 var VillV = require("../json/VillV/info.json");
@@ -54,6 +55,7 @@ var Characters = [
     RitaRossweisse,
     RozaliyaOlenyeva,
     SeeleVollerei,
+	ShigureKira,
 	SusannahManatt,
     TheresaApocalypse,
 	VillV,
