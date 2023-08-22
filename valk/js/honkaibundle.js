@@ -1643,7 +1643,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/05/12/342f067c2500b8524dbcc6129f9eb655_8557534495371101433.png",
             "weapon": "Javelin",
             "costume": [
-                "Dreamweaver"
+                "Dreamweaver",
+                "Silky Violet Dream"
             ],
             "fragdropinfo": [
                 ""
@@ -1933,11 +1934,12 @@ module.exports={
             "battlesuit": "Herrscher of Rebirth",
             "tag": [
                 "HoRb",
-                "HoDe"
+                "HoDe",
+                "NoQUA"
             ],
             "type": "Psychic",
             "soul": "Original",
-            "img": "https://public-assets.abyss-lab.app/raw/avatarcardfigures/60714.png",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/07/26/a9960f28d69aa69e11241499fd8833f4_9171149761244596116.png",
             "weapon": "Scythe",
             "costume": [
                 "Herrscher of Rebirth"
@@ -1956,7 +1958,8 @@ module.exports={
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20210525/2021052511041472654.png",
             "weapon": "Scythe",
             "costume": [
-                "Starchasm Nyx"
+                "Starchasm Nyx",
+                "Magic Girl Seele"
             ],
             "fragdropinfo": [
             ]
@@ -2143,7 +2146,10 @@ module.exports={
             "img": "https://gamepedia.cursecdn.com/honkaiimpact3_gamepedia_en/thumb/8/8c/Starlit_Astrologos.png/936px-Starlit_Astrologos.png",
             "weapon": "Cross",
             "costume": [
-                "Starlit Astrologos"
+                "Starlit Astrologos",
+                "Herald of Spring",
+                "Orchid's Night",
+                "Startold Fortune"
             ],
             "fragdropinfo": [
             ]
@@ -2254,7 +2260,8 @@ module.exports={
                 "Darkbolt Jonin",
                 "Peach Sanctuary",
                 "Shiden Kasumi",
-                "Neon Shade"
+                "Neon Shade",
+                "Shimmering Wavelets"
             ],
             "fragdropinfo": [
                 "Open World: Adventure Tasks",

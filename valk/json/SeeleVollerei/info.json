@@ -8,14 +8,16 @@
             "battlesuit": "Herrscher of Rebirth",
             "tag": [
                 "HoRb",
-                "HoDe"
+                "HoDe",
+                "NoQUA"
             ],
             "type": "Psychic",
             "soul": "Original",
-            "img": "https://public-assets.abyss-lab.app/raw/avatarcardfigures/60714.png",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/07/26/a9960f28d69aa69e11241499fd8833f4_9171149761244596116.png",
             "weapon": "Scythe",
             "costume": [
-                "Herrscher of Rebirth"
+                "Herrscher of Rebirth",
+                "Magic Girl Seele"
             ],
             "fragdropinfo": [
             ]
