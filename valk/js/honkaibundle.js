@@ -25,6 +25,7 @@ var RitaRossweisse = require("../json/RitaRossweisse/info.json");
 var RozaliyaOlenyeva = require("../json/RozaliyaOlenyeva/info.json");
 var SeeleVollerei = require("../json/SeeleVollerei/info.json");
 var ShigureKira = require("../json/ShigureKira/info.json");
+var Sirin = require("../json/Sirin/info.json");
 var SusannahManatt = require("../json/SusannahManatt/info.json");
 var TheresaApocalypse = require("../json/TheresaApocalypse/info.json");
 var VillV = require("../json/VillV/info.json");
@@ -57,6 +58,7 @@ var Characters = [
     RozaliyaOlenyeva,
     SeeleVollerei,
 	ShigureKira,
+    Sirin,
 	SusannahManatt,
     TheresaApocalypse,
 	VillV,
@@ -363,7 +365,7 @@ buttonHowTo.addEventListener("click", howTo);
 // browserify js/honkaimain.js -o js/honkaibundle.js
 // npm run cypress:open
 
-},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/MistelnSchariac/info.json":19,"../json/Mobius/info.json":20,"../json/NatashaCioara/info.json":21,"../json/Pardofelis/info.json":22,"../json/Prometheus/info.json":23,"../json/RitaRossweisse/info.json":24,"../json/RozaliyaOlenyeva/info.json":25,"../json/SeeleVollerei/info.json":26,"../json/ShigureKira/info.json":27,"../json/SusannahManatt/info.json":28,"../json/TheresaApocalypse/info.json":29,"../json/VillV/info.json":30,"../json/YaeSakura/info.json":31}],2:[function(require,module,exports){
+},{"../json/AiHyperion/info.json":2,"../json/Aponia/info.json":3,"../json/AsukaShikinamiLangley/info.json":4,"../json/BiankaAtaegina/info.json":5,"../json/BronyaZaychik/info.json":6,"../json/CarolePeppers/info.json":7,"../json/Eden/info.json":8,"../json/Elysia/info.json":9,"../json/Fischl/info.json":10,"../json/FuHua/info.json":11,"../json/Griseo/info.json":12,"../json/HimekoMurata/info.json":13,"../json/KallenKaslana/info.json":14,"../json/KianaKaslana/info.json":15,"../json/LiliyaOlenyeva/info.json":16,"../json/LiSushang/info.json":17,"../json/MeiRaiden/info.json":18,"../json/MistelnSchariac/info.json":19,"../json/Mobius/info.json":20,"../json/NatashaCioara/info.json":21,"../json/Pardofelis/info.json":22,"../json/Prometheus/info.json":23,"../json/RitaRossweisse/info.json":24,"../json/RozaliyaOlenyeva/info.json":25,"../json/SeeleVollerei/info.json":26,"../json/ShigureKira/info.json":27,"../json/Sirin/info.json":28,"../json/SusannahManatt/info.json":29,"../json/TheresaApocalypse/info.json":30,"../json/VillV/info.json":31,"../json/YaeSakura/info.json":32}],2:[function(require,module,exports){
 module.exports={
     "firstname": "Ai",
     "lastname": "Hyperion Λ",
@@ -2039,6 +2041,34 @@ module.exports={
 }
 
 },{}],28:[function(require,module,exports){
+    module.exports={
+        "firstname": "Sirin",
+        "lastname": "",
+        "birthday": "???",
+        "VA": "Tange Sakura",
+        "battlesuits": [
+            {
+                "battlesuit": "Miracle ☆ Magical Girl",
+                "tag": [
+                    "MagicGirl",
+                    "MMG",
+                    "MagicalGirl",
+                    "NotHoV"
+                ],
+                "type": "Mecha",
+                "soul": "Original",
+                "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/04/cfb75e9cc709330524a0519b1bc7fe34_3318773140136589485.png",
+                "weapon": "Chakram",
+                "costume": [
+                    "Miracle ☆ Magical Girl"
+                ],
+                "fragdropinfo": [
+                ]
+            }
+        ]
+    }
+
+},{}],29:[function(require,module,exports){
 module.exports={
     "firstname": "Susannah",
     "lastname": "Manatt",
@@ -2067,7 +2097,7 @@ module.exports={
     ]
 }
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
     "firstname": "Theresa",
     "lastname": "Apocalypse",
@@ -2206,7 +2236,7 @@ module.exports={
         }
     ]
 }
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 module.exports={
     "firstname": "Vill-V",
     "lastname": "",
@@ -2239,7 +2269,7 @@ module.exports={
     ]
 }
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 module.exports={
     "firstname": "Sakura",
     "lastname": "Yae",

@@ -1,0 +1,26 @@
+{
+    "firstname": "Sirin",
+    "lastname": "",
+    "birthday": "???",
+    "VA": "Tange Sakura",
+    "battlesuits": [
+        {
+            "battlesuit": "Miracle ☆ Magical Girl",
+            "tag": [
+                "MagicGirl",
+                "MMG",
+                "MagicalGirl",
+                "NotHoV"
+            ],
+            "type": "Mecha",
+            "soul": "Original",
+            "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/09/04/cfb75e9cc709330524a0519b1bc7fe34_3318773140136589485.png",
+            "weapon": "Chakram",
+            "costume": [
+                "Miracle ☆ Magical Girl"
+            ],
+            "fragdropinfo": [
+            ]
+        }
+    ]
+}
