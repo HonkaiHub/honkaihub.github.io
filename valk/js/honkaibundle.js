@@ -2157,7 +2157,8 @@ module.exports={
             "battlesuit": "Sakuno Rondo",
             "tag": [
                 "SR",
-                "Teri"
+                "Teri",
+                "TeRiRi"
             ],
             "type": "Psychic",
             "soul": "Original",
