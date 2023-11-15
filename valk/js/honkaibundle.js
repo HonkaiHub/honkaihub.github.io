@@ -386,7 +386,8 @@ module.exports={
             "weapon": "Chakram",
             "costume": [
                 "Chrono Navi",
-				"Leisurely Melody"
+				"Leisurely Melody",
+                "Burning Rescue Soul"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
@@ -497,7 +498,11 @@ module.exports={
             "img": "https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121616452893349.png",
             "weapon": "Lance",
             "costume": [
-                "Dea Anchora"
+                "Dea Anchora",
+                "Stellar Promise",
+                "Heavenly Dragon",
+                "Red Dragon Rises",
+                "Pumping Heart"
             ],
             "fragdropinfo": [
             ]
@@ -642,7 +647,8 @@ module.exports={
             "costume": [
                 "SILVERWING: N-EX",
                 "Heart of the Night",
-                "Neonized"
+                "Neonized",
+                "Outstanding Attitude"
             ],
             "fragdropinfo": [
             ]
@@ -1054,7 +1060,8 @@ module.exports={
             "costume": [
                 "Starry Impression",
                 "Summer as a Painting",
-                "Maroon Riding Hood"
+                "Maroon Riding Hood",
+                "Everdream"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
@@ -1321,7 +1328,8 @@ module.exports={
             "costume": [
                 "Herrscher of Flamescion",
 				"Time Runner",
-				"Flowering Luminance"
+				"Flowering Luminance",
+                "Born in Flames"
             ],
             "fragdropinfo": [
             ]
@@ -1863,7 +1871,8 @@ module.exports={
             "weapon": "Scythe",
             "costume": [
                 "Spina Astera",
-				"Eternal Dance"
+				"Eternal Dance",
+                "Sandy Leisure in Twilight"
             ],
             "fragdropinfo": [
             ]
@@ -2087,7 +2096,8 @@ module.exports={
             "weapon": "Chakram",
             "costume": [
                 "Valkyrie Quicksand",
-				"Immortal Blades Uniform"
+				"Immortal Blades Uniform",
+                "Team Bear, Go!"
             ],
             "fragdropinfo": [
                 "Astrite Shop",
@@ -2232,6 +2242,25 @@ module.exports={
             ],
             "fragdropinfo": [
                 "War Treasury"
+            ]
+        },
+        {
+            "battlesuit": "Luna Vow: Crimson Love",
+            "tag": [
+                "LVCL",
+                "LV",
+                "Luna",
+                "BigTeri",
+                "TallRiRi"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://fastcdn.hoyoverse.com/content-v2/bh3/113367/6c724ac0f8cac81b7673d69e7562bd7e_2601479790322402523.png",
+            "weapon": "Cross",
+            "costume": [
+                "Luna Vow: Crimson Love"
+            ],
+            "fragdropinfo": [
             ]
         }
     ]

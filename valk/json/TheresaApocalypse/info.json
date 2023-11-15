@@ -133,6 +133,25 @@
             "fragdropinfo": [
                 "War Treasury"
             ]
+        },
+        {
+            "battlesuit": "Luna Vow: Crimson Love",
+            "tag": [
+                "LVCL",
+                "LV",
+                "Luna",
+                "BigTeri",
+                "TallRiRi"
+            ],
+            "type": "Psychic",
+            "soul": "Original",
+            "img": "https://fastcdn.hoyoverse.com/content-v2/bh3/113367/6c724ac0f8cac81b7673d69e7562bd7e_2601479790322402523.png",
+            "weapon": "Cross",
+            "costume": [
+                "Luna Vow: Crimson Love"
+            ],
+            "fragdropinfo": [
+            ]
         }
     ]
 }
