@@ -134,6 +134,9 @@ function totalTypeStats(){
         if (Battlesuits[i].type=="Imaginary"){
             TypeTotalImg++;
         }
+        if (Battlesuits[i].type=="Stardust"){
+            TypeTotalImg++;
+        }
         // Total of Non-Awakening or Awakening
         if (Battlesuits[i].soul=="Awakening"){
             AwakeningTotal++;
@@ -262,6 +265,8 @@ function templateInfo(data, i, j) {
                     dataResult += "<img class='typeicon' src='/img/QUA.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else if (Characters[i].battlesuits[j].type == "Imaginary") {
                     dataResult += "<img class='typeicon' src='/img/IMG.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                } else if (Characters[i].battlesuits[j].type == "Stardust ") {
+                    dataResult += "<img class='typeicon' src='/img/SD.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else {
                     dataResult += "<img class='typeimg' src='/img/NONE.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 }

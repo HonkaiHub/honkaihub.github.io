@@ -1067,6 +1067,27 @@ module.exports={
                 "Asterite Shop",
                 "Open World: Adventure tasks"
             ]
+        },
+        {
+            "battlesuit": "Cosmic Expression",
+            "tag": [
+                "CE",
+                "SW",
+                "Anakin",
+                "Jedi",
+                "Skywalker"
+            ],
+            "type": "Stardust",
+            "soul": "Original",
+            "img": "https://fastcdn.hoyoverse.com/content-v2/bh3/113789/5442092dd6d12b707321e40ac44a7d7a_6485181600336396188.png",
+            "weapon": "Cross",
+            "costume": [
+                "Cosmic Expression"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World: Adventure tasks"
+            ]
         }
     ]
 }
@@ -1783,7 +1804,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/05/12/23f1ba619ae7b25c1a8689d7c733d205_1546673144473352471.png",
             "weapon": "Fists",
             "costume": [
-                "Terminal Aide 0017"
+                "Terminal Aide 0017",
+                "Saccharine Lash-Out"
             ],
             "fragdropinfo": [
                 "Asterite Shop",
@@ -1953,7 +1975,8 @@ module.exports={
             "img": "https://webstatic.hoyoverse.com/upload/op-public/2023/07/26/a9960f28d69aa69e11241499fd8833f4_9171149761244596116.png",
             "weapon": "Scythe",
             "costume": [
-                "Herrscher of Rebirth"
+                "Herrscher of Rebirth",
+                "Eternal Night's Embrace"
             ],
             "fragdropinfo": [
             ]
@@ -1970,7 +1993,8 @@ module.exports={
             "weapon": "Scythe",
             "costume": [
                 "Starchasm Nyx",
-                "Magic Girl Seele"
+                "Magical Girl Seele",
+                "On Fair Clouds"
             ],
             "fragdropinfo": [
             ]
@@ -2158,7 +2182,8 @@ module.exports={
             "tag": [
                 "SR",
                 "Teri",
-                "TeRiRi"
+                "TeRiRi",
+                "Bunny not fox"
             ],
             "type": "Psychic",
             "soul": "Original",

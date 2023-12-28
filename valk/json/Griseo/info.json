@@ -24,6 +24,27 @@
                 "Asterite Shop",
                 "Open World: Adventure tasks"
             ]
+        },
+        {
+            "battlesuit": "Cosmic Expression",
+            "tag": [
+                "CE",
+                "SW",
+                "Anakin",
+                "Jedi",
+                "Skywalker"
+            ],
+            "type": "Stardust",
+            "soul": "Original",
+            "img": "https://fastcdn.hoyoverse.com/content-v2/bh3/113789/5442092dd6d12b707321e40ac44a7d7a_6485181600336396188.png",
+            "weapon": "Cross",
+            "costume": [
+                "Cosmic Expression"
+            ],
+            "fragdropinfo": [
+                "Asterite Shop",
+                "Open World: Adventure tasks"
+            ]
         }
     ]
 }
