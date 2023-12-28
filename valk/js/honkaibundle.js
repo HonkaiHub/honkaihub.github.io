@@ -92,6 +92,7 @@ var TypeTotalBio = 0;
 var TypeTotalPsy = 0;
 var TypeTotalQua = 0;
 var TypeTotalImg = 0;
+var TypeTotalSD = 0;
 var AwakeningTotal = 0;
 var NonAwakeningTotal = 0;
 
@@ -137,6 +138,9 @@ function totalTypeStats(){
         if (Battlesuits[i].type=="Imaginary"){
             TypeTotalImg++;
         }
+        if (Battlesuits[i].type=="Stardust"){
+            TypeTotalSD++;
+        }
         // Total of Non-Awakening or Awakening
         if (Battlesuits[i].soul=="Awakening"){
             AwakeningTotal++;
@@ -150,6 +154,7 @@ function totalTypeStats(){
     document.getElementById("TypeTotalPsy").innerHTML = TypeTotalPsy;
     document.getElementById("TypeTotalQua").innerHTML = TypeTotalQua;
     document.getElementById("TypeTotalImg").innerHTML = TypeTotalImg;
+    document.getElementById("TypeTotalSD").innerHTML = TypeTotalSD;
     document.getElementById("AwakeningTotal").innerHTML = AwakeningTotal;
     document.getElementById("NonAwakeningTotal").innerHTML = NonAwakeningTotal;
 }
@@ -199,7 +204,7 @@ function howTo() {
                 howToTemplate += "<b><u>First & Last Names</u></b> (ex: Kiana Kaslana)<br>";
                 howToTemplate += "<b><u>Last & First Names</u></b> (ex: Kaslana Kiana)<br>";
                 howToTemplate += "<b><u>Battlesuit</u></b> (ex: Celestial Hymn)<br>";
-                howToTemplate += "<b><u>Type</u></b> (ex: Mecha, Biologic, Psychic, Quantum)<br>";
+                howToTemplate += "<b><u>Type</u></b> (ex: Mecha, Biologic, Psychic, Quantum, Imaginary, Stardust)<br>";
                 howToTemplate += "<b><u>Soul</u></b> (ex: Original, Awakening)<br>";
                 howToTemplate += "<b><u>Weapon</u></b> (ex: Heavy, Cross, Fists, 2 Handed, Blade, Lance, Pistols, Scythe, Chakram, Bow, Javelin)<br>";
                 howToTemplate += "<b><u>Tag</u></b> (ex: AK, AE, ... [Check the next section about Tag])<br>";
@@ -265,6 +270,8 @@ function templateInfo(data, i, j) {
                     dataResult += "<img class='typeicon' src='/img/QUA.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else if (Characters[i].battlesuits[j].type == "Imaginary") {
                     dataResult += "<img class='typeicon' src='/img/IMG.png' title='" + Characters[i].battlesuits[j].type + "'>";
+                } else if (Characters[i].battlesuits[j].type == "Stardust") {
+                    dataResult += "<img class='typeicon' src='/img/SD.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 } else {
                     dataResult += "<img class='typeimg' src='/img/NONE.png' title='" + Characters[i].battlesuits[j].type + "'>";
                 }

@@ -33,6 +33,7 @@ html, body {
 	.content .typebio,
 	.content .typepsy,
 	.content .typequa,
+	.content .typesd,
 	.content .typeimg {
 		font-size: 10px;
 		width: 20%;
@@ -141,7 +142,7 @@ img {
 	color: #da0c3c;
 	font-family: 'Roboto Mono', Consolas, Arial;
 }
-.content .typemech, .typebio, .typepsy, .typequa, .typeimg {
+.content .typemech, .typebio, .typepsy, .typequa, .typeimg, .typesd {
 	color: #000000;
 	white-space: nowrap;
 	font-family: 'Roboto Mono', Consolas, Arial;
@@ -161,6 +162,9 @@ img {
 }
 .content .typeimg {
 	background-color: #EBD091;
+}
+.content .typesd {
+	background-color: #F8AFA7; 
 }
 .typeicon {
 	min-height: 50px;

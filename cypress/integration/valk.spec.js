@@ -124,6 +124,15 @@ describe('Search Valkyries Page', () => {
         .should('be.visible')
         .and('have.attr', 'src')
         .should('include','IMG')
+
+        cy.get('#searchInput')
+        .clear()
+        .type('sd').should('have.value', 'sd')
+        cy.get('#clickButton').click()
+        cy.get('.typeicon')
+        .should('be.visible')
+        .and('have.attr', 'src')
+        .should('include','SD')
     })
 
     it('Search by Soul', () => {
